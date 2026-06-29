@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overwatch 6v6 - Patch Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topo-site">
+        
+        <div class="topo-esquerda">
+            <h1>OVERWATCH 6V6 2-2-2</h1>
+            <p>Jogo personalizado criado pelo Atuarte no workshop do Overwatch</p>
+        </div>
+        
+        <div class="topo-centro">
+            <img src="Imagens/Logo-Overwatch-Preta.png" alt="Logo Overwatch" class="logo-ow-topo">
+        </div>
+        
+        <div class="topo-direita">
+            <h2>CÓDIGO: ZEEBR</h2>
+        </div>
+
+    </header>
+
+    <div class="corpo-site">
+        
+        <nav class="menu-lateral">
+            
+            <div class="botao-menu ativo">
+                <img src="Imagens/Ícone Casa Branca.png" alt="Ícone Casa" class="icone-btn">
+                <span>PÁGINA INICIAL</span>
+            </div>
+            
+            <div class="botoes-inferiores">
+                
+                <a href="gerais.html" class="botao-menu inativo" style="text-decoration: none;">
+                    <img src="Imagens/Ícone Terra Preta.png" alt="Ícone Globo" class="icone-btn">
+                    <span class="texto-duplo">MUDANÇAS<br>GERAIS</span>
+                </a>
+                
+                <a href="tanques.html" class="botao-menu inativo" style="text-decoration: none;">
+                    <img src="Imagens/Ícone Escudo Preto.png" alt="Ícone Escudo" class="icone-btn">
+                    <span class="texto-duplo">MUDANÇAS<br>NOS TANQUES</span>
+                </a>
+                
+                <a href="dps.html" class="botao-menu inativo" style="text-decoration: none;">
+                    <img src="Imagens/Ícone Munição Preta.png" alt="Ícone Balas" class="icone-btn">
+                    <span class="texto-duplo">MUDANÇAS<br>NOS DPS'S</span>
+                </a>
+                
+                <a href="suportes.html" class="botao-menu inativo" style="text-decoration: none;">
+                    <img src="Imagens/Ícone Mais Preto.png" alt="Ícone Suporte" class="icone-btn">
+                    <span class="texto-duplo">MUDANÇAS<br>NOS SUPORTES</span>
+                </a>
+
+            </div>
+        </nav>
+
+        <main class="conteudo-principal">
+            
+            <div class="marca-dagua-fundo"></div>
+
+            <div class="conteudo-textos">
+                
+                <p>Criei este modo de jogo aplicando meus conhecimentos de Workshop e o que aprendi em minhas aulas de programação. Algumas mudanças tiveram o intuito estritamente de balanceamento, enquanto outras foram feitas por diversão, embora eu tenha buscado manter o equilíbrio em todas elas.</p>
+                
+                <p><strong>Esse modo de jogo usa o balanceamento base do 5v5.</strong></p>
+                
+                <p><strong>Dentro do jogo, cada personagem terá, na sala de ressurgimento, um breve resumo de suas mudanças individuais:</strong></p>
+                
+                <ul class="lista-cores">
+                    <li class="cor-verde">O texto em verde para mudanças na vida.</li>
+                    <li class="cor-azul">O texto em azul para mudanças nas habilidades.</li>
+                    <li class="cor-laranja">O texto em laranja para outros tipos de mudanças.</li>
+                </ul>
+                
+                <p>O patch notes detalhado e com todas as mudanças estão nas seguintes páginas:</p>
+                
+                <ul class="lista-paginas">
+                    <li>Mudanças Gerais</li>
+                    <li>Mudanças nos DPS'S</li>
+                    <li>Mudanças nos Suportes</li>
+                </ul>
+
+                <div class="destaque-total">
+                    <!-- Onde o número vai aparecer -->
+                    <h3>Total de Heróis Balanceados: <span id="total-mudancas">0</span></h3>
+
+                    <!-- Logo antes de fechar o </body>, certifique-se de carregar seu arquivo JS -->
+                    <script src="script.js"></script>
+                </div>
+                
+            </div>
+            
+        </main>
+
+    </div>
+
+    <!-- Janela Modal (o Pop-up) -->
+    <div id="modal-heroi" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar-btn" onclick="fecharModal()">&times;</span>
+            <div id="modal-header-container"></div> <!-- Nome do herói -->
+            <div id="modal-corpo"></div> <!-- Conteúdo -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

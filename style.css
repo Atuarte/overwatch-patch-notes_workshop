@@ -1,0 +1,434 @@
+/* =========================================
+   1. RESET E VARIÁVEIS GERAIS
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+:root {
+    --laranja-fundo: #F27315; 
+    --azul-conteudo: #134685; 
+    --azul-fundo-escuro: #0B3166; 
+    --branco: #FFFFFF;
+}
+
+body {
+    background-color: var(--laranja-fundo);
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+}
+
+/* =========================================
+   2. CABEÇALHO (O Código ZEEBR colado)
+   ========================================= */
+.topo-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 0 20px; 
+    height: 90px;
+    color: var(--branco);
+}
+
+.topo-esquerda, .topo-centro {
+    margin-bottom: 15px; 
+}
+
+.topo-esquerda h1 {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.topo-esquerda p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.logo-ow-topo {
+    height: 60px; 
+}
+
+/* CAIXA ZEEBR: Consertada a linha laranja fantasma */
+.topo-direita {
+    background-color: var(--azul-conteudo);
+    padding: 10px 30px 10px 45px; 
+    align-self: flex-end; 
+    border: none;
+    border-radius: 0;
+    clip-path: polygon(30px 0, 100% 0, 100% 100%, 0 100%);
+    
+    /* A MÁGICA CONTRA A LINHA LARANJA: Empurra a caixa 5px para baixo para fundir com a borda! */
+    position: relative;
+    margin-bottom: -5px; 
+    z-index: 2; 
+}
+
+.topo-direita h2 {
+    font-style: italic;
+    font-size: 24px;
+    border-bottom: 3px solid var(--branco); 
+    padding-bottom: 5px;
+}
+
+/* =========================================
+   3. CORPO DO SITE E MENU LATERAL
+   ========================================= */
+/* 1. Trava a estrutura do corpo do site */
+.corpo-site {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 90px); /* Ajuste conforme a altura do seu header */
+    width: 100%;
+    overflow: hidden; /* Evita que a página inteira tenha scroll */
+}
+
+/* 2. Barra Lateral: Tamanho fixo e imutável */
+.menu-lateral {
+    width: 220px; /* Defina um tamanho fixo aqui (ex: 220px) */
+    min-width: 220px; /* Garante que nunca encolha */
+    flex-shrink: 0; /* IMPEDE que ela mude de tamanho */
+    background-color: var(--cor-fundo-lateral); /* Verifique sua variável */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+/* 3. Área de Conteúdo: Ocupa o que sobrou */
+.conteudo-principal {
+    flex: 1; /* Faz ela preencher TODO o espaço restante */
+    overflow-y: auto; /* O scroll fica só aqui dentro */
+    padding: 20px;
+    background-color: var(--cor-fundo-pagina);
+}
+
+/* Caixa dos botões superiores e inferiores */
+.grupo-superior,
+.botoes-inferiores {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    /* Sem padding lateral aqui para não esmagar o botão ativo */
+}
+
+/* Remove a linha azul de links do HTML */
+a.botao-menu {
+    text-decoration: none;
+}
+
+.botao-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    cursor: pointer;
+    font-weight: 900; 
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* 🟢 O BOTÃO ATIVO */
+.botao-menu.ativo {
+    background-color: var(--azul-conteudo); 
+    color: var(--branco); 
+    padding: 25px 20px; 
+    margin-left: 15px; 
+    margin-right: 0; /* Garante que cole na borda direita */
+    
+    /* O SEGREDO AQUI: O '-5px' empurra a sombra para a esquerda, 
+       tirando ela de cima da borda do conteúdo principal! */
+    box-shadow: -5px 8px 10px rgba(0,0,0,0.3); 
+    
+    z-index: 10;
+}
+
+/* 🔴 OS BOTÕES INATIVOS */
+.botao-menu.inativo {
+    background-color: rgba(0, 0, 0, 0.15); 
+    color: #7A2E00; 
+    padding: 15px 20px; 
+    margin: 0 15px; /* Adiciona a margem dos lados SÓ para os inativos */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+/* Ajuste para o "Preto mais claro" */
+.botao-menu.inativo .icone-btn {
+    opacity: 0.4; /* Deixa o ícone preto levemente transparente */
+    transition: 0.3s;
+}
+
+.botao-menu.inativo:hover {
+    background-color: rgba(0, 0, 0, 0.25); 
+}
+
+/* Quando passar o mouse, o ícone fica 100% preto de novo! */
+.botao-menu.inativo:hover .icone-btn {
+    opacity: 0.8;
+}
+
+.botao-menu .texto-duplo {
+    font-size: 15px;
+    line-height: 1.1; 
+}
+
+.icone-btn {
+    width: 45px; 
+    height: 45px;
+    object-fit: contain;
+}
+
+/* =========================================
+   4. ÁREA AZUL (Conteúdo Principal)
+   ========================================= */
+.conteudo-principal {
+    flex-grow: 1;
+    background-color: var(--azul-fundo-escuro); 
+    margin: 0 20px 20px 0; 
+    border: 10px solid var(--azul-conteudo); 
+    border-radius: 0; 
+    padding: 40px;
+    color: var(--branco);
+    position: relative;
+    overflow-y: auto; 
+}
+
+.marca-dagua-fundo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 600px; 
+    height: 600px;
+    background-image: url('Imagens/Logo-Overwatch-Branca.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.1; 
+    z-index: 0; 
+    pointer-events: none; 
+}
+
+.conteudo-textos {
+    position: relative;
+    z-index: 1; 
+}
+
+/* =========================================
+   5. FORMATAÇÃO DOS TEXTOS (Página Inicial)
+   ========================================= */
+.conteudo-textos p {
+    font-size: 18px;
+    line-height: 1.5; 
+    margin-bottom: 25px; 
+}
+
+.conteudo-textos ul {
+    margin-left: 30px; 
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.lista-cores li {
+    font-weight: 900;
+    font-style: italic; 
+}
+
+.cor-verde {
+    color: #28CC2D; 
+}
+
+.cor-azul {
+    color: #6699FF; 
+}
+
+.cor-laranja {
+    color: #FF7A00; 
+}
+
+.lista-paginas li {
+    font-weight: 900; 
+}
+
+/* =========================================
+   6. GALERIA DE HERÓIS (Página de Tanques)
+   ========================================= */
+/* =========================================
+   6. GALERIA DE HERÓIS (Página de Tanques e DPS)
+   ========================================= */
+.galeria-herois {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 15px; 
+    padding-top: 10px;
+}
+
+.cartao-heroi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s; 
+}
+
+/* 🟢 HOVER APENAS PARA HERÓIS COM MUDANÇA */
+/* O ":not(.sem-mudanca)" garante que os heróis sem mudança não tenham essa animação */
+.cartao-heroi:not(.sem-mudanca):hover {
+    transform: translateY(-5px) scale(1.03); 
+    cursor: pointer;
+}
+
+/* Efeito do herói que NÃO teve mudança */
+.cartao-heroi.sem-mudanca {
+    opacity: 0.4; 
+    filter: grayscale(80%); 
+    cursor: default; /* O cursor vira seta normal em vez de mãozinha */
+}
+
+/* O Quadrado Laranja / Foto */
+.moldura-imagem {
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    background-color: var(--laranja-fundo); 
+    border: 3px solid var(--laranja-fundo); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.moldura-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.moldura-imagem.vazia {
+    background-color: var(--laranja-fundo);
+}
+
+/* A Faixa com o Nome do Herói */
+.nome-heroi {
+    background-color: var(--laranja-fundo);
+    color: var(--branco);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 13px; 
+    text-align: center;
+    padding: 4px 10px;
+    width: 100%; 
+    margin-top: -1px; 
+    clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%); 
+    z-index: 2;
+    white-space: nowrap; 
+}
+
+.bloco-texto h3 {
+    color: var(--laranja-fundo);
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    border-left: 5px solid var(--laranja-fundo);
+    padding-left: 10px;
+}
+
+.destaque-total {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #134685; /* Ou a cor que combinar com seu site */
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#total-mudancas {
+    color: var(--laranja-fundo); /* Usa a cor laranja do seu projeto */
+    font-size: 1.5em;
+}
+
+/* Fundo escuro atrás do modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.85); 
+}
+
+/* A caixa principal do modal */
+.modal-conteudo {
+    background-color: var(--azul-fundo-escuro);
+    border: 5px solid var(--laranja-fundo); /* Borda laranja igual ao seu card */
+    margin: 5% auto; 
+    padding: 30px;
+    width: 60%; 
+    max-height: 80vh; /* Limita a altura para caber na tela */
+    overflow-y: auto; /* Permite rolar se o texto for muito grande */
+    position: relative;
+    color: var(--branco);
+}
+
+.fechar-btn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--branco);
+}
+
+/* Fundo escuro atrás do modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0; top: 0; 
+    width: 100%; height: 100%; 
+    background-color: rgba(0,0,0,0.8); 
+    display: flex; /* Centraliza a janela */
+    justify-content: center;
+    align-items: center;
+}
+
+/* O card do pop-up (igual ao seu modelo) */
+.modal-conteudo {
+    background-color: var(--azul-fundo-escuro);
+    border: 5px solid var(--laranja-fundo); 
+    width: 400px; /* Largura igual a um card */
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 0; /* Remove padding para o header laranja ocupar tudo */
+}
+
+/* O Header Laranja dentro do modal */
+.modal-header {
+    background-color: var(--laranja-fundo);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+    color: white;
+}
+
+.modal-header img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+}
+
+/* O conteúdo de texto dentro */
+.modal-body {
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+}
