@@ -560,7 +560,7 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-laranja">Agora tem uma aura visual.</li>
                 <li class="cor-verde">20% do dano causado vira cura na área do Inspirar.</li>
-                <li class="cor-azul">Aliados na área recebem 25% a menos de repulsão.</li>
+                <li class="cor-azul">Aliados na área recebem 30% a menos de repulsão.</li>
             </ul>
             <h3>GOLPE DE ESCUDO</h3>
             <ul>

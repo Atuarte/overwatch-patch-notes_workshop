@@ -5,22 +5,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    /* Fonte para os textos pequenos: a clássica Comic Sans */
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+/* =========================================
+   HIERARQUIA TIPOGRÁFICA (Títulos e Botões)
+   ========================================= */
+/* O '.botao-menu, .botao-menu *' força o botão E QUALQUER TAG dentro dele a usarem a fonte */
+h1, h2, h3, .nome-heroi, #total-mudancas, .botao-menu, .botao-menu * {
+    font-family: 'Lakki Reddy', cursive;
+    font-weight: normal; 
+    letter-spacing: 1px;
 }
 
 :root {
-    --laranja-fundo: #F27315; 
-    --azul-conteudo: #134685; 
-    --azul-fundo-escuro: #0B3166; 
-    --branco: #FFFFFF;
+    /* PALETA ESTILO NOCTUNE */
+    --dourado-noctune: #F4C430; 
+    --roxo-destaque: #462673; 
+    --roxo-fundo-escuro: #2a1645; 
+    --fundo-galaxia: #0d0d12;
+    --branco: #F0F0F0;
 }
 
 body {
-    background-color: var(--laranja-fundo);
+    /* 🌌 MÁGICA DA GALÁXIA: Camadas de estrelas repetidas sobrepostas.
+       O segredo é colocar o fundo roxo original por ÚLTIMO na lista! */
+    background: 
+        radial-gradient(circle at 15% 25%, rgba(255, 255, 255, 0.7) 1px, transparent 1px),
+        radial-gradient(circle at 45% 75%, rgba(255, 255, 255, 0.8) 1.5px, transparent 1.5px),
+        radial-gradient(circle at 85% 35%, rgba(255, 255, 255, 0.6) 1px, transparent 1px),
+        radial-gradient(circle at 90% 85%, rgba(255, 255, 255, 0.5) 2px, transparent 2px),
+        /* Fundo original do Noctune servindo de base cósmica */
+        radial-gradient(circle at top center, #1b122b 0%, var(--fundo-galaxia) 80%);
+        
+    /* 🎯 TAMANHOS DIFERENTES: Faz as estrelas se repetirem em frequências 
+       diferentes na tela, dando o visual de espaço profundo e realista */
+    background-size: 250px 250px, 320px 320px, 400px 400px, 280px 280px, 100% 100%;
+    
     height: 100vh;
     display: flex;
     flex-direction: column; 
     overflow: hidden;
+    color: var(--branco);
 }
 
 /* =========================================
@@ -33,6 +60,8 @@ body {
     padding: 15px 20px 0 20px; 
     height: 90px;
     color: var(--branco);
+    position: relative;
+    z-index: 5; 
 }
 
 .topo-esquerda, .topo-centro {
@@ -41,83 +70,93 @@ body {
 
 .topo-esquerda h1 {
     font-size: 28px;
-    font-style: italic;
-    font-weight: 900;
+    color: var(--dourado-noctune);
+    font-weight: normal; /* A Lakki Ready já é bem preenchida */
 }
 
 .topo-esquerda p {
-    font-size: 12px;
-    font-style: italic;
+    font-size: 14px;
+    opacity: 0.8;
 }
 
 .logo-ow-topo {
     height: 60px; 
+    /* 🎯 MÁGICA: 'brightness(0) invert(1)' transforma a logo preta em branco puro.
+       O 'drop-shadow' cria uma aura dourada forte e sólida ao redor dela. */
+    filter: brightness(0) invert(1) drop-shadow(0 0 12px #F4C430);
 }
 
-/* CAIXA ZEEBR: Consertada a linha laranja fantasma */
+/* CAIXA ZEEBR: Arredondada estilo Noctune */
 .topo-direita {
-    background-color: var(--azul-conteudo);
-    padding: 10px 30px 10px 45px; 
-    align-self: flex-end; 
-    border: none;
-    border-radius: 0;
-    clip-path: polygon(30px 0, 100% 0, 100% 100%, 0 100%);
-    
-    /* A MÁGICA CONTRA A LINHA LARANJA: Empurra a caixa 5px para baixo para fundir com a borda! */
-    position: relative;
-    margin-bottom: -5px; 
+    background-color: var(--roxo-destaque);
+    padding: 10px 30px; 
+    align-self: center; 
+    border-radius: 25px; /* Bordas arredondadas em vez de clip-path */
+    border: 2px solid var(--dourado-noctune);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    margin-bottom: 10px; 
     z-index: 2; 
 }
 
 .topo-direita h2 {
-    font-style: italic;
     font-size: 24px;
-    border-bottom: 3px solid var(--branco); 
-    padding-bottom: 5px;
+    color: var(--dourado-noctune);
+    z-index: 2; 
+    /* 🎯 MÁGICA DO ALINHAMENTO: Desloca o texto 4px para baixo sem mexer na pílula roxa */
+    position: relative;
+    top: 4px; 
 }
 
 /* =========================================
    3. CORPO DO SITE E MENU LATERAL
    ========================================= */
-/* 1. Trava a estrutura do corpo do site */
 .corpo-site {
     display: flex;
     flex-direction: row;
-    height: calc(100vh - 90px); /* Ajuste conforme a altura do seu header */
+    height: calc(100vh - 90px); 
     width: 100%;
-    overflow: hidden; /* Evita que a página inteira tenha scroll */
+    overflow: hidden; 
 }
 
-/* 2. Barra Lateral: Tamanho fixo e imutável */
 .menu-lateral {
-    width: 220px; /* Defina um tamanho fixo aqui (ex: 220px) */
-    min-width: 220px; /* Garante que nunca encolha */
-    flex-shrink: 0; /* IMPEDE que ela mude de tamanho */
-    background-color: var(--cor-fundo-lateral); /* Verifique sua variável */
+    width: 220px; 
+    min-width: 220px; 
+    flex-shrink: 0; 
+    background-color: transparent; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 20px;
+    position: relative;
+    z-index: 5; 
 }
 
-/* 3. Área de Conteúdo: Ocupa o que sobrou */
+.container-principal {
+    flex: 1; /* O pai agora assume o controle do espaço flexível */
+    background-color: var(--roxo-fundo-escuro); 
+    margin: 0 20px 20px 0; 
+    border: 3px solid var(--roxo-destaque); 
+    border-radius: 20px; /* A quina redonda perfeita fica travada aqui */
+    overflow: hidden;    /* Corta o bug da barra de rolagem quadrada */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    position: relative;
+}
+
 .conteudo-principal {
-    flex: 1; /* Faz ela preencher TODO o espaço restante */
-    overflow-y: auto; /* O scroll fica só aqui dentro */
-    padding: 20px;
-    background-color: var(--cor-fundo-pagina);
+    width: 100%;
+    height: 100%;
+    overflow-y: auto; /* O scrollbar fica só aqui dentro agora */
+    padding: 30px;    /* Dei um pouquinho mais de respiro para os textos, mas se preferir pode deixar 20px */
+    color: var(--branco);
 }
 
-/* Caixa dos botões superiores e inferiores */
 .grupo-superior,
 .botoes-inferiores {
     display: flex;
     flex-direction: column;
     gap: 15px; 
-    /* Sem padding lateral aqui para não esmagar o botão ativo */
 }
 
-/* Remove a linha azul de links do HTML */
 a.botao-menu {
     text-decoration: none;
 }
@@ -127,48 +166,66 @@ a.botao-menu {
     align-items: center;
     gap: 15px; 
     cursor: pointer;
-    font-weight: 900; 
     font-size: 18px;
     transition: 0.3s;
+    
+    /* 🎯 UNIFORMIZAÇÃO: Todos os botões agora têm o mesmo tamanho e formato */
+    padding: 18px 20px 12px 20px; /* Mantém a compensação vertical da fonte Lakki Reddy */
+    margin: 0 15px; 
+    border-radius: 15px; /* Todos 100% arredondados iguais aos cards do Noctune */
 }
 
 /* 🟢 O BOTÃO ATIVO */
 .botao-menu.ativo {
-    background-color: var(--azul-conteudo); 
-    color: var(--branco); 
-    padding: 25px 20px; 
-    margin-left: 15px; 
-    margin-right: 0; /* Garante que cole na borda direita */
-    
-    /* O SEGREDO AQUI: O '-5px' empurra a sombra para a esquerda, 
-       tirando ela de cima da borda do conteúdo principal! */
-    box-shadow: -5px 8px 10px rgba(0,0,0,0.3); 
-    
+    background-color: var(--dourado-noctune); 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4); 
     z-index: 10;
+}
+
+/* Força o texto e qualquer tag interna (como o .texto-duplo) a ficarem pretos */
+.botao-menu.ativo,
+.botao-menu.ativo * {
+    color: #000000 !important;
+}
+
+/* Força o ícone ativo a ficar preto absoluto */
+.botao-menu.ativo .icone-btn {
+    filter: brightness(0) !important; 
+    opacity: 1;
 }
 
 /* 🔴 OS BOTÕES INATIVOS */
 .botao-menu.inativo {
-    background-color: rgba(0, 0, 0, 0.15); 
-    color: #7A2E00; 
-    padding: 15px 20px; 
-    margin: 0 15px; /* Adiciona a margem dos lados SÓ para os inativos */
+    background-color: rgba(255, 255, 255, 0.05); 
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
 }
 
-/* Ajuste para o "Preto mais claro" */
+/* Texto em branco transparente para os inativos */
+.botao-menu.inativo,
+.botao-menu.inativo * {
+    color: rgba(255, 255, 255, 0.4); 
+}
+
+/* Ícone em branco transparente para os inativos */
 .botao-menu.inativo .icone-btn {
-    opacity: 0.4; /* Deixa o ícone preto levemente transparente */
+    filter: brightness(0) invert(1); 
+    opacity: 0.4; 
     transition: 0.3s;
 }
 
+/* 🟢 AO PASSAR O MOUSE (HOVER) NOS INATIVOS */
 .botao-menu.inativo:hover {
-    background-color: rgba(0, 0, 0, 0.25); 
+    background-color: rgba(255, 255, 255, 0.1); 
 }
 
-/* Quando passar o mouse, o ícone fica 100% preto de novo! */
+.botao-menu.inativo:hover,
+.botao-menu.inativo:hover * {
+    color: var(--dourado-noctune); /* Acende em dourado ao passar o mouse */
+}
+
 .botao-menu.inativo:hover .icone-btn {
-    opacity: 0.8;
+    opacity: 1;
+    filter: invert(79%) sepia(50%) saturate(614%) hue-rotate(352deg) brightness(101%) contrast(93%);
 }
 
 .botao-menu .texto-duplo {
@@ -183,31 +240,33 @@ a.botao-menu {
 }
 
 /* =========================================
-   4. ÁREA AZUL (Conteúdo Principal)
+   4. ÁREA PRINCIPAL (Conteúdo Central)
    ========================================= */
 .conteudo-principal {
     flex-grow: 1;
-    background-color: var(--azul-fundo-escuro); 
+    background-color: var(--roxo-fundo-escuro); 
     margin: 0 20px 20px 0; 
-    border: 10px solid var(--azul-conteudo); 
-    border-radius: 0; 
+    border: 3px solid var(--roxo-destaque); 
+    border-radius: 20px; /* Borda arredondada no painel inteiro */
     padding: 40px;
     color: var(--branco);
     position: relative;
     overflow-y: auto; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
+/* 🎯 MARCA D'ÁGUA ESTÁTICA E FIXA */
 .marca-dagua-fundo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: fixed; 
+    top: calc(50vh + 37.5px);   
+    left: calc(50vw + 100px); 
     transform: translate(-50%, -50%); 
     width: 600px; 
     height: 600px;
     background-image: url('Imagens/Logo-Overwatch-Branca.png'); 
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: 0.1; 
+    opacity: 0.05; /* Mais suave para não brigar com o roxo */
     z-index: 0; 
     pointer-events: none; 
 }
@@ -234,29 +293,17 @@ a.botao-menu {
 }
 
 .lista-cores li {
-    font-weight: 900;
-    font-style: italic; 
+    color: var(--dourado-noctune); /* Destaca as listinhas principais */
 }
 
-.cor-verde {
-    color: #28CC2D; 
-}
-
-.cor-azul {
-    color: #6699FF; 
-}
-
-.cor-laranja {
-    color: #FF7A00; 
-}
+.cor-verde { color: #28CC2D; }
+.cor-azul { color: #6699FF; }
+.cor-laranja { color: #FF7A00; }
 
 .lista-paginas li {
-    font-weight: 900; 
+    color: var(--branco); 
 }
 
-/* =========================================
-   6. GALERIA DE HERÓIS (Página de Tanques)
-   ========================================= */
 /* =========================================
    6. GALERIA DE HERÓIS (Página de Tanques e DPS)
    ========================================= */
@@ -271,29 +318,29 @@ a.botao-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: transform 0.2s; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+    border-radius: 10px;
+    background-color: var(--roxo-destaque);
 }
 
-/* 🟢 HOVER APENAS PARA HERÓIS COM MUDANÇA */
-/* O ":not(.sem-mudanca)" garante que os heróis sem mudança não tenham essa animação */
 .cartao-heroi:not(.sem-mudanca):hover {
     transform: translateY(-5px) scale(1.03); 
     cursor: pointer;
+    box-shadow: 0 5px 15px rgba(244, 196, 48, 0.3);
 }
 
-/* Efeito do herói que NÃO teve mudança */
 .cartao-heroi.sem-mudanca {
     opacity: 0.4; 
     filter: grayscale(80%); 
-    cursor: default; /* O cursor vira seta normal em vez de mãozinha */
+    cursor: default; 
 }
 
-/* O Quadrado Laranja / Foto */
 .moldura-imagem {
     width: 100%;
     aspect-ratio: 1 / 1; 
-    background-color: var(--laranja-fundo); 
-    border: 3px solid var(--laranja-fundo); 
+    background-color: var(--roxo-destaque); 
+    border: 3px solid var(--roxo-destaque); 
+    border-radius: 10px 10px 0 0; /* Arredonda só o topo */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,55 +354,46 @@ a.botao-menu {
 }
 
 .moldura-imagem.vazia {
-    background-color: var(--laranja-fundo);
+    background-color: var(--roxo-destaque);
 }
 
-/* A Faixa com o Nome do Herói */
 .nome-heroi {
-    background-color: var(--laranja-fundo);
-    color: var(--branco);
-    font-weight: 900;
-    font-style: italic;
-    font-size: 13px; 
+    background-color: var(--roxo-destaque);
+    color: var(--dourado-noctune);
+    font-size: 18px; 
     text-align: center;
-    padding: 4px 10px;
+    padding: 12px 10px 4px 10px;
     width: 100%; 
-    margin-top: -1px; 
-    clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%); 
-    z-index: 2;
+    border-radius: 0 0 10px 10px; /* Arredonda a base da faixinha */
     white-space: nowrap; 
 }
 
 .bloco-texto h3 {
-    color: var(--laranja-fundo);
-    font-size: 22px;
-    margin-top: 25px;
+    color: var(--dourado-noctune);
+    font-size: 26px;
+    margin-top: 30px;
     margin-bottom: 10px;
-    text-transform: uppercase;
-    font-style: italic;
-    border-left: 5px solid var(--laranja-fundo);
-    padding-left: 10px;
+    padding-left: 0;
+    border-left: none; /* Removida a linha lateral para ficar mais limpo */
 }
 
 .destaque-total {
     text-align: center;
     margin: 20px 0;
     padding: 15px;
-    background-color: #134685; /* Ou a cor que combinar com seu site */
-    border-radius: 8px;
-    font-weight: bold;
+    background-color: var(--roxo-destaque); 
+    border-radius: 15px;
+    padding: 25px 15px 11px 15px;
 }
 
 #total-mudancas {
-    color: var(--laranja-fundo); /* Usa a cor laranja do seu projeto */
-    font-size: 1.5em;
+    color: var(--dourado-noctune); 
+    font-size: 1.8em;
 }
 
 /* =========================================
-   ESTILO DO MODAL (VISUAL CANVA DEFINITIVO)
+   ESTILO DO MODAL (VISUAL NOCTUNE)
    ========================================= */
-
-/* Fundo escuro atrás do modal */
 .modal {
     display: none; 
     position: fixed; 
@@ -367,69 +405,73 @@ a.botao-menu {
     align-items: center;
 }
 
-/* O container principal TODO LARANJA */
 .modal-conteudo {
-    background-color: var(--laranja-fundo); 
+    background-color: var(--roxo-fundo-escuro); 
     width: 420px; 
     max-width: 90%; 
-    padding: 15px; /* A margem grossa laranja em volta de tudo */
+    padding: 15px; 
     position: relative;
     box-sizing: border-box;
+    border-radius: 20px; 
+    border: 3px solid var(--dourado-noctune);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
 }
 
-/* O container invisível injetado pelo JavaScript */
 #conteudo-modal {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* O espaço certinho entre o cabeçalho e a parte azul */
+    gap: 15px; 
 }
 
-/* Cabeçalho */
 .modal-header {
     display: flex;
     align-items: center;
-    background-color: var(--laranja-fundo); 
-    border: 5px solid rgba(255, 255, 255, 0.4); /* Bordinha branca fina */
+    background-color: var(--roxo-destaque); 
+    border-radius: 10px;
     height: 100px; 
+    overflow: hidden;
 }
 
-/* Imagem do Herói - Colada na esquerda */
 .modal-header img {
     width: 100px; 
-    height: 100%; /* Preenche toda a altura da caixa do cabeçalho */
+    height: 100%; 
     object-fit: cover;
-    border-right: 5px solid rgba(255, 255, 255, 0.4); /* Linha divisória da imagem */
     flex-shrink: 0; 
 }
 
-/* Nome do Herói */
 .modal-header h2 {
-    color: #000000; 
-    font-size: 45px; 
-    font-weight: 900;
-    font-style: normal; 
+    color: var(--dourado-noctune); 
+    font-size: 32px;      
+    font-weight: normal;
     text-align: center;
-    flex-grow: 1; /* Puxa o texto para o meio do espaço restante */
+    flex-grow: 1; 
     margin: 0;
+    padding: 0 10px;
+    line-height: 1.1;
+    position: relative;
+    top: 14px;
 }
 
-/* Botão de Fechar 'x' */
 .fechar-btn {
     position: absolute;
-    top: 22px; /* Ajustado matematicamente para cair dentro da borda do cabeçalho */
+    top: 22px; 
     right: 25px; 
     font-size: 28px;
-    font-weight: bold;
     color: var(--branco);
     cursor: pointer;
     line-height: 1;
     z-index: 10;
+    transition: 0.2s;
 }
 
-/* Corpo do Texto (A caixa interna AZUL) */
+.fechar-btn:hover {
+    color: var(--dourado-noctune);
+}
+
 .modal-body {
-    background-color: var(--azul-fundo-escuro);
-    border: 5px solid rgba(255, 255, 255, 0.4); /* Bordinha branca fina */
+    background-color: var(--roxo-fundo-escuro);
+    border: 2px solid var(--roxo-destaque); 
+    border-radius: 10px;
     padding: 25px; 
     color: var(--branco);
     font-size: 16px;
@@ -438,12 +480,9 @@ a.botao-menu {
     overflow-y: auto; 
 }
 
-/* Títulos de Seção em LARANJA */
 .modal-body h3 {
-    color: var(--laranja-fundo); 
-    font-size: 18px;
-    font-weight: 900;
-    text-transform: uppercase;
+    color: var(--dourado-noctune); 
+    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -452,7 +491,16 @@ a.botao-menu {
     margin-top: 0;
 }
 
-/* Listas com Bolinhas Brancas */
+/* =======================================================
+   A MÁGICA DOS TEXTOS: Força o conteúdo das listas a ficar branco
+   ======================================================= */
+.modal-body li,
+.modal-body .cor-verde,
+.modal-body .cor-azul,
+.modal-body .cor-laranja { 
+    color: var(--branco); 
+}
+
 .modal-body ul {
     list-style-type: none; 
     padding-left: 0;
@@ -469,13 +517,12 @@ a.botao-menu {
     content: "•"; 
     position: absolute;
     left: 0;
-    color: var(--branco); 
+    color: var(--dourado-noctune); /* Bolinhas em dourado no modal */
     font-size: 20px; 
     line-height: 1;
     top: -2px; 
 }
 
-/* Sub-listas (O círculo vazio para o "Total: 500") */
 .modal-body ul ul {
     margin-top: 8px;
     margin-bottom: 0;
@@ -487,16 +534,37 @@ a.botao-menu {
 
 .modal-body ul ul li::before {
     content: "◦"; 
+    color: var(--branco);
     font-size: 16px;
     top: 2px;
 }
 
-/* Cores das classes */
-.modal-body .cor-verde { color: #28CC2D; }
-.modal-body .cor-azul { color: #6699FF; }
-.modal-body .cor-laranja { color: #FF7A00; }
+/* =========================================
+   BARRA DE ROLAGEM ESTILIZADA (Solução Definitiva)
+   ========================================= */
+.modal-body::-webkit-scrollbar,
+.conteudo-principal::-webkit-scrollbar { 
+    width: 8px; 
+}
 
-/* Barra de rolagem */
-.modal-body::-webkit-scrollbar { width: 8px; }
-.modal-body::-webkit-scrollbar-track { background: var(--azul-fundo-escuro); }
-.modal-body::-webkit-scrollbar-thumb { background: var(--laranja-fundo); }
+/* 🎯 TRUQUE DE MESTRE: Tornar a pista 100% transparente.
+   Como o fundo do teu painel já é roxo escuro, esse roxo vai aparecer por trás naturalmente.
+   Isso elimina o retângulo intruso e o navegador passa a respeitar a borda redonda original perfeitamente! */
+.conteudo-principal::-webkit-scrollbar-track { 
+    background: transparent; 
+}
+
+.modal-body::-webkit-scrollbar-track { 
+    background: transparent; 
+}
+
+.modal-body::-webkit-scrollbar-thumb,
+.conteudo-principal::-webkit-scrollbar-thumb { 
+    background: var(--roxo-destaque); 
+    border-radius: 5px; 
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover,
+.conteudo-principal::-webkit-scrollbar-thumb:hover { 
+    background: var(--dourado-noctune); 
+}
