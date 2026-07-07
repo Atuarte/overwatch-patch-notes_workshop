@@ -351,40 +351,9 @@ a.botao-menu {
     font-size: 1.5em;
 }
 
-/* Fundo escuro atrás do modal */
-.modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1000; 
-    left: 0; 
-    top: 0; 
-    width: 100%; 
-    height: 100%; 
-    background-color: rgba(0,0,0,0.85); 
-}
-
-/* A caixa principal do modal */
-.modal-conteudo {
-    background-color: var(--azul-fundo-escuro);
-    border: 5px solid var(--laranja-fundo); /* Borda laranja igual ao seu card */
-    margin: 5% auto; 
-    padding: 30px;
-    width: 60%; 
-    max-height: 80vh; /* Limita a altura para caber na tela */
-    overflow-y: auto; /* Permite rolar se o texto for muito grande */
-    position: relative;
-    color: var(--branco);
-}
-
-.fechar-btn {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    font-size: 40px;
-    font-weight: bold;
-    cursor: pointer;
-    color: var(--branco);
-}
+/* =========================================
+   ESTILO DO MODAL (VISUAL CANVA DEFINITIVO)
+   ========================================= */
 
 /* Fundo escuro atrás do modal */
 .modal {
@@ -393,42 +362,141 @@ a.botao-menu {
     z-index: 1000; 
     left: 0; top: 0; 
     width: 100%; height: 100%; 
-    background-color: rgba(0,0,0,0.8); 
-    display: flex; /* Centraliza a janela */
+    background-color: rgba(0,0,0,0.85); 
     justify-content: center;
     align-items: center;
 }
 
-/* O card do pop-up (igual ao seu modelo) */
+/* O container principal TODO LARANJA */
 .modal-conteudo {
-    background-color: var(--azul-fundo-escuro);
-    border: 5px solid var(--laranja-fundo); 
-    width: 400px; /* Largura igual a um card */
-    max-height: 80vh;
-    overflow-y: auto;
+    background-color: var(--laranja-fundo); 
+    width: 420px; 
+    max-width: 90%; 
+    padding: 15px; /* A margem grossa laranja em volta de tudo */
     position: relative;
-    padding: 0; /* Remove padding para o header laranja ocupar tudo */
+    box-sizing: border-box;
 }
 
-/* O Header Laranja dentro do modal */
+/* O container invisível injetado pelo JavaScript */
+#conteudo-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* O espaço certinho entre o cabeçalho e a parte azul */
+}
+
+/* Cabeçalho */
 .modal-header {
-    background-color: var(--laranja-fundo);
     display: flex;
     align-items: center;
-    padding: 10px;
-    gap: 15px;
-    color: white;
+    background-color: var(--laranja-fundo); 
+    border: 5px solid rgba(255, 255, 255, 0.4); /* Bordinha branca fina */
+    height: 100px; 
 }
 
+/* Imagem do Herói - Colada na esquerda */
 .modal-header img {
-    width: 60px;
-    height: 60px;
-    border: 2px solid white;
+    width: 100px; 
+    height: 100%; /* Preenche toda a altura da caixa do cabeçalho */
+    object-fit: cover;
+    border-right: 5px solid rgba(255, 255, 255, 0.4); /* Linha divisória da imagem */
+    flex-shrink: 0; 
 }
 
-/* O conteúdo de texto dentro */
-.modal-body {
-    padding: 20px;
-    color: white;
-    font-size: 16px;
+/* Nome do Herói */
+.modal-header h2 {
+    color: #000000; 
+    font-size: 45px; 
+    font-weight: 900;
+    font-style: normal; 
+    text-align: center;
+    flex-grow: 1; /* Puxa o texto para o meio do espaço restante */
+    margin: 0;
 }
+
+/* Botão de Fechar 'x' */
+.fechar-btn {
+    position: absolute;
+    top: 22px; /* Ajustado matematicamente para cair dentro da borda do cabeçalho */
+    right: 25px; 
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--branco);
+    cursor: pointer;
+    line-height: 1;
+    z-index: 10;
+}
+
+/* Corpo do Texto (A caixa interna AZUL) */
+.modal-body {
+    background-color: var(--azul-fundo-escuro);
+    border: 5px solid rgba(255, 255, 255, 0.4); /* Bordinha branca fina */
+    padding: 25px; 
+    color: var(--branco);
+    font-size: 16px;
+    line-height: 1.4; 
+    max-height: 60vh; 
+    overflow-y: auto; 
+}
+
+/* Títulos de Seção em LARANJA */
+.modal-body h3 {
+    color: var(--laranja-fundo); 
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.modal-body h3:first-child {
+    margin-top: 0;
+}
+
+/* Listas com Bolinhas Brancas */
+.modal-body ul {
+    list-style-type: none; 
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.modal-body li {
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 8px;
+}
+
+.modal-body li::before {
+    content: "•"; 
+    position: absolute;
+    left: 0;
+    color: var(--branco); 
+    font-size: 20px; 
+    line-height: 1;
+    top: -2px; 
+}
+
+/* Sub-listas (O círculo vazio para o "Total: 500") */
+.modal-body ul ul {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.modal-body ul ul li {
+    padding-left: 25px; 
+}
+
+.modal-body ul ul li::before {
+    content: "◦"; 
+    font-size: 16px;
+    top: 2px;
+}
+
+/* Cores das classes */
+.modal-body .cor-verde { color: #28CC2D; }
+.modal-body .cor-azul { color: #6699FF; }
+.modal-body .cor-laranja { color: #FF7A00; }
+
+/* Barra de rolagem */
+.modal-body::-webkit-scrollbar { width: 8px; }
+.modal-body::-webkit-scrollbar-track { background: var(--azul-fundo-escuro); }
+.modal-body::-webkit-scrollbar-thumb { background: var(--laranja-fundo); }
