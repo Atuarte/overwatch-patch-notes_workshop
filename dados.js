@@ -337,6 +337,22 @@ const bancoDeDados = {
                 <li class="cor-verde">Vida reduzida de 225 para 175.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,325 m por segundo (+15%).</li>
             </ul>
+
+            <h3>PREPARAR E APONTAR</h3>
+            <ul>
+                <li class="cor-azul">Tempo de recarga reduzido em 25%.</li>
+                <li class="cor-azul">Duração aumentada em 25%.</li>
+            </ul>
+
+            <h3>INVESTIDA ÁGIL</h3>
+            <ul>
+                <li class="cor-azul">Distância aumentada de 20 para 24 m por segundo (+20%).</li>
+            </ul>
+
+            <h3>LUFADA AOS CÉUS</h3>
+            <ul>
+                <li class="cor-azul">Altura aumentada em 20%.</li>
+            </ul>
         `
     },
     "Genji": {
@@ -356,6 +372,18 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-verde">Vida reduzida de 225 para 175.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,325 m por segundo (+15%).</li>
+            </ul>
+
+            <h3>SUSPENSÃO A JATO</h3>
+            <ul>
+                <li class="cor-azul">Aceleração escalar vertical aumentada em 20%.</li>
+                <li class="cor-azul">Taxa de recarga aumentada em 20%.</li>
+                <li class="cor-azul">Tempo máximo aumentado em 20%.</li>
+            </ul>
+
+            <h3>SALTO FOGUETE</h3>
+            <ul>
+                <li class="cor-azul">Aceleração escalar aumentada em 20%.</li>
             </ul>
         `
     },
@@ -411,7 +439,7 @@ const bancoDeDados = {
             <h3>HACKEAR</h3>
             <ul>
                 <li class="cor-azul">Tempo de recarga em inimigos aumentado de 6 para 24 segundos.</li>
-                <li class="cor-azul">Golpes finais não ativa a passiva dos duelistas de redução de recarga para o Hackear.</li>
+                <li class="cor-azul">Golpes finais não reduz o tempo de recarga do Hackear.</li>
                 <li class="cor-azul">Tempo de recarga em implantáveis aumentado de 3 para 12 segundos.</li>
                 <li class="cor-azul">Tempo de recarga de quando a habilidade for interrompida aumentado de 3 para 6 segundos.</li>
                 <li class="cor-azul">Duração do silenciamento aumentado de 1 para 4 segundos.</li>
@@ -587,7 +615,8 @@ const bancoDeDados = {
         texto: `
             <h3>RIFLE SOLAR</h3>
             <ul>
-                <li class="cor-azul">Multiplicador de dano crítico aumentado de 1.5 para 1.6x. Headshot mínimo de 40 e máximo de 120.</li>
+                <li class="cor-azul">Multiplicador de dano crítico aumentado de 1.5 para 1.6x. Headshot mínimo aumentado de 37,5 para 40 e máximo de 112,5 para 120.
+</li>
                 <li class="cor-azul">Adicionada mecânica de dano em área: Disparos geram explosão de 5m ao colidir com superfícies, barreiras ou inimigos. Causa 10 de dano fixo + 10% do dano original ao atingir inimigos na área. Acertos diretos não recebem dano explosivo.</li>
             </ul>
             <h3>EXPLOSÃO</h3>
@@ -607,7 +636,7 @@ const bancoDeDados = {
         texto: `
             <h3>RESTAURAÇÃO (PASSIVA)</h3>
             <ul>
-                <li>A Juno foi adicionada aos planadores.</li>
+            <li style="color: var(--dourado-noctune);"><strong>A Juno foi adicionada aos planadores.</strong></li>
                 <li>Juno recebe a passiva da sub-role Restauração.</li>
                 <li class="cor-verde">Curar aliados com sua arma também cura a Juno com 40% da cura.</li>
             </ul>
@@ -699,7 +728,7 @@ const bancoDeDados = {
             <h3>SANTUÁRIO KEKKAI</h3>
             <ul>
                 <li class="cor-verde">Cura inicial reduzida de 100 para 80 e cura ao longo do tempo de 40 para 32.</li>
-                <li class="cor-laranja">Custo reduzido em -10%. Carrega 20% mais rápido.</li>
+                <li class="cor-laranja">Carrega 20% mais rápido.</li>
             </ul>
         `
     },
@@ -710,14 +739,20 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-azul">Golpes finais geram uma explosão de 5m na vítima que causa 25 de dano e estuna os inimigos próximos.</li>
             </ul>
-            <h3>PUNHO BIÓTICO (DANO)</h3>
+
+            <h3>PUNHO BIÓTICO (DISPARO PRIMÁRIO)</h3>
             <ul>
                 <li class="cor-azul">Agora incendeia os inimigos, causando 80 de dano por segundo.</li>
-                <li class="cor-azul">Dano base reduzido de 65 para 32,5 por segundo.</li>
+            </ul>
+
+            <h3>PUNHO BIÓTICO (DISPARO SECUNDÁRIO)</h3>
+            <ul>
+                <li class="cor-azul">Dano reduzido de 65 para 32,5 por segundo.</li>
                 <li class="cor-azul">Derruba inimigos que estiverem no ar.</li>
                 <li class="cor-azul">Inimigos têm os tempos de recarga das suas habilidades 25% mais lentos.</li>
                 <li class="cor-azul">Causa 100% a mais de dano à armaduras.</li>
             </ul>
+
             <h3>ORBE BIÓTICO</h3>
             <ul>
                 <li class="cor-verde">Capacidade máxima de cura e dano aumentado em +50%.</li>
