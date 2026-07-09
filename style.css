@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+
 /* =========================================
    1. RESET E VARIÁVEIS GERAIS
    ========================================= */
@@ -145,8 +147,8 @@ body {
 .conteudo-principal {
     width: 100%;
     height: 100%;
-    overflow-y: auto; /* O scrollbar fica só aqui dentro agora */
-    padding: 30px;    /* Dei um pouquinho mais de respiro para os textos, mas se preferir pode deixar 20px */
+    overflow-y: auto;
+    padding: 30px;
     color: var(--branco);
 }
 
@@ -567,4 +569,43 @@ a.botao-menu {
 .modal-body::-webkit-scrollbar-thumb:hover,
 .conteudo-principal::-webkit-scrollbar-thumb:hover { 
     background: var(--dourado-noctune); 
+}
+
+/* =========================================
+   SEÇÃO: COMENTÁRIOS DO CRIADOR (Versão Oficial)
+   ========================================= */
+.comentarios-atuarte {
+    margin-top: 35px;
+    position: relative;
+}
+
+/* A linha sólida grossinha centralizada */
+.comentarios-atuarte::before {
+    content: "";
+    display: block;
+    width: 100%;                         
+    height: 3px;                        
+    background-color: var(--dourado-noctune); 
+    opacity: 0.3;                       
+    margin: 0 auto 20px auto;           
+    border-radius: 10px;                
+}
+
+/* O Título firme e forte na Lakki Reddy */
+.comentarios-atuarte h4 {
+    font-family: 'Lakki Reddy', cursive;
+    color: var(--dourado-noctune);
+    font-weight: normal; 
+    font-size: 22px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+/* O texto explicativo na fonte padrão e legível do site */
+.comentarios-atuarte p {
+    font-family: inherit;               /* Herda a fonte limpa das mudanças */
+    color: var(--branco);               /* Branco de fácil leitura */
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;                
 }

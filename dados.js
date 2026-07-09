@@ -67,8 +67,8 @@ const bancoDeDados = {
             <h3>OFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em -3%.</li>
-                <li class="cor-verde">Vida base reduzida de 300 para 250.</li>
-                <li class="cor-verde">Armadura reduzida de 300 para 225. Total: 475.</li>
+                <li class="cor-verde">Vida base reduzida de 300 para 225.</li>
+                <li class="cor-verde">Armadura reduzida de 300 para 225. Total: 450.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
             </ul>
             <h3>FORTIFICAR</h3>
@@ -115,7 +115,7 @@ const bancoDeDados = {
             <h3>CANHÃO DE TESLA</h3>
             <ul>
                 <li class="cor-azul">Munição reduzida de 120 para 100.</li>
-                <li class="cor-azul">Agora tem um dano adicional de 2,5% da vida máxima do alvo.</li>
+                <li class="cor-azul">Agora tem um dano adicional de 3% da vida máxima do alvo.</li>
             </ul>
         `
     },
@@ -184,7 +184,7 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox aumentado em +3%.</li>
                 <li class="cor-verde">Vida base reduzida de 425 para 275.</li>
-                <li class="cor-verde">Armadura aumentada de 100 para 200. Total: 475.</li>
+                <li class="cor-verde">Armadura aumentada de 100 para 225. Total: 500.</li>
                 <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
             </ul>
             <h3>ACELERADOR DO VAZIO</h3>
@@ -246,10 +246,10 @@ const bancoDeDados = {
             </ul>
             <h3>CANHÃO DE PARTÍCULAS</h3>
             <ul>
-                <li class="cor-azul">Munição aumentada de 100 para 175.</li>
+                <li class="cor-azul">Munição aumentada de 100 para 125.</li>
                 <li class="cor-azul">Agora tem um sistema de superaquecimento.</li>
-                <li class="cor-azul">Não possui mais recarga manual e nem automática. Se a Zarya parar de usar sua arma, depois de 0,25 segundo ela recupera 40 de munição por segundo (Se a munição chegar a 1, levará 5,1s para recuperar tudo).</li>
-                <li class="cor-azul">Ao superaquecer o Canhão de Partículas, Zarya fica impossibilitada de usar sua arma e a Barreira de Partículas e recebe 50% a menos de cura por 3,5 segundos. Depois disso, ela recupera 100% da sua munição.</li>
+                <li class="cor-azul">Não possui mais recarga manual e nem automática. Se a Zarya parar de usar sua arma, depois de 0,6 segundo ela recupera 50 de munição por segundo.</li>
+                <li class="cor-azul">Ao superaquecer o Canhão de Partículas, Zarya fica impossibilitada de usar sua arma e a Barreira de Partículas e recebe 50% a menos de cura por 2,5 segundos. Depois disso, ela recupera 100% da sua munição.</li>
             </ul>
         `
     },
@@ -263,7 +263,7 @@ const bancoDeDados = {
             <h3>DUELISTA</h3>
             <ul>
                 <li class="cor-verde">Vida reduzida de 250 para 200.</li>
-                <li>Velocidade de movimento aumentada de 6 para 6,9 m por segundo (+15%).</li>
+                <li>Velocidade de movimento aumentada de 6 para 6,6 m por segundo (+10%).</li>
             </ul>
         `
     },
@@ -602,6 +602,10 @@ const bancoDeDados = {
                 <li class="cor-azul">Tempo de recarga aumentado de 4 para 5 segundos.</li>
                 <li class="cor-azul">Cancela habilidades de movimentação.</li>
             </ul>
+            <h3>KIT DE REPAROS</h3>
+            <ul>
+                <li class="cor-azul">Tempo de recarga aumentado de 5 para 10 segundos.</li>
+                <li class="cor-azul">Agora, ao invés de voltar 1 carga de cada vez, todas voltam juntas.</li>
             <h3>REAGRUPAR</h3>
             <ul>
                 <li class="cor-azul">Aumenta o tamanho da barreira em +50%.</li>
@@ -634,9 +638,9 @@ const bancoDeDados = {
     "Juno": {
         img: "Imagem dos Heróis/Juno.png",
         texto: `
-            <h3>RESTAURAÇÃO (PASSIVA)</h3>
+        <h3>A Juno foi adicionada aos planadores.</h3>    
+        <h3>RESTAURAÇÃO (PASSIVA)</h3>
             <ul>
-            <li style="color: var(--dourado-noctune);"><strong>A Juno foi adicionada aos planadores.</strong></li>
                 <li>Juno recebe a passiva da sub-role Restauração.</li>
                 <li class="cor-verde">Curar aliados com sua arma também cura a Juno com 40% da cura.</li>
             </ul>
@@ -711,18 +715,23 @@ const bancoDeDados = {
     "Mizuki": {
         img: "Imagem dos Heróis/Mizuki.png",
         texto: `
-            <h3>AURA MEDICINAL</h3>
+        <h3>VIDA</h3>
+            <ul>
+                <li class="cor-verde">Vida reduzida de 250 para 150.</li>
+                <li class="cor-verde">Escudos aumentados de 0 para 125. Total: 275.</li>
+            </ul>    
+        <h3>AURA MEDICINAL</h3>
             <ul>
                 <li class="cor-verde">10% do dano causado vira cura na área da Aura Medicinal.</li>
                 <li class="cor-verde">Cura mínima p/ aliados reduzida (5 para 4) e máxima (20 para 16). Para o Mizuki, cura mínima reduzida (3,5 para 2,8) e máxima (14 para 11,2) por segundo.</li>
             </ul>
             <h3>GLAVE ESPIRITUAL</h3>
             <ul>
-                <li class="cor-azul">Velocidade de projétil aumentada em +60%.</li>
+                <li class="cor-azul">Velocidade de projétil aumentada em +100%.</li>
             </ul>
             <h3>KASA MEDICINAL</h3>
             <ul>
-                <li class="cor-azul">Velocidade de projétil aumentada em +60%.</li>
+                <li class="cor-azul">Velocidade de projétil aumentada em +100%.</li>
                 <li class="cor-verde">Cura reduzida: 72 (1º ricochete), 56 (2º), 40 (3º) e 32 (em si).</li>
             </ul>
             <h3>SANTUÁRIO KEKKAI</h3>
@@ -758,6 +767,11 @@ const bancoDeDados = {
                 <li class="cor-verde">Capacidade máxima de cura e dano aumentado em +50%.</li>
                 <li class="cor-azul">Velocidade do projétil reduzido em -50%.</li>
             </ul>
+
+            <div class="comentarios-atuarte">
+                <h4>COMENTÁRIOS DO CRIADOR</h4>
+                <p>A Moira sempre teve problemas de utilidade em composições de alto nível no 5v5. A ideia de adicionar a explosão biotóxica nos golpes finais serve para dar a ela um potencial de iniciação ou punição em lutas de equipe agrupadas, enquanto a redução de dano compensa esse novo poder explosivo.</p>
+            </div>
         `
     },
     "Zenyatta": {
