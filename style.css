@@ -276,6 +276,9 @@ a.botao-menu {
 .conteudo-textos {
     position: relative;
     z-index: 1; 
+    /* 🎯 CORREÇÃO: Força o texto a ocupar 100% da largura */
+    width: 100% !important;
+    max-width: 100% !important;
 }
 
 /* =========================================
@@ -434,13 +437,29 @@ a.botao-menu {
     overflow: hidden;
 }
 
+/* 1️⃣ GARANTE QUE A FOTO SEJA O PRIMEIRO ELEMENTO */
 .modal-header img {
     width: 100px; 
     height: 100%; 
     object-fit: cover;
     flex-shrink: 0; 
+    order: 1; 
 }
 
+/* 🎯 2️⃣ A MÁGICA: Injeta a linha amarela arredondada exatamente após a foto */
+.modal-header::before {
+    content: "";
+    display: block;
+    width: 10px;                         /* Espessura da linha */
+    height: 105px;                        /* Altura da linha (deixa folga em cima e embaixo) */
+    background-color: var(--roxo-fundo-escuro); /* Usa o roxo oficial */
+    border-radius: 0px;                /* Pontas arredondadas como na sua simulação */
+    flex-shrink: 0;
+    margin-left: 0px;                  /* Afasta a linha da foto */
+    order: 2;                           /* Posiciona no meio */
+}
+
+/* 3️⃣ MANTÉM O TEXTO CENTRALIZADO NO ESPAÇO RESTANTE */
 .modal-header h2 {
     color: var(--dourado-noctune); 
     font-size: 32px;      
@@ -452,6 +471,7 @@ a.botao-menu {
     line-height: 1.1;
     position: relative;
     top: 14px;
+    order: 3;                           /* Fica por último */
 }
 
 .fechar-btn {
@@ -572,14 +592,17 @@ a.botao-menu {
 }
 
 /* =========================================
-   SEÇÃO: COMENTÁRIOS DO CRIADOR (Versão Oficial)
+   SEÇÃO: COMENTÁRIOS DO CRIADOR (Visual Lakki Reddy)
    ========================================= */
 .comentarios-atuarte {
     margin-top: 35px;
     position: relative;
+    /* 🎯 CORREÇÃO: Garante que os comentários expandam até o limite */
+    width: 100% !important;
+    max-width: 100% !important;
 }
 
-/* A linha sólida grossinha centralizada */
+/* Mantive a linha sólida centralizada que deixa o acabamento limpo */
 .comentarios-atuarte::before {
     content: "";
     display: block;
@@ -596,16 +619,20 @@ a.botao-menu {
     font-family: 'Lakki Reddy', cursive;
     color: var(--dourado-noctune);
     font-weight: normal; 
-    font-size: 22px;
-    margin-bottom: 12px;
+    font-size: 26px; /* Aumentado de leve para dar hierarquia */
+    margin-bottom: 16px;
     letter-spacing: 1px;
 }
 
-/* O texto explicativo na fonte padrão e legível do site */
+/* 🎯 VOLTOU PARA O CLÁSSICO: Fonte Lakki Reddy, Dourada e Não-Negrito */
 .comentarios-atuarte p {
-    font-family: inherit;               /* Herda a fonte limpa das mudanças */
-    color: var(--branco);               /* Branco de fácil leitura */
-    font-size: 15px;
+    font-family: 'Lakki Reddy', cursive; /* Ativa a fonte estilizada */
+    color: var(--dourado-noctune);      /* Texto dourado igual ao título */
+    font-weight: normal;                /* Força a não ficar em negrito */
+    font-size: 17px;                    /* Tamanho ajustado para essa fonte preencher bem o bloco */
     line-height: 1.6;
-    text-align: justify;                
+    text-align: justify; 
+    /* 🎯 CORREÇÃO: Tira as restrições invisíveis do parágrafo */
+    width: 100%;
+    max-width: 100%;
 }
