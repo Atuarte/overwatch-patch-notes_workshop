@@ -143,12 +143,16 @@ body {
     position: relative;
 }
 
+/* =========================================
+   4. ÁREA PRINCIPAL (Conteúdo Central)
+   ========================================= */
 .conteudo-principal {
     width: 100%;
     height: 100%;
-    overflow-y: auto;
-    padding: 30px;
+    padding: 40px;
     color: var(--branco);
+    position: relative;
+    overflow-y: auto; 
 }
 
 .grupo-superior,
