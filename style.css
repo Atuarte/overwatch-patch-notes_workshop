@@ -7,7 +7,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Comic Sans MS', 'Comic Sans', Arial, sans-serif;}
+    font-family: 'Comic Sans MS', 'Comic Sans', Arial, sans-serif;
+}
 
 /* =========================================
    HIERARQUIA TIPOGRÁFICA (Títulos e Botões)
@@ -633,4 +634,117 @@ a.botao-menu {
     /* 🎯 CORREÇÃO: Tira as restrições invisíveis do parágrafo */
     width: 100%;
     max-width: 100%;
+}
+
+/* =========================================
+   7. RESPONSIVIDADE REAL DO MODO OVERWATCH
+   ========================================= */
+@media (max-width: 1024px) {
+    /* Em tablets, reduz a galeria para 3 heróis por linha */
+    .galeria-herois {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        overflow-y: auto; /* Permite rolar a página inteira de forma natural no celular */
+    }
+
+    /* 👑 TOPO DO SITE: Empilha os elementos centralizados para não bugar */
+    .topo-site {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 15px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .topo-esquerda h1 {
+        font-size: 22px;
+    }
+
+    .logo-ow-topo {
+        height: 45px;
+    }
+
+    .topo-direita {
+        margin-bottom: 0;
+    }
+
+    /* 📱 ESTRUTURA DO CORPO: Transforma a linha em coluna */
+    .corpo-site {
+        flex-direction: column;
+        height: auto;
+        overflow: visible;
+    }
+
+    /* 📑 MENU LATERAL: Vira uma barra horizontal de botões no topo do conteúdo */
+    .menu-lateral {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .grupo-superior,
+    .botoes-inferiores {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .botao-menu {
+        margin: 0;
+        padding: 10px 14px 8px 14px; /* Ajusta a compensação da Lakki Reddy no mobile */
+        font-size: 13px;
+        gap: 8px;
+        border-radius: 10px;
+    }
+
+    .icone-btn {
+        width: 24px;
+        height: 24px;
+    }
+
+    .botao-menu .texto-duplo {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    /* 📦 PAINEL PRINCIPAL DE CONTEÚDO */
+    .container-principal {
+        margin: 10px 15px 20px 15px;
+        height: auto;
+        overflow: visible;
+    }
+
+    .conteudo-principal {
+        padding: 20px;
+        height: auto;
+        overflow: visible;
+    }
+
+    /* 👥 GALERIA DE HERÓIS: Em vez de 6 espremidos, ficam 2 por linha perfeitinhos! */
+    .galeria-herois {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .nome-heroi {
+        font-size: 14px;
+        padding: 8px 5px 4px 5px;
+    }
+    
+    /* Suaviza a marca d'água no fundo para telas pequenas */
+    .marca-dagua-fundo {
+        width: 300px;
+        height: 300px;
+        top: 50%;
+        left: 50%;
+    }
 }
