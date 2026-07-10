@@ -146,7 +146,7 @@ body {
 /* CAIXA INTERNA (Apenas textos, 100% livre de bordas duplicadas) */
 .conteudo-principal {
     width: 100%;
-    flex-grow: 1;
+    height: 100%; /* 🎯 CORREÇÃO: Garante o rolamento no PC */
     padding: 30px 40px;
     color: var(--branco);
     position: relative;
@@ -251,18 +251,7 @@ a.botao-menu {
 /* =========================================
    4. ÁREA PRINCIPAL (Conteúdo Central)
    ========================================= */
-.conteudo-principal {
-    flex-grow: 1;
-    background-color: var(--roxo-fundo-escuro); 
-    margin: 0 20px 20px 0; 
-    border: 3px solid var(--roxo-destaque); 
-    border-radius: 20px; /* Borda arredondada no painel inteiro */
-    padding: 40px;
-    color: var(--branco);
-    position: relative;
-    overflow-y: auto; 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-}
+/* Movido para a regra principal na linha 144 para evitar conflitos */
 
 /* 🎯 MARCA D'ÁGUA ESTÁTICA E FIXA */
 .marca-dagua-fundo {
