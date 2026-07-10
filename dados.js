@@ -185,7 +185,7 @@ const bancoDeDados = {
             </ul>
             <h3>NOVA PASSIVA</h3>
             <ul>
-                <li class="cor-azul">Ao ficar com 40% ou menos de vida, os inimigos à 10 metros do Mauga serão incendiados automaticamente, causando 10 de dano por segundo.</li>
+                <li class="cor-azul">Ao ficar com 40% ou menos de vida, os inimigos à 10 metros do Mauga serão incendiados automaticamente, causando 18 de dano por segundo.</li>
             </ul>
             <h3>METRALHADORA INCENDIÁRIA - SASHA</h3>
             <ul>
@@ -193,7 +193,7 @@ const bancoDeDados = {
             </ul>
             <h3>SOBRECARGA CARDÍACA</h3>
             <ul>
-                <li class="cor-azul">Incendeia os inimigos na área da Sobrecarga, causando 10 de dano por segundo.</li>
+                <li class="cor-azul">Incendeia os inimigos na área da Sobrecarga, causando 18 de dano por segundo.</li>
             </ul>
             <h3>MANO A MANO</h3>
             <ul>
@@ -597,7 +597,7 @@ const bancoDeDados = {
             <h3>PISTOLAS ELETROMAGNÉTICAS</h3>
             <ul>
                 <li class="cor-azul">Munição aumentada de 40 para 60.</li>
-                <li class="cor-azul">Tracer ganha 25% de roubo de vida.</li>
+                <li class="cor-azul">Tracer ganha 20% de roubo de vida.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
