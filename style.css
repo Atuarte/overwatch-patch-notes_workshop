@@ -7,9 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* Fonte para os textos pequenos: a clássica Comic Sans */
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
-}
+    font-family: 'Comic Sans MS', 'Comic Sans', Arial, sans-serif;}
 
 /* =========================================
    HIERARQUIA TIPOGRÁFICA (Títulos e Botões)
