@@ -110,15 +110,23 @@ const bancoDeDados = {
         texto: `
             <h3>OFENSIVA</h3>
             <ul>
-                <li>Não recebe redução no tamanho e na hitbox.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 (+15%).</li>
-                <li class="cor-verde">Vida base reduzida de 525 para 300.</li>
-                <li class="cor-verde">Escudos aumenados de 0 para 175. Total: 475.</li>
+                <li class="cor-verde">Tamanho e hitbox reduzidos em -3%.</li>
+                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,325 (+15%).</li>
+                <li class="cor-laranja">Vida base reduzida de 525 para 300.</li>
+                <li class="cor-verde">Escudos aumentados de 0 para 175. Total: 475.</li>
             </ul>
             <h3>GRITO DE GUERRA</h3>
             <ul>
-                <li>Tempo de recarga do Grito de Guerra reduzido de 12 para 9 segundos (-25%).</li>
-                <li>Vida extra para a Rainha Junker reduzida de 200 para 150.</li>
+                <li class="cor-verde">Tempo de recarga reduzido de 12 para 9 segundos (-25%).</li>
+                <li>Nova mecânica: Agora causa sangramento a todos os inimigos atingidos no raio da habildade (15m).</li>
+                <li>Dano: 15 de dano por segundo.</li>
+                <li>Duração: 4 segundos (60 de dano total).</li>
+                <li class="cor-verde">Nova mecânica: 100% do dano de sangramento causado por esta habilidade é convertido em cura para a Rainha Junker e para os aliados no raio da habildade.</li>
+            </ul>
+            <h3>CARNIFICINA</h3>
+            <ul>
+                <li class="cor-verde">Nova mecânica: O impacto inicial do machado agora causa dano adicional instantâneo equivalente a 10% da vida máxima do alvo atingido.</li>
+                <li class="cor-laranja">Tempo de recarga aumentado de 9 para 12,6 segundos (+40%).</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
