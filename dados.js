@@ -113,11 +113,11 @@ const bancoDeDados = {
                 <li class="cor-verde">Tamanho e hitbox reduzidos em -3%.</li>
                 <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,325 (+15%).</li>
                 <li class="cor-laranja">Vida base reduzida de 525 para 300.</li>
-                <li class="cor-verde">Escudos aumentados de 0 para 175. Total: 475.</li>
+                <li class="cor-verde">Escudos aumentados de 0 para 150. Total: 450.</li>
             </ul>
             <h3>GRITO DE GUERRA</h3>
             <ul>
-                <li class="cor-verde">Tempo de recarga reduzido de 12 para 9 segundos (-25%).</li>
+                <li class="cor-verde">Tempo de recarga reduzido de 10 para 7,5 segundos (-25%).</li>
                 <li>Nova mecânica: Agora causa sangramento a todos os inimigos atingidos no raio da habildade (15m).</li>
                 <li>Dano: 15 de dano por segundo.</li>
                 <li>Duração: 4 segundos (60 de dano total).</li>
@@ -126,7 +126,7 @@ const bancoDeDados = {
             <h3>CARNIFICINA</h3>
             <ul>
                 <li class="cor-verde">Nova mecânica: O impacto inicial do machado agora causa dano adicional instantâneo equivalente a 10% da vida máxima do alvo atingido.</li>
-                <li class="cor-laranja">Tempo de recarga aumentado de 9 para 12,6 segundos (+40%).</li>
+                <li class="cor-laranja">Tempo de recarga aumentado de 9 para 12,15 segundos (+40%).</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -281,7 +281,7 @@ const bancoDeDados = {
             <h3>DEFENSIVO E PLANADOR</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em +3%.</li>
-                <li class="cor-verde">150 de vida foram convertidos em escudos. Total: 625.</li>
+                <li class="cor-verde">150 de vida foram convertidos em escudos. Total: 600.</li>
                 <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
             </ul>
         `
@@ -738,7 +738,7 @@ const bancoDeDados = {
             </ul>
             <h3>KIT DE REPAROS</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga aumentado de 5 para 10 segundos.</li>
+                <li class="cor-azul">Tempo de recarga aumentado de 5 para 12 segundos.</li>
                 <li class="cor-azul">Agora, ao invés de voltar 1 carga de cada vez, todas voltam juntas.</li>
             <h3>REAGRUPAR</h3>
             <ul>
