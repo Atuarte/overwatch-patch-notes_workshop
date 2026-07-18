@@ -44,12 +44,12 @@ const bancoDeDados = {
             <h3>SOCO FOGUETE</h3>
             <ul>
                 <li class="cor-azul">Tempo de recarga reduzido de 4 para 3,4 segundos (-15%).</li>
-                <li class="cor-azul">Recupere 25 de vida por cada inimigo acertado.</li>
+                <li class="cor-azul">Recupere 30 de vida por cada inimigo acertado. Aliados à 8 metros do Doomfist recebem 50% da cura.</li>
             </ul>
             <h3>ABALO SÍSMICO</h3>
             <ul>
                 <li class="cor-azul">Tempo de recarga reduzido de 6,5 para 5,525 segundos (-15%).</li>
-                <li class="cor-azul">Recupere 15 de vida por cada inimigo acertado.</li>
+                <li class="cor-azul">Recupere 30 de vida por cada inimigo acertado. Aliados à 8 metros do Doomfist recebem 50% da cura.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -76,8 +76,8 @@ const bancoDeDados = {
             <h3>OFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em -3%.</li>
-                <li class="cor-verde">Vida base reduzida de 300 para 225.</li>
-                <li class="cor-verde">Armadura reduzida de 300 para 225. Total: 450.</li>
+                <li class="cor-verde">Vida base reduzida de 300 para 250.</li>
+                <li class="cor-verde">Armadura reduzida de 300 para 225. Total: 475.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
             </ul>
             <h3>FORTIFICAR</h3>
@@ -262,6 +262,7 @@ const bancoDeDados = {
                 <li class="cor-verde">Vida base reduzida de 750 para 375.</li>
                 <li class="cor-verde">Escudos aumentados de 0 para 375. Total: 750.</li>
                 <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
+                <li class="cor-azul">Munição aumentada de 6 para 8.</li>
             </ul>
             <h3>ARMA DE SUCATA</h3>
             <ul>
@@ -275,15 +276,35 @@ const bancoDeDados = {
             </div>
         `
     },
-    "Sigma": {
+   "Sigma": {
         img: "Imagem dos Heróis/Sigma.png",
         texto: `
             <h3>DEFENSIVO E PLANADOR</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em +3%.</li>
-                <li class="cor-verde">150 de vida foram convertidos em escudos. Total: 600.</li>
+                <li class="cor-laranja">Vida base reduzida de 350 para 200.</li>
+                <li class="cor-verde">Escudos aumentados de 250 para 450. Total: 650.</li>
                 <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
             </ul>
+            <h3>PUNHO CINÉTICO</h3>
+            <ul>
+                <li class="cor-laranja">Tempo de recarga aumentado de 12 para 15 segundos.</li>
+                <li class="cor-verde"><strong>Novo Efeito Gravitacional:</strong> Agora aplica um efeito de atração contínuo em todos os inimigos localizados dentro de um cone de 90 graus diretamente à frente de Sigma. Ignora efeitos de imparável/irrefreável.</li>
+                <li>Alcance Máximo: 20 metros.</li>
+                <li><strong>Mecânica de Tração:</strong> O puxão cancela a força de movimento contrária do alvo, exigindo o uso de habilidades de movimentação para escapar do eixo de atração.</li>
+                <li><strong>Escala de Distância:</strong> A velocidade do puxão agora é calculada dinamicamente com base em 4 estágios de proximidade:
+                    <ul>
+                        <li>De 0 a 5 metros: Força de tração 10.</li>
+                        <li>De 5 a 10 metros: Força de tração 7.</li>
+                        <li>De 10 a 15 metros: Força de tração 4.</li>
+                        <li>De 15 a 20 metros: Força de tração 2.</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="comentarios-atuarte">
+                <h4>COMENTÁRIOS DO CRIADOR</h4>
+                <p>A nova mecânica desenvolvida para o Sigma busca alinhar suas habilidades ao seu imenso poder cósmico e à sua história, garantindo uma jogabilidade divertida e, ao mesmo tempo, equilibrada. Como o Punho Cinético é uma ferramenta defensiva central, aumentei o seu tempo de recarga para tornar o uso da habilidade mais estratégico e impactante. Para compensar a maior vulnerabilidade durante esse período de espera, aumentei sua vida máxima; isso permite que ele se mantenha firme na linha de frente por mais tempo, garantindo que a gestão cuidadosa de seus cooldowns seja recompensada com uma robustez condizente com um tanque de sua magnitude.</p>
+            </div>
         `
     },
     "Zarya": {
@@ -299,7 +320,7 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-azul">Munição aumentada de 100 para 125.</li>
                 <li class="cor-azul">Agora tem um sistema de superaquecimento.</li>
-                <li class="cor-azul">Não possui mais recarga manual e nem automática. Se a Zarya parar de usar sua arma, depois de 0,6 segundo ela recupera 50 de munição por segundo.</li>
+                <li class="cor-azul">Não possui mais recarga manual e nem automática. Se a Zarya parar de usar sua arma, depois de 0,3 segundo ela recupera 50 de munição por segundo.</li>
                 <li class="cor-azul">Ao superaquecer o Canhão de Partículas, Zarya fica impossibilitada de usar sua arma e a Barreira de Partículas e recebe 50% a menos de cura por 2,5 segundos. Depois disso, ela recupera 100% da sua munição.</li>
             </ul>
             <div class="comentarios-atuarte">
