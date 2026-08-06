@@ -219,6 +219,43 @@ const bancoDeDados = {
             </div>
         `
     },
+    "Mei": {
+        img: "Imagem dos Heróis/Mei.png",
+        texto: `
+            <h3>A Mei foi adicionada aos tanques defensivos.</h3>
+            <h3>DEFENSIVA</h3>
+            <ul>
+                <li>Tamanho e hitbox aumentados em 25%.</li>
+                <li class="cor-verde">Vida base aumentada de 300 para 575.</li>
+                <li class="cor-laranja">Mei *** recebe a passiva da sub-role original dos dps's</li>
+            </ul>
+            <h3>ARMA***</h3>
+            <ul>
+                <li class="cor-azul">Velocidade do projétil reduzida em 30%.</li>
+            </ul>
+            <h3>MURALHA DE GELO</h3>
+            <ul>
+                <li class="cor-azul">Vida de cada pilar aumentou de 250 para 375.</li>
+                <li class="cor-azul">Tamanho aumentado em 25%.</li>
+                <li class="cor-azul">Tempo de recarga aumentado de 12 para 18 segundos.</li>
+            </ul>
+            <h3>CONGELAMENTO CRIOGÊNICO</h3>
+            <ul>
+                <li class="cor-azul">Tamanho do gelo aumentadeo em 25%.</li>
+                <li class="cor-azul">Agora tem uma cura inicial e instantânea de 75 que também cura aliados num raio de 10 metros da Mei</li>
+                <li class="cor-azul">Tempo de recarga aumentado de XX para XX.</li>
+            </ul>
+            <h3>BLIZZARD</h3>
+            <ul>
+                <li class="cor-azul">Velocidade do projétil reduzida em 30%.</li>
+                <li class="cor-azul">Não recebe a redução na geração da suprema da passiva dos defensivos.</li>
+            </ul>
+            <div class="comentarios-atuarte">
+                <h4>COMENTÁRIOS DO CRIADOR</h4>
+                <p>Mei tanque 👍</p>
+            </div>
+        `
+    },
     "Ramattra": {
         img: "Imagem dos Heróis/Ramattra.png",
         texto: `
