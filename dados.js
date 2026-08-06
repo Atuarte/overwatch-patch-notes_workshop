@@ -111,7 +111,7 @@ const bancoDeDados = {
             <h3>OFENSIVA</h3>
             <ul>
                 <li class="cor-verde">Tamanho e hitbox reduzidos em -3%.</li>
-                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,325 (+15%).</li>
+                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
                 <li class="cor-laranja">Vida base reduzida de 525 para 300.</li>
                 <li class="cor-verde">Escudos aumentados de 0 para 150. Total: 450.</li>
             </ul>
@@ -131,6 +131,55 @@ const bancoDeDados = {
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
                 <p>A Rainha Junker é uma personagem que não se encaixa perfeitamente no papel de tanque defensivo tradicional, por isso, precisava de um caminho definido. Optei pela subclasse de Ofensiva, já que, na minha visão, ela não possui absolutamente nada que a tornaria uma tanque defensiva.</p>
+            </div>
+        `
+    },
+    "Symmetra": {
+        img: "Imagem dos Heróis/Symmetra.png",
+        texto: `
+            <h3>A Symmetra foi adicionada aos tanques ofensivos.</h3>
+            <h3>OFENSIVA</h3>
+            <ul>
+                <li class="cor-verde">Tamanho e hitbox aumentados em 20%.</li>
+                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
+                <li class="cor-laranja">Vida base aumentada de 125 para 200.</li>
+                <li class="cor-verde">Escudos aumentados de 150 para 225. Total: 425.</li>
+            </ul>
+            <h3>PROJETOR DE FÓTONS</h3>
+            <ul>
+                <li class="cor-azul">Dano do disparo primário reduzido de 60/120/180 para (-15% = 51/102/153).</li>
+                <li class="cor-azul">Alcance do disparo primário foi aumentado de 12m para 14,4m.</li>
+                <li class="cor-azul">Dano do disparo secundário reduzido de 100 para 85.</li>
+                <li class="cor-azul">Velocidade do projétil aumentada em 75%.</li>
+            </ul>
+            <h3>TORRE DE SENTINELA</h3>
+            <ul>
+                <li class="cor-azul">Tempo de recarga aumentado de 10 para 11,3 segundos.</li>
+                <li class="cor-azul">Velocidade do projétil aumentado em 75%.</li>
+                <li class="cor-azul">Dano reduzido de 30 para 25,5.</li>
+                <li class="cor-azul">Vida das sentinelas foi aumentada de 40 para 50.</li>
+            </ul>
+            <h3>TELETRANSPORTADOR</h3>
+            <ul>
+                <li class="cor-azul">Tempo de recarga reduzido de 12 para 9 segundos.</li>
+                <li class="cor-azul">Vida base aumentou de 100 para 125.</li>
+                <li class="cor-azul">Escudos aumentados de 200 para 250. Total: 375</li>
+            </ul>
+            <h3>BARREIRA DE FÓTONS</h3>
+            <ul>
+                <li class="cor-azul">Vida aumentada de 4000 para 5000.</li>
+            </ul>
+            <h3>PERK MENOR ***</h3>
+            <ul>
+                <li class="cor-azul">O alcance mámixo da perk funciona sobre o buff da distância máxima do feixe do projetor de fótons, indo de 14,4m para 17,28m.</li>
+            </ul>
+            <h3>BARREIRA FLUTUANTE - PERK MAIOR</h3>
+            <ul>
+                <li class="cor-azul">Vida da barreira aumentou de 600 para 750.</li>
+            </ul>
+            <div class="comentarios-atuarte">
+                <h4>COMENTÁRIOS DO CRIADOR</h4>
+                <p>Symmetra tanque 👍</p>
             </div>
         `
     },
@@ -388,14 +437,25 @@ const bancoDeDados = {
     "Ashe": {
         img: "Imagem dos Heróis/Ashe.png",
         texto: `
+        <h3>VIDA</h3>
+            <ul>
+                <li class="cor-verde">Vida base reduzida de 250 para 225.</li>
+            </ul>
             <h3>VÍBORA</h3>
             <ul>
-                <li class="cor-azul">Munição reduzida de 12 para 10.</li>
                 <li class="cor-azul">Acertos críticos devolvem munição.</li>
+                <li class="cor-azul">Mirar consumirá o dobro de munição.</li>
+                <li class="cor-azul">Dano do Mirar aumentado de 75 para 100.</li>
+                <li class="cor-azul">Multiplicador de dano crítico do Mirar reduzido de 2.0x para 1.5x</li>
+            </ul>
+            <h3>B.O.B.</h3>
+            <ul>
+                <li class="cor-azul">Vida do B.O.B. reduzida de XXXX para 900.</li>
+                <li class="cor-azul">Duração máxima aumentada de 10 para 12 segundos.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>Implementei uma nova mecânica para a Ashe que recompensa jogadores que possuem uma boa mira. Para compensar esse buff, reduzi um pouco a capacidade da sua munição, o que, de certa forma, acaba sendo benéfico, já que ela conseguirá recarregar o pente completo mais rapidamente.</p>
+                <p>...</p>
             </div>
         `
     },
@@ -620,43 +680,7 @@ const bancoDeDados = {
             </div>
         `
     },
-    "Symmetra": {
-        img: "Imagem dos Heróis/Symmetra.png",
-        texto: `
-            <h3>PROJETOR DE FÓTONS</h3>
-            <ul>
-                <li class="cor-azul">Velocidade do projétil aumentada em 50%.</li>
-            </ul>
-            <h3>TORRE DE SENTINELA</h3>
-            <ul>
-                <li class="cor-azul">Tempo de recarga aumentado de 10 para 11 segundos.</li>
-                <li class="cor-azul">Velocidade do projétil aumentado em 50%.</li>
-            </ul>
-            <div class="comentarios-atuarte">
-                <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>Como a Symmetra é a personagem que mais jogo na classe de DPS, percebi na prática que ela não tem a mesma efetividade no 6v6 quanto no 5v5. Embora ela cause muito dano, o foco é em um alvo só e, como no 6v6 geralmente enfrentamos dois tanques na linha de frente, ela acaba não conseguindo extrair o valor necessário. Dito isso, para evitar que ela precise se expor tanto na linha de frente, aumentei a velocidade do projétil do seu disparo secundário, tornando-a mais útil também a médias e longas distâncias. Como esse aumento na velocidade do projétil também afeta suas torres de sentinela, ajustei levemente o tempo de recarga delas para compensar.</p>
-            </div>
-        `
-    },
-    "Torbjörn": {
-        img: "Imagem dos Heróis/Torbjörn.png",
-        texto: `
-            <h3>VIDA</h3>
-            <ul>
-                <li class="cor-verde">Armadura aumentada de 75 para 100. Total: 325.</li>
-            </ul>
-            <h3>SOBRECARGA</h3>
-            <ul>
-                <li class="cor-azul">Tempo de recarga aumentado de 10 para 14 segundos.</li>
-                <li class="cor-azul">Duração aumentada de 6 para 9 segundos.</li>
-            </ul>
-            <div class="comentarios-atuarte">
-                <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>O Torbjörn está meio fraco ultimamente. Ele acaba dependendo muito da sua torreta para extrair algum valor, tanto para si mesmo quanto para sua equipe. Embora a torreta seja uma habilidade que ajude bastante, o herói fica muito limitado a ela para conseguir ter algum destaque no jogo.</p>
-                <p>O Torbjörn transmite uma sensação de suporte e de um DPS com muita vida; para reforçar isso, estou aumentando sua armadura, visando melhorar sua sobrevivência. Mesmo sendo um personagem de pequena estatura, ele possui uma hitbox grande, o que o torna um alvo fácil. Além de aumentar sua vida, estendi a duração da Sobrecarga. Com esse aumento de tempo, a torreta (que dispara foguetes durante o efeito) acaba se beneficiando, pois permanece ativa por mais tempo, fortalecendo a parte mais impactante do seu kit.</p>
-            </div>
-        `
-    },
+
     "Tracer": {
         img: "Imagem dos Heróis/Tracer.png",
         texto: `
@@ -1003,6 +1027,49 @@ const bancoDeDados = {
                 <p>O seu disparo primário agora funciona como um lança-chamas, curando aliados e causando dano a inimigos simultaneamente. Ambos os efeitos possuem o mesmo valor (80 de cura e 80 de dano por segundo). A diferença crucial é que, enquanto a cura possui um efeito residual que beneficia os aliados por um curto período após o uso, o dano do fogo é aplicado estritamente enquanto o gatilho for pressionado.</p>
                 <p>Já o disparo secundário passou por ajustes táticos: ele agora causa metade do dano base, mas compensa isso ao aplicar dano crítico em armaduras. Além disso, ganhou uma função antiaérea poderosa: personagens no ar são forçados ao solo e impedidos de voar ou pular enquanto recebem esse dano, que também desacelera a recarga das habilidades dos inimigos.</p>
                 <p>Por fim, mantive a nova passiva de explosão atordoante (stun) em golpes finais e a melhoria significativa na eficácia dos Orbes Bióticos, garantindo que a Moira tenha, finalmente, um impacto estratégico condizente com um suporte de alto nível.</p>
+            </div>
+        `
+    },
+    "Torbjörn": {
+        img: "Imagem dos Heróis/Torbjörn.png",
+        texto: `
+        <h3>O Torbjörn foi adicionado aos suportes.</h3>
+        <h3>Torbjörn *** recebe a passiva da sub-role original dos dps's</h3>
+            <h3>RESTAURAÇÃO (PASSIVA)</h3>
+            <ul>
+                <li>Torbjörn recebe a passiva da sub-role Restauração.</li>
+                <li class="cor-verde">Curar aliados com sua arma também cura o Torbjörn com 40% da cura.</li>
+            </ul>
+            <h3>PISTOLA DE REBIT ***</h3>
+            <ul>
+                <li class="cor-azul">Munição reduzida de 18 para 10.</li>
+                <li class="cor-azul">Disparo secundário removido. Agora, ele equipa o martelo de forja.</li>
+            </ul>
+            <h3>MARTELO DE FORJA ***</h3>
+            <ul>
+                <li class="cor-azul">Nova mecânica: O martelo vai disparar projéteis de cura.</li>
+                <li class="cor-azul">Os projéteis não terão munição.</li>
+                <li class="cor-azul">A cadência de tiro é de 1 tiro a cada 0,7 segundo (1,43 por segundo).</li>
+                <li class="cor-azul">O projétil tem alcance máximo de XXm e no final ele explode em uma área de 2,5m.</li>
+                <li class="cor-azul">O projétil cura 20 de vida e adiciona 25 de armadura que decai com o tempo (Tempo total para sumir tudo: 0,4 segundos).</li>
+                <li class="cor-azul">Causar dano diretamente com o martelo vai curar os aliados XXm à frente do Torbjörn em XX de vida</li>
+            </ul>
+            <h3>SOBRECARGA</h3>
+            <ul>
+                <li class="cor-azul">Tempo de recarga aumentado de 10 para 14 segundos.</li>
+                <li class="cor-azul">Duração aumentada de 6 para 9 segundos.</li>
+            </ul>
+            <h3>TORRETA***</h3>
+            <ul>
+                <li class="cor-azul">Tempo de recarga aumentado em 25%**.</li>
+            </ul>
+            <h3>NÚCLEO FUNDIDO***</h3>
+            <ul>
+                <li class="cor-azul">50% do dano causado pela ultimate vai virar cura para todos os aliados no mapa inteiro.</li>
+            </ul>
+            <div class="comentarios-atuarte">
+                <h4>COMENTÁRIOS DO CRIADOR</h4>
+                <p>Torbjörn Suporte 👍</p>
             </div>
         `
     },
