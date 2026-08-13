@@ -8,9 +8,9 @@ const bancoDeDados = {
         texto: `
             <h3>OFENSIVA</h3>
             <ul>
-                <li>Tamanho e hitbox reduzido em -3%.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
-                <li class="cor-azul">Tempo de recarga de propulsores reduzido de 4 para 3 segundos (-25%).</li>
+                <li>Tamanho e hitbox reduzido em 3%.</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
+                <li class="cor-azul">Tempo de recarga de propulsores reduzido de 4 para 3 segundos (25%).</li>
             </ul>
             <h3>VIDA</h3>
             <ul>
@@ -32,8 +32,8 @@ const bancoDeDados = {
         texto: `
             <h3>OFENSIVO</h3>
             <ul>
-                <li>Tamanho e hitbox reduzido em -3%.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
+                <li>Tamanho e hitbox reduzido em 3%.</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li class="cor-verde">Vida base reduzida de 525 para 225.</li>
                 <li class="cor-verde">Escudos aumentados de 0 para 200. Total: 425.</li>
             </ul>
@@ -43,12 +43,12 @@ const bancoDeDados = {
             </ul>
             <h3>SOCO FOGUETE</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga reduzido de 4 para 3,4 segundos (-15%).</li>
+                <li class="cor-azul">Tempo de recarga reduzido de 4 para 3,4 segundos (15%).</li>
                 <li class="cor-azul">Recupere 30 de vida por cada inimigo acertado. Aliados à 8 metros do Doomfist recebem 50% da cura.</li>
             </ul>
             <h3>ABALO SÍSMICO</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga reduzido de 6,5 para 5,525 segundos (-15%).</li>
+                <li class="cor-azul">Tempo de recarga reduzido de 6,5 para 5,525 segundos (15%).</li>
                 <li class="cor-azul">Recupere 30 de vida por cada inimigo acertado. Aliados à 8 metros do Doomfist recebem 50% da cura.</li>
             </ul>
             <div class="comentarios-atuarte">
@@ -63,10 +63,10 @@ const bancoDeDados = {
         texto: `
             <h3>OFENSIVO</h3>
             <ul>
-                <li>Tamanho e hitbox reduzido em -3%.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
+                <li>Tamanho e hitbox reduzido em 3%.</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li class="cor-verde">Vida base reduzida de 425 para 275. Total: 500.</li>
-                <li class="cor-azul">Tempo de recarga do Salto Brutal reduzido de 5,5 para 4,95 segundos (-10%).</li>
+                <li class="cor-azul">Tempo de recarga do Salto Brutal reduzido de 5,5 para 4,95 segundos (10%).</li>
             </ul>
         `
     },
@@ -75,10 +75,10 @@ const bancoDeDados = {
         texto: `
             <h3>OFENSIVA</h3>
             <ul>
-                <li>Tamanho e hitbox reduzido em -3%.</li>
+                <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li class="cor-verde">Vida base reduzida de 300 para 250.</li>
                 <li class="cor-verde">Armadura reduzida de 300 para 225. Total: 475.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
             </ul>
             <h3>FORTIFICAR</h3>
             <ul>
@@ -88,7 +88,7 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-azul">Tempo de recarga reduzido de 8 para 6 segundos.</li>
             </ul>
-            <h3>BARREIRA PROTETORA (PERK MAIOR)</h3>
+            <h3>BARREIRA PROTETORA - PERK MAIOR</h3>
             <ul>
                 <li class="cor-verde">Vida reduzida de 600 para 450.</li>
                 <li class="cor-azul">Tempo de recarga reduzido de 8 para 6 segundos.</li>
@@ -110,14 +110,14 @@ const bancoDeDados = {
         texto: `
             <h3>OFENSIVA</h3>
             <ul>
-                <li class="cor-verde">Tamanho e hitbox reduzidos em -3%.</li>
-                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
+                <li class="cor-verde">Tamanho e hitbox reduzidos em 3%.</li>
+                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li class="cor-laranja">Vida base reduzida de 525 para 300.</li>
                 <li class="cor-verde">Escudos aumentados de 0 para 150. Total: 450.</li>
             </ul>
             <h3>GRITO DE GUERRA</h3>
             <ul>
-                <li class="cor-verde">Tempo de recarga reduzido de 10 para 7,5 segundos (-25%).</li>
+                <li class="cor-verde">Tempo de recarga reduzido de 10 para 7,5 segundos (25%).</li>
                 <li>Nova mecânica: Agora causa sangramento a todos os inimigos atingidos no raio da habildade (15m).</li>
                 <li>Dano: 15 de dano por segundo.</li>
                 <li>Duração: 4 segundos (60 de dano total).</li>
@@ -126,7 +126,7 @@ const bancoDeDados = {
             <h3>CARNIFICINA</h3>
             <ul>
                 <li class="cor-verde">Nova mecânica: O impacto inicial do machado agora causa dano adicional instantâneo equivalente a 10% da vida máxima do alvo atingido.</li>
-                <li class="cor-laranja">Tempo de recarga aumentado de 9 para 12,15 segundos (+40%).</li>
+                <li class="cor-laranja">Tempo de recarga aumentado de 9 para 12,15 segundos (40%).</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -140,7 +140,7 @@ const bancoDeDados = {
             <h3>OFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox reduzidos em 3%.</li>
-                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
+                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li class="cor-verde">Vida base reduzida de 750 para 600.</li>
             </ul>
             <div class="comentarios-atuarte">
@@ -156,7 +156,7 @@ const bancoDeDados = {
             <h3>OFENSIVA</h3>
             <ul>
                 <li class="cor-verde">Tamanho e hitbox aumentados em 20%.</li>
-                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
+                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li class="cor-laranja">Vida base aumentada de 125 para 200.</li>
                 <li class="cor-verde">Escudos aumentados de 150 para 225. Total: 425.</li>
             </ul>
@@ -184,7 +184,7 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-azul">Vida aumentada de 4000 para 5000.</li>
             </ul>
-            <h3>PERK MENOR ***</h3>
+            <h3>ALINHAMENTO PERFEITO - PERK MENOR</h3>
             <ul>
                 <li class="cor-azul">O alcance mámixo da perk funciona sobre o buff da distância máxima do feixe do projetor de fótons, indo de 14,4m para 17,28m.</li>
             </ul>
@@ -203,10 +203,10 @@ const bancoDeDados = {
         texto: `
             <h3>OFENSIVO</h3>
             <ul>
-                <li>Tamanho e hitbox reduzido em -3%.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 (+15%).</li>
+                <li>Tamanho e hitbox reduzido em 3%.</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,325 (15%).</li>
                 <li class="cor-verde">Vida base reduzida de 425 para 275. Total: 475.</li>
-                <li class="cor-azul">Tempo de recarga do Salto a Jato reduzido de 5 para 4,5 segundos (-10%).</li>
+                <li class="cor-azul">Tempo de recarga do Salto a Jato reduzido de 5 para 4,5 segundos (10%).</li>
             </ul>
             <h3>CANHÃO DE TESLA</h3>
             <ul>
@@ -225,11 +225,11 @@ const bancoDeDados = {
         texto: `
             <h3>OFENSIVO</h3>
             <ul>
-                <li>Tamanho e hitbox reduzido em -3%.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 (+15%).</li>
+                <li>Tamanho e hitbox reduzido em 3%.</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,325 (15%).</li>
                 <li class="cor-verde">Vida base reduzida de 450 para 300. Total: 575.</li>
-                <li class="cor-azul">Tempo de recarga do Bate-Estaca reduzido de 5 para 6,8 segundos (-15%).</li>
-                <li class="cor-azul">Tempo de recarga da Garra reduzido de 5 para 4,25 segundos (-15%).</li>
+                <li class="cor-azul">Tempo de recarga do Bate-Estaca reduzido de 5 para 6,8 segundos (15%).</li>
+                <li class="cor-azul">Tempo de recarga da Garra reduzido de 5 para 4,25 segundos (15%).</li>
             </ul>
         `
     },
@@ -242,7 +242,7 @@ const bancoDeDados = {
         texto: `
             <h3>DEFENSIVA</h3>
             <ul>
-                <li>Tamanho e hitbox aumentados em +3%.</li>
+                <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li class="cor-verde">Vida base reduzida de 425 para 275. Total: 600.</li>
                 <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
             </ul>
@@ -269,7 +269,7 @@ const bancoDeDados = {
         texto: `
             <h3>DEFENSIVO</h3>
             <ul>
-                <li>Tamanho e hitbox aumentados em +3%.</li>
+                <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li class="cor-verde">Vida base reduzida de 575 para 425.</li>
                 <li class="cor-verde">Armadura aumentada de 150 para 250. Total: 675.</li>
                 <li class="cor-azul">Munição aumentada de 300 para 375.</li>
@@ -306,9 +306,9 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox aumentados em 25%.</li>
                 <li class="cor-verde">Vida base aumentada de 300 para 575.</li>
-                <li class="cor-laranja">*** Mei recebe a passiva da sub-role original dos dps's</li>
+                <li class="cor-laranja">Mei recebe a passiva da sub-role original dos dps's</li>
             </ul>
-            <h3>ARMA***</h3>
+            <h3>ANIQUILADOR ENDOTÉRMICO</h3>
             <ul>
                 <li class="cor-azul">Velocidade do projétil reduzida em 30%.</li>
                 <li class="cor-azul">Munição reduzida de 140 para 70.</li>
@@ -325,7 +325,7 @@ const bancoDeDados = {
                 <li class="cor-azul">Agora tem uma cura inicial e instantânea de 75 que também cura aliados num raio de 10 metros da Mei</li>
                 <li class="cor-azul">Tempo de recarga aumentado de 12s para 15s.</li>
             </ul>
-            <h3>BLIZZARD</h3>
+            <h3>NEVASCA</h3>
             <ul>
                 <li class="cor-azul">Velocidade do projétil reduzida em 30%.</li>
                 <li class="cor-azul">Não recebe a redução na geração da suprema da passiva dos defensivos.</li>
@@ -341,7 +341,7 @@ const bancoDeDados = {
         texto: `
             <h3>DEFENSIVO</h3>
             <ul>
-                <li>Tamanho e hitbox aumentado em +3%.</li>
+                <li>Tamanho e hitbox aumentado em 3%.</li>
                 <li class="cor-verde">Vida base reduzida de 425 para 275.</li>
                 <li class="cor-verde">Armadura aumentada de 100 para 225. Total: 500.</li>
                 <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
@@ -350,7 +350,7 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-azul">Munição aumentada de 100 para 150.</li>
                 <li class="cor-azul">Dano causado reduzido de 5 para 4.</li>
-                <li class="cor-azul">Velocidade do projétil aumentada em +100%.</li>
+                <li class="cor-azul">Velocidade do projétil aumentada em 100%.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -363,7 +363,7 @@ const bancoDeDados = {
         texto: `
             <h3>DEFENSIVO</h3>
             <ul>
-                <li>Tamanho e hitbox aumentados em +3%.</li>
+                <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li class="cor-verde">Vida base reduzida de 400 para 250.</li>
                 <li class="cor-verde">Armadura aumentada de 300 para 425. Total: 675.</li>
                 <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
@@ -375,7 +375,7 @@ const bancoDeDados = {
         texto: `
             <h3>DEFENSIVO E PLANADOR</h3>
             <ul>
-                <li>Tamanho e hitbox aumentados em +3%.</li>
+                <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li class="cor-laranja">Vida base reduzida de 350 para 200.</li>
                 <li class="cor-verde">Escudos aumentados de 250 para 450. Total: 650.</li>
                 <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
@@ -406,7 +406,7 @@ const bancoDeDados = {
         texto: `
             <h3>DEFENSIVA</h3>
             <ul>
-                <li>Tamanho e hitbox aumentados em +3%.</li>
+                <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li class="cor-verde">150 de vida foram convertidos em escudos. Total: 550.</li>
                 <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
             </ul>
@@ -548,7 +548,7 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-verde">Vida reduzida de 250 para 225.</li>
             </ul>
-            <h3>*** DESVIAR</h3>
+            <h3>DESVIAR</h3>
             <ul>
                 <li>Tempo de recarga aumentado de XX para XX.</li>
                 <li>Todo dano defletido será aumentado em 50%.</li>
@@ -741,7 +741,7 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-verde">75 da vida foram convertidos em escudos.</li>
             </ul>
-            <h3>*** ARMA</h3>
+            <h3>RIFLE BIÓTICO</h3>
             <ul>
                 <li>Enquanto Ana estiver no modo sem mira, ela ganha 20% de roubo de vida. Não se aplica enquanto estiver mirando!</li>
             </ul>
@@ -791,7 +791,7 @@ const bancoDeDados = {
             </ul>
             <h3>DISPARO AÇOITADOR</h3>
             <ul>
-                <li class="cor-azul">Repulsão causada aumentada em +10%.</li>
+                <li class="cor-azul">Repulsão causada aumentada em 10%.</li>
                 <li class="cor-azul">Tempo de recarga aumentado de 4 para 5 segundos.</li>
                 <li class="cor-azul">Cancela habilidades de movimentação.</li>
             </ul>
@@ -801,7 +801,7 @@ const bancoDeDados = {
                 <li class="cor-azul">Agora, ao invés de voltar 1 carga de cada vez, todas voltam juntas.</li>
             <h3>REAGRUPAR</h3>
             <ul>
-                <li class="cor-azul">Aumenta o tamanho da barreira em +50%.</li>
+                <li class="cor-azul">Aumenta o tamanho da barreira em 50%.</li>
                 <li class="cor-azul">Brigitte não receberá repulsão durante o Reagrupar.</li>
                 <li class="cor-verde">Reagrupar ativa automaticamente o Inspirar, pulsando a cada segundo 30 de cura instantânea.</li>
             </ul>
@@ -857,10 +857,10 @@ const bancoDeDados = {
     "Kiriko": {
         img: "Imagem dos Heróis/Kiriko.png",
         texto: `
-        <h3>*** SUZU DE PROTEÇÃO</h3>
+        <h3>SUZU DE PROTEÇÃO</h3>
             <ul>
                 <li>Tempo de recarga aumentado de 14 para 31s.</li>
-                <li>Nova mecânica de redução dinâmica: *** Ofuda de cura reduz -0,25s por acerto; Kunai no corpo reduz -0,75s; Kunai na cabeça reduz -1,50s.</li>
+                <li>Nova mecânica de redução dinâmica: Ofuda de cura reduz -0,25s por acerto; Kunai no corpo reduz -0,75s; Kunai na cabeça reduz -1,50s.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -877,16 +877,16 @@ const bancoDeDados = {
             </ul>
             <h3>DESABROCHAR CURATIVO</h3>
             <ul>
-                <li class="cor-azul">Velocidade de projétil reduzida em -50%.</li>
-                <li class="cor-verde">Cura aumentada em +50% (mínimo de 10 para 15 e máximo de 90 para 135).</li>
+                <li class="cor-azul">Velocidade de projétil reduzida em 50%.</li>
+                <li class="cor-verde">Cura aumentada em 50% (mínimo de 10 para 15 e máximo de 90 para 135).</li>
             </ul>
             <h3>SARAIVADA DE ESPINHOS</h3>
             <ul>
-                <li class="cor-azul">Velocidade de projétil aumentada em +35%.</li>
+                <li class="cor-azul">Velocidade de projétil aumentada em 35%.</li>
             </ul>
             <h3>PLATAFORMA DE PÉTALAS</h3>
             <ul>
-                <li class="cor-azul">Velocidade de projétil reduzida em -50%.</li>
+                <li class="cor-azul">Velocidade de projétil reduzida em 50%.</li>
                 <li class="cor-verde">Vida aumentada de 300 para 375.</li>
             </ul>
             <div class="comentarios-atuarte">
@@ -1002,8 +1002,8 @@ const bancoDeDados = {
 
             <h3>ORBE BIÓTICO</h3>
             <ul>
-                <li class="cor-verde">Capacidade máxima de cura e dano aumentado em +50%.</li>
-                <li class="cor-azul">Velocidade do projétil reduzido em -50%.</li>
+                <li class="cor-verde">Capacidade máxima de cura e dano aumentado em 50%.</li>
+                <li class="cor-azul">Velocidade do projétil reduzido em 50%.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -1024,12 +1024,12 @@ const bancoDeDados = {
                 <li>Torbjörn recebe a passiva da sub-role Restauração.</li>
                 <li class="cor-verde">Curar aliados com sua arma também cura o Torbjörn com 40% da cura.</li>
             </ul>
-            <h3>PISTOLA DE REBIT ***</h3>
+            <h3>PISTOLA DE REBITE</h3>
             <ul>
                 <li class="cor-azul">Munição reduzida de 18 para 10.</li>
                 <li class="cor-azul">Disparo secundário removido. Agora, ele equipa o martelo de forja.</li>
             </ul>
-            <h3>MARTELO DE FORJA ***</h3>
+            <h3>MARTELO DE FORJA</h3>
             <ul>
                 <li class="cor-azul">Nova mecânica: O martelo vai criar uma aura visual de 5m (visível apenas para o Torbjörn).</li>
                 <li class="cor-azul">Cada martelada vai curar 70 de vida todos os aliados que estiverem no campo de visão do Torbjörn e dentro da aura.</li>
@@ -1039,11 +1039,11 @@ const bancoDeDados = {
                 <li class="cor-azul">Tempo de recarga reduzido de 10 para 7.5 segundos.</li>
                 <li class="cor-azul">Duração reduzida de 6 para 3 segundos.</li>
             </ul>
-            <h3>TORRETA***</h3>
+            <h3>POSICIONAR TORRE</h3>
             <ul>
                 <li class="cor-azul">Tempo de recarga aumentado em 25%**.</li>
             </ul>
-            <h3>NÚCLEO FUNDIDO***</h3>
+            <h3>NÚCLEO FUNDIDO</h3>
             <ul>
                 <li class="cor-azul">50% do dano causado pela ultimate vai virar cura para todos os aliados no mapa inteiro.</li>
             </ul>
