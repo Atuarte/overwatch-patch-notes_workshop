@@ -66,7 +66,7 @@ const bancoDeDados = {
                 <li>Tamanho e hitbox reduzido em -3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
                 <li class="cor-verde">Vida base reduzida de 425 para 275. Total: 500.</li>
-                <li class="cor-azul">Tempo de recarga do Salto Brutal reduzido de 5,5 para 4,125 segundos (-25%).</li>
+                <li class="cor-azul">Tempo de recarga do Salto Brutal reduzido de 5,5 para 4,95 segundos (-10%).</li>
             </ul>
         `
     },
@@ -134,6 +134,21 @@ const bancoDeDados = {
             </div>
         `
     },
+    "Roadhog": {
+        img: "Imagem dos Heróis/Roadhog.png",
+        texto: `
+            <h3>OFENSIVO</h3>
+            <ul>
+                <li>Tamanho e hitbox reduzidos em 3%.</li>
+                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (+10%).</li>
+                <li class="cor-verde">Vida base reduzida de 750 para 600.</li>
+            </ul>
+            <div class="comentarios-atuarte">
+                <h4>COMENTÁRIOS DO CRIADOR</h4>
+                <p>Precisava de mais tanques nos ofensivos, aí eu escolhi o Roadhog para isso.</p>
+            </div>
+        `
+    },
     "Symmetra": {
         img: "Imagem dos Heróis/Symmetra.png",
         texto: `
@@ -147,14 +162,14 @@ const bancoDeDados = {
             </ul>
             <h3>PROJETOR DE FÓTONS</h3>
             <ul>
-                <li class="cor-azul">Dano do disparo primário reduzido de 60/120/180 para (-15% = 51/102/153).</li>
+                <li class="cor-azul">Dano do disparo primário reduzido de 60/120/180 para 51/102/153.</li>
                 <li class="cor-azul">Alcance do disparo primário foi aumentado de 12m para 14,4m.</li>
                 <li class="cor-azul">Dano do disparo secundário reduzido de 100 para 85.</li>
                 <li class="cor-azul">Velocidade do projétil aumentada em 75%.</li>
             </ul>
             <h3>TORRE DE SENTINELA</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga aumentado de 10 para 11,3 segundos.</li>
+                <li class="cor-azul">Tempo de recarga aumentado de 10 para 10,3 segundos.</li>
                 <li class="cor-azul">Velocidade do projétil aumentado em 75%.</li>
                 <li class="cor-azul">Dano reduzido de 30 para 25,5.</li>
                 <li class="cor-azul">Vida das sentinelas foi aumentada de 40 para 50.</li>
@@ -191,7 +206,7 @@ const bancoDeDados = {
                 <li>Tamanho e hitbox reduzido em -3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,325 (+15%).</li>
                 <li class="cor-verde">Vida base reduzida de 425 para 275. Total: 475.</li>
-                <li class="cor-azul">Tempo de recarga do Salto a Jato reduzido de 5 para 3,75 segundos (-25%).</li>
+                <li class="cor-azul">Tempo de recarga do Salto a Jato reduzido de 5 para 4,5 segundos (-10%).</li>
             </ul>
             <h3>CANHÃO DE TESLA</h3>
             <ul>
@@ -222,6 +237,21 @@ const bancoDeDados = {
     // ==========================================
     // TANQUES (DEFENSIVOS)
     // ==========================================
+    "D.Mon": {
+        img: "Imagem dos Heróis/D.Mon.png",
+        texto: `
+            <h3>DEFENSIVA</h3>
+            <ul>
+                <li>Tamanho e hitbox aumentados em +3%.</li>
+                <li class="cor-verde">Vida base reduzida de 425 para 275. Total: 600.</li>
+                <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
+            </ul>
+            <h3>NOVA PASSIVA</h3>
+            <ul>
+                <li>D.Mon ganha 25% (pensando em aumentar para 50%) de roubo de vida com todas as suas habilidades.</li>
+            </ul>
+        `
+    },
     "Domina": {
         img: "Imagem dos Heróis/Domina.png",
         texto: `
@@ -276,11 +306,12 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox aumentados em 25%.</li>
                 <li class="cor-verde">Vida base aumentada de 300 para 575.</li>
-                <li class="cor-laranja">Mei *** recebe a passiva da sub-role original dos dps's</li>
+                <li class="cor-laranja">*** Mei recebe a passiva da sub-role original dos dps's</li>
             </ul>
             <h3>ARMA***</h3>
             <ul>
                 <li class="cor-azul">Velocidade do projétil reduzida em 30%.</li>
+                <li class="cor-azul">Munição reduzida de 140 para 70.</li>
             </ul>
             <h3>MURALHA DE GELO</h3>
             <ul>
@@ -292,7 +323,7 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-azul">Tamanho do gelo aumentadeo em 25%.</li>
                 <li class="cor-azul">Agora tem uma cura inicial e instantânea de 75 que também cura aliados num raio de 10 metros da Mei</li>
-                <li class="cor-azul">Tempo de recarga aumentado de XX para XX.</li>
+                <li class="cor-azul">Tempo de recarga aumentado de 12s para 15s.</li>
             </ul>
             <h3>BLIZZARD</h3>
             <ul>
@@ -337,29 +368,6 @@ const bancoDeDados = {
                 <li class="cor-verde">Armadura aumentada de 300 para 425. Total: 675.</li>
                 <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
             </ul>
-        `
-    },
-    "Roadhog": {
-        img: "Imagem dos Heróis/Roadhog.png",
-        texto: `
-            <h3>DEFENSIVO</h3>
-            <ul>
-                <li>Tamanho e hitbox aumentados em +3%.</li>
-                <li class="cor-verde">Vida base reduzida de 750 para 375.</li>
-                <li class="cor-verde">Escudos aumentados de 0 para 375. Total: 750.</li>
-                <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
-                <li class="cor-azul">Munição aumentada de 6 para 8.</li>
-            </ul>
-            <h3>ARMA DE SUCATA</h3>
-            <ul>
-                <li class="cor-azul">Disparo primário: Velocidade do projétil reduzida em -50%.</li>
-                <li class="cor-azul">Disparo secundário: Velocidade do projétil aumentada em +50%.</li>
-            </ul>
-            <div class="comentarios-atuarte">
-                <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>Em relação à arma de sucata do Roadhog: deperto ele era muito forte e, de longe, nem tanto. Por isso, inverti esse comportamento para equilibrar o herói; agora, ele será um pouco mais fraco em curta distância e mais forte a longa distância.</p>
-                <p>Quanto à sua vida, o Roadhog é um tanque cuja mitigação de dano é baseada na autocura. Para auxiliar na sua recuperação, converti metade da sua vida total para escudos.</p>
-            </div>
         `
     },
    "Sigma": {
@@ -426,11 +434,10 @@ const bancoDeDados = {
             <h3>DUELISTA</h3>
             <ul>
                 <li class="cor-verde">Vida reduzida de 250 para 200.</li>
-                <li>Velocidade de movimento aumentada de 6 para 6,6 m por segundo (+10%).</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>A Anran será a única duelista que não receberá o bônus de 15% de velocidade de movimento, ficando restrita a 10%, pois ela já se encontra forte demais no jogo. Atualmente, ela é uma das três únicas personagens que se deslocam a 6 m/s, ao lado de Tracer e Genji. Conceder o bônus total de 15% faria com que ela atingisse quase 7 m/s, o que seria excessivo; por isso, optei por reduzir esse bônus especificamente para ela.</p>
+                <p>A Anran está bem forte atualmente e, com as passivas dos Duelistas, ela ficaria quebrada, por isso ela perde mais vida em relação aos outros Duelistas.</p>
             </div>
         `
     },
@@ -443,7 +450,7 @@ const bancoDeDados = {
             </ul>
             <h3>VÍBORA</h3>
             <ul>
-                <li class="cor-azul">Acertos críticos devolvem munição.</li>
+                <li class="cor-azul">Acertos críticos devolvem 1 de munição.</li>
                 <li class="cor-azul">Mirar consumirá o dobro de munição.</li>
                 <li class="cor-azul">Dano do Mirar aumentado de 75 para 100.</li>
                 <li class="cor-azul">Multiplicador de dano crítico do Mirar reduzido de 2.0x para 1.5x</li>
@@ -498,12 +505,12 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA E PLANADORA</h3>
             <ul>
-                <li class="cor-verde">Vida base reduzida de 150 para 100. Total: 175.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 m por segundo (+15%).</li>
+                <li class="cor-verde">Vida base reduzida de 150 para 100.</li>
+                <li class="cor-verde">Escudos aumentados de 75 para 100. Total: 200.</li>
             </ul>
             <h3>DUPLICAR</h3>
             <ul>
-                <li class="cor-laranja">Por causa de uma regra do workshop, Echo, ao Duplicar, fica com 60% a menos de vida com um adicional de 45 de escudos e 40 de vida.</li>
+                <li class="cor-laranja">Por causa de uma regra do workshop, Echo, ao Duplicar, fica com 60% a menos de vida com um adicional de 70 de escudos e 40 de vida.</li>
                 <li class="cor-laranja">Custo da suprema reduzido em 15%.</li>
             </ul>
             <div class="comentarios-atuarte">
@@ -530,29 +537,8 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 225 para 175.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 m por segundo (+15%).</li>
+                <li class="cor-verde">Vida reduzida de 225 para 200.</li>
             </ul>
-
-            <h3>PREPARAR E APONTAR</h3>
-            <ul>
-                <li class="cor-azul">Tempo de recarga reduzido em 25%.</li>
-                <li class="cor-azul">Duração aumentada em 25%.</li>
-            </ul>
-
-            <h3>INVESTIDA ÁGIL</h3>
-            <ul>
-                <li class="cor-azul">Distância aumentada de 20 para 24 m por segundo (+20%).</li>
-            </ul>
-
-            <h3>LUFADA AOS CÉUS</h3>
-            <ul>
-                <li class="cor-azul">Altura aumentada em 20%.</li>
-            </ul>
-            <div class="comentarios-atuarte">
-                <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>Ao ser incluída na subfunção de Duelistas, a Freja sofreu a redução de vida padrão da categoria. No entanto, essa mudança deixou seu total de vida baixo demais. Para compensar, estou aprimorando a mobilidade de todas as suas habilidades, aumentando tanto a distância quanto a velocidade de deslocamento. Além disso, melhorei o poder ofensivo da sua Flecha Explosiva para que ela tenha mais chances de ativar a passiva de eliminação dos Duelistas mais rapidamente, guaranteeing que ela receba a cura e o reset de habilidades necessários para se manter no combate.</p>
-            </div>
         `
     },
     "Genji": {
@@ -560,8 +546,12 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 250 para 200.</li>
-                <li>Velocidade de movimento aumentada de 6 para 6,9 m por segundo (+15%).</li>
+                <li class="cor-verde">Vida reduzida de 250 para 225.</li>
+            </ul>
+            <h3>*** DESVIAR</h3>
+            <ul>
+                <li>Tempo de recarga aumentado de XX para XX.</li>
+                <li>Todo dano defletido será aumentado em 50%.</li>
             </ul>
         `
     },
@@ -570,8 +560,7 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 225 para 175.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 m por segundo (+15%).</li>
+                <li class="cor-verde">Vida reduzida de 225 para 200.</li>
             </ul>
 
             <h3>SUSPENSÃO A JATO</h3>
@@ -596,8 +585,7 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 275 para 225.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 m por segundo (+15%).</li>
+                <li class="cor-verde">Vida reduzida de 275 para 250.</li>
             </ul>
         `
     },
@@ -606,8 +594,7 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 250 para 200.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 m por segundo (+15%).</li>
+                <li class="cor-verde">Vida reduzida de 250 para 225.</li>
             </ul>
         `
     },
@@ -642,9 +629,7 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 225 para 100.</li>
-                <li class="cor-verde">Escudos aumentados de 0 para 75. Total: 175.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 m por segundo (+15%).</li>
+                <li class="cor-verde">Vida reduzida de 225 para 200.</li>
             </ul>
             <h3>HACKEAR</h3>
             <ul>
@@ -684,20 +669,10 @@ const bancoDeDados = {
     "Tracer": {
         img: "Imagem dos Heróis/Tracer.png",
         texto: `
-            <h3>DUELISTA</h3>
-            <ul>
-                <li class="cor-verde">Vida reduzida de 175 para 150.</li>
-                <li>Velocidade de movimento aumentada de 6 para 6,9 m por segundo (+15%).</li>
-            </ul>
-            <h3>PISTOLAS ELETROMAGNÉTICAS</h3>
-            <ul>
-                <li class="cor-azul">Munição aumentada de 40 para 60.</li>
-                <li class="cor-azul">Tracer ganha 20% de roubo de vida.</li>
-            </ul>
+            <h3>A Tracer foi adicionada aos Duelistas.</h3>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>A Tracer foi a personagem mais afetada pela introdução da subfunção de Duelistas. Como ela já possui pouca vida, o ajuste padrão da categoria a tornaria extremamente frágil. Contudo, conceder a ela todas as passivas de Duelista — como dano aumentado contra alvos feridos, bônus de velocidade, cura por eliminação e reset de habilidades — sem qualquer penalidade, a tornaria, sem dúvida, o personagem mais forte do jogo.</p>
-                <p>Por isso, apliquei um nerf mais contido: em vez da redução total de 50 de vida imposta aos outros duelistas, reduzi apenas 25, retornando-a ao patamar de 150 de vida do Overwatch 1. Para compensar essa vulnerabilidade e o risco aumentado, aumentei sua capacidade de munição e adicionei uma mecânica de vampirismo. Isso garantirá que ela tenha a sustentação necessária para permanecer ativa no combate, mesmo com uma barra de vida tão baixa.</p>
+                <p>Mexer nesse boneco é tenso, qualquer coisinha ela fica forte demais. Estou apto para sugestões.</p>
             </div>
         `
     },
@@ -708,11 +683,10 @@ const bancoDeDados = {
             <ul>
                 <li class="cor-verde">Vida base reduzida de 200 para 100.</li>
                 <li class="cor-verde">Armadura aumentada de 75 para 125. Total: 225.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 m por segundo (+15%).</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>A Vendetta foi tão "nerfada" pela Blizzard ao longo do tempo que eu mesmo passei a chamá-la de "Nerfetta". Para compensar, estou devolvendo a ela a quantidade original de armadura que possuía quando foi introduzida ao jogo. No entanto, como ela foi enquadrada na subfunção de Duelistas, apliquei a redução padrão de 50 de vida no seu total, buscando encontrar um equilíbrio que respeite o seu design original sem descaracterizar o seu papel na nova categoria.</p>
+                <p>Vendetta perdeu mais vida total em comparação à maioria dos Duelistas, mas ela ganha mais armadura para compensar. Acredito que isso possa equilibrá-la.</p>
             </div>
         `
     },
@@ -721,13 +695,12 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 250 para 200.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 m por segundo (+15%).</li>
+                <li class="cor-verde">Vida reduzida de 250 para 225.</li>
             </ul>
             <h3>EXPLORAÇÃO DETERMINADA (PASSIVA)</h3>
             <ul>
-                <li class="cor-verde">Geração de escudos reduzida em 20%.</li>
-                <li class="cor-verde">Quando tiver mais de 59 de escudos, ganha 1 adicional de 15 de escudos. Escudos totais: 75.</li>
+                <li class="cor-verde">Geração de escudos reduzida em 10%.</li>
+                <li class="cor-verde">Quando tiver mais de 66 de escudos, ganha 1 adicional de 9 de escudos. Escudos totais: 75.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -767,6 +740,10 @@ const bancoDeDados = {
             <h3>VIDA</h3>
             <ul>
                 <li class="cor-verde">75 da vida foram convertidos em escudos.</li>
+            </ul>
+            <h3>*** ARMA</h3>
+            <ul>
+                <li>Enquanto Ana estiver no modo sem mira, ela ganha 20% de roubo de vida. Não se aplica enquanto estiver mirando!</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -820,7 +797,7 @@ const bancoDeDados = {
             </ul>
             <h3>KIT DE REPAROS</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga aumentado de 5 para 12 segundos.</li>
+                <li class="cor-azul">Tempo de recarga aumentado de 5 para 10 segundos.</li>
                 <li class="cor-azul">Agora, ao invés de voltar 1 carga de cada vez, todas voltam juntas.</li>
             <h3>REAGRUPAR</h3>
             <ul>
@@ -841,8 +818,7 @@ const bancoDeDados = {
         texto: `
             <h3>RIFLE SOLAR</h3>
             <ul>
-                <li class="cor-azul">Multiplicador de dano crítico aumentado de 1.5 para 1.6x. Headshot mínimo aumentado de 37,5 para 40 e máximo de 112,5 para 120.
-</li>
+                <li class="cor-azul">Multiplicador de dano crítico aumentado de 1.5 para 1.6x. Headshot mínimo aumentado de 37,5 para 40 e máximo de 112,5 para 120.</li>
                 <li class="cor-azul">Adicionada mecânica de dano em área: Disparos geram explosão de 5m ao colidir com superfícies, barreiras ou inimigos. Causa 10 de dano fixo + 10% do dano original ao atingir inimigos na área. Acertos diretos não recebem dano explosivo.</li>
             </ul>
             <h3>EXPLOSÃO</h3>
@@ -878,6 +854,20 @@ const bancoDeDados = {
             </div>
         `
     },
+    "Kiriko": {
+        img: "Imagem dos Heróis/Kiriko.png",
+        texto: `
+        <h3>*** SUZU DE PROTEÇÃO</h3>
+            <ul>
+                <li>Tempo de recarga aumentado de 14 para 31s.</li>
+                <li>Nova mecânica de redução dinâmica: *** Ofuda de cura reduz -0,25s por acerto; Kunai no corpo reduz -0,75s; Kunai na cabeça reduz -1,50s.</li>
+            </ul>
+            <div class="comentarios-atuarte">
+                <h4>COMENTÁRIOS DO CRIADOR</h4>
+                <p>O Suzu da Kiriko é a habilidade mais forte do jogo há muito tempo. Para não nerfá-la completamente, adicionei uma mecânica que exigirá mais esforço dos jogadores para 'contornar' esse nerf. Agora, a habilidade mais forte do jogo não será mais tão simples de usar.</p>
+            </div>
+        `
+    },
     "Lifeweaver": {
         img: "Imagem dos Heróis/Lifeweaver.png",
         texto: `
@@ -887,7 +877,7 @@ const bancoDeDados = {
             </ul>
             <h3>DESABROCHAR CURATIVO</h3>
             <ul>
-                <li class="cor-azul">Velocidade de projétil reduzida em -60%.</li>
+                <li class="cor-azul">Velocidade de projétil reduzida em -50%.</li>
                 <li class="cor-verde">Cura aumentada em +50% (mínimo de 10 para 15 e máximo de 90 para 135).</li>
             </ul>
             <h3>SARAIVADA DE ESPINHOS</h3>
@@ -966,32 +956,26 @@ const bancoDeDados = {
         texto: `
         <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 250 para 150.</li>
-                <li class="cor-verde">Escudos aumentados de 0 para 125. Total: 275.</li>
+                <li class="cor-verde">Vida reduzida de 250 para 100.</li>
+                <li class="cor-verde">Escudos aumentados de 0 para 125. Total: 225.</li>
             </ul>    
         <h3>AURA MEDICINAL</h3>
             <ul>
                 <li class="cor-verde">10% do dano causado vira cura na área da Aura Medicinal.</li>
                 <li class="cor-verde">Cura mínima p/ aliados reduzida (5 para 4) e máxima (20 para 16). Para o Mizuki, cura mínima reduzida (3,5 para 2,8) e máxima (14 para 11,2) por segundo.</li>
             </ul>
-            <h3>GLAVE ESPIRITUAL</h3>
-            <ul>
-                <li class="cor-azul">Velocidade de projétil aumentada em +100%.</li>
-            </ul>
             <h3>KASA MEDICINAL</h3>
             <ul>
-                <li class="cor-azul">Velocidade de projétil aumentada em +100%.</li>
                 <li class="cor-verde">Cura reduzida: 72 (1º ricochete), 56 (2º), 40 (3º) e 32 (em si).</li>
             </ul>
             <h3>SANTUÁRIO KEKKAI</h3>
             <ul>
                 <li class="cor-verde">Cura inicial reduzida de 100 para 80 e cura ao longo do tempo de 40 para 32.</li>
-                <li class="cor-laranja">Carrega 20% mais rápido.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>Devido à estatura elevada do Mizuki, aumentei sua vida base para que ele se equipare melhor a personagens com porte físico semelhante, como os de Marvel Rivals. Além disso, para alinhar seu desempenho ao formato 6v6, reduzi sua cura máxima de 20 para 16 por segundo.</p>
-                <p>Como essa redução impacta sua saída de cura geral, introduzi uma nova passiva: 10% do dano que ele causa é convertido em cura instantânea. Essa mecânica, somada à conversão de metade da sua vida para escudos, visa melhorar sua sustentabilidade e permitir que ele atue como uma mistura entre Lúcio e Brigitte, incentivando uma postura mais agressiva. Para viabilizar esse estilo de jogo ofensivo, aumentei a velocidade do seu projétil em 100%, mantendo o alcance original de 30 metros. Por fim, como a cura passiva foi reduzida, aprimorei a taxa de carregamento da sua habilidade suprema para que ele mantenha seu impacto estratégico na partida.</p>
+                <p>Para alinhar seu desempenho ao formato 6v6, reduzi sua cura máxima de 20 para 16 por segundo.</p>
+                <p>Como essa redução impacta sua saída de cura geral, introduzi uma nova passiva: 10% do dano que ele causa é convertido em cura instantânea. Essa mecânica, somada à conversão de parte da sua vida para escudos, visa melhorar sua sustentabilidade e permitir que ele atue como uma mistura entre Lúcio e Brigitte.</p>
             </div>
         `
     },
@@ -1011,7 +995,7 @@ const bancoDeDados = {
             <h3>PUNHO BIÓTICO (DISPARO SECUNDÁRIO)</h3>
             <ul>
                 <li class="cor-azul">Dano reduzido de 65 para 32,5 por segundo.</li>
-                <li class="cor-azul">Derruba inimigos que estiverem no ar.</li>
+                <li class="cor-azul">Acumular 125 de dano no mesmo alvo aplica Congelamento por 0,75s (exige 250 de dano em Armaduras).</li>
                 <li class="cor-azul">Inimigos têm os tempos de recarga das suas habilidades 25% mais lentos.</li>
                 <li class="cor-azul">Causa 100% a mais de dano à armaduras.</li>
             </ul>
@@ -1034,7 +1018,7 @@ const bancoDeDados = {
         img: "Imagem dos Heróis/Torbjörn.png",
         texto: `
         <h3>O Torbjörn foi adicionado aos suportes.</h3>
-        <h3>Torbjörn *** recebe a passiva da sub-role original dos dps's</h3>
+        <h3>Torbjörn não recebe a passiva da sub-role original dos dps's</h3>
             <h3>RESTAURAÇÃO (PASSIVA)</h3>
             <ul>
                 <li>Torbjörn recebe a passiva da sub-role Restauração.</li>
@@ -1047,17 +1031,13 @@ const bancoDeDados = {
             </ul>
             <h3>MARTELO DE FORJA ***</h3>
             <ul>
-                <li class="cor-azul">Nova mecânica: O martelo vai disparar projéteis de cura.</li>
-                <li class="cor-azul">Os projéteis não terão munição.</li>
-                <li class="cor-azul">A cadência de tiro é de 1 tiro a cada 0,7 segundo (1,43 por segundo).</li>
-                <li class="cor-azul">O projétil tem alcance máximo de XXm e no final ele explode em uma área de 2,5m.</li>
-                <li class="cor-azul">O projétil cura 20 de vida e adiciona 25 de armadura que decai com o tempo (Tempo total para sumir tudo: 0,4 segundos).</li>
-                <li class="cor-azul">Causar dano diretamente com o martelo vai curar os aliados XXm à frente do Torbjörn em XX de vida</li>
+                <li class="cor-azul">Nova mecânica: O martelo vai criar uma aura visual de 5m (visível apenas para o Torbjörn).</li>
+                <li class="cor-azul">Cada martelada vai curar 70 de vida todos os aliados que estiverem no campo de visão do Torbjörn e dentro da aura.</li>
             </ul>
             <h3>SOBRECARGA</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga aumentado de 10 para 14 segundos.</li>
-                <li class="cor-azul">Duração aumentada de 6 para 9 segundos.</li>
+                <li class="cor-azul">Tempo de recarga reduzido de 10 para 7.5 segundos.</li>
+                <li class="cor-azul">Duração reduzida de 6 para 3 segundos.</li>
             </ul>
             <h3>TORRETA***</h3>
             <ul>
