@@ -251,7 +251,6 @@ a.botao-menu {
 /* =========================================
    4. ÁREA PRINCIPAL (Conteúdo Central)
    ========================================= */
-/* Movido para a regra principal na linha 144 para evitar conflitos */
 
 /* 🎯 MARCA D'ÁGUA ESTÁTICA E FIXA */
 .marca-dagua-fundo {
@@ -296,10 +295,6 @@ a.botao-menu {
 .lista-cores li {
     color: var(--dourado-noctune); /* Destaca as listinhas principais */
 }
-
-.cor-verde { color: #28CC2D; }
-.cor-azul { color: #6699FF; }
-.cor-laranja { color: #FF7A00; }
 
 .lista-paginas li {
     color: var(--branco); 
@@ -446,7 +441,7 @@ a.botao-menu {
 .modal-header::before {
     content: "";
     display: block;
-    width: 10px;                         /* Espessura da linha */
+    width: 10px;                        /* Espessura da linha */
     height: 105px;                        /* Altura da linha (deixa folga em cima e embaixo) */
     background-color: var(--roxo-fundo-escuro); /* Usa o roxo oficial */
     border-radius: 0px;                /* Pontas arredondadas como na sua simulação */
@@ -503,6 +498,25 @@ a.botao-menu {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
+    
+    display: flex;
+    align-items: center; /* Mantém o alinhamento técnico */
+    gap: 10px; 
+}
+
+.icone-habilidade {
+    height: 26px; /* Reduzi um pentelhésimo para encaixar melhor com a fonte tamanho 20 */
+    width: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(79%) sepia(50%) saturate(614%) hue-rotate(352deg) brightness(101%) contrast(93%);
+    
+    /* 🎯 A MÁGICA AQUI: Empurra o ícone visualmente para cima, ignorando a caixa do flexbox */
+    position: relative;
+    top: -4px; 
+}
+
+.modal-body h3:first-child {
+    margin-top: 0;
 }
 
 .modal-body h3:first-child {
@@ -512,10 +526,7 @@ a.botao-menu {
 /* =======================================================
    A MÁGICA DOS TEXTOS: Força o conteúdo das listas a ficar branco
    ======================================================= */
-.modal-body li,
-.modal-body .cor-verde,
-.modal-body .cor-azul,
-.modal-body .cor-laranja { 
+.modal-body li { 
     color: var(--branco); 
 }
 

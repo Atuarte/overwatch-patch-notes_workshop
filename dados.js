@@ -10,16 +10,16 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li class="cor-azul">Tempo de recarga de propulsores reduzido de 4 para 3 segundos (25%).</li>
+                <li>Tempo de recarga de propulsores reduzido de 4 para 3 segundos (25%).</li>
             </ul>
             <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">Vida base reduzida de 325 para 225. Total: 500.</li>
+                <li>Vida base reduzida de 325 para 225. Total: 500.</li>
             </ul>
-            <h3>MATRIZ DE DEFESA</h3>
+            <h3><img src="Habilidades e Perks/D.Va - Matriz de Defesa.png" class="icone-habilidade"> MATRIZ DE DEFESA</h3>
             <ul>
-                <li class="cor-azul">Tempo máximo de matriz aumentado em 30%.</li>
-                <li class="cor-azul">Reduz o dano recebido em 30%.</li>
+                <li>Tempo máximo de matriz aumentado em 30%.</li>
+                <li>Reduz o dano recebido em 30%.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -34,22 +34,22 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li class="cor-verde">Vida base reduzida de 525 para 225.</li>
-                <li class="cor-verde">Escudos aumentados de 0 para 200. Total: 425.</li>
+                <li>Vida base reduzida de 525 para 225.</li>
+                <li>Escudos aumentados de 0 para 200. Total: 425.</li>
             </ul>
             <h3>A MELHOR DEFESA... (PASSIVA)</h3>
             <ul>
-                <li class="cor-verde">Vida extra gerada reduzida em 40%.</li>
+                <li>Vida extra gerada reduzida em 40%.</li>
             </ul>
-            <h3>SOCO FOGUETE</h3>
+            <h3><img src="Habilidades e Perks/Doomfist - Soco Foguete.png" class="icone-habilidade"> SOCO FOGUETE</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga reduzido de 4 para 3,4 segundos (15%).</li>
-                <li class="cor-azul">Recupere 30 de vida por cada inimigo acertado. Aliados à 8 metros do Doomfist recebem 50% da cura.</li>
+                <li>Tempo de recarga reduzido de 4 para 3,4 segundos (15%).</li>
+                <li>Recupere 30 de vida por cada inimigo acertado. Aliados à 8 metros do Doomfist recebem 50% da cura.</li>
             </ul>
-            <h3>ABALO SÍSMICO</h3>
+            <h3><img src="Habilidades e Perks/Doomfist - Abalo Sísmico.png" class="icone-habilidade"> ABALO SÍSMICO</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga reduzido de 6,5 para 5,525 segundos (15%).</li>
-                <li class="cor-azul">Recupere 30 de vida por cada inimigo acertado. Aliados à 8 metros do Doomfist recebem 50% da cura.</li>
+                <li>Tempo de recarga reduzido de 6,5 para 5,525 segundos (15%).</li>
+                <li>Recupere 30 de vida por cada inimigo acertado. Aliados à 8 metros do Doomfist recebem 50% da cura.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -65,8 +65,8 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li class="cor-verde">Vida base reduzida de 425 para 275. Total: 500.</li>
-                <li class="cor-azul">Tempo de recarga do Salto Brutal reduzido de 5,5 para 4,95 segundos (10%).</li>
+                <li>Vida base reduzida de 425 para 275. Total: 500.</li>
+                <li>Tempo de recarga do Salto Brutal reduzido de 5,5 para 4,95 segundos (10%).</li>
             </ul>
         `
     },
@@ -76,26 +76,26 @@ const bancoDeDados = {
             <h3>OFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
-                <li class="cor-verde">Vida base reduzida de 300 para 250.</li>
-                <li class="cor-verde">Armadura reduzida de 300 para 225. Total: 475.</li>
+                <li>Vida base reduzida de 300 para 250.</li>
+                <li>Armadura reduzida de 300 para 225. Total: 475.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
             </ul>
-            <h3>FORTIFICAR</h3>
+            <h3><img src="Habilidades e Perks/Orisa - Fortificar.png" class="icone-habilidade"> FORTIFICAR</h3>
             <ul>
-                <li class="cor-azul">Orisa ganha vida extra baseada na que perdeu. Não afeta o Rompante Terrano. A vida extra não decai com o tempo e pode ser resetada no próximo uso da habilidade.</li>
+                <li>Orisa ganha vida extra baseada na que perdeu. Não afeta o Rompante Terrano. A vida extra não decai com o tempo e pode ser resetada no próximo uso da habilidade.</li>
             </ul>
-            <h3>GIRO DO DARDO</h3>
+            <h3><img src="Habilidades e Perks/Orisa - Giro do Dardo.png" class="icone-habilidade"> GIRO DO DARDO</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga reduzido de 8 para 6 segundos.</li>
+                <li>Tempo de recarga reduzido de 8 para 6 segundos.</li>
             </ul>
-            <h3>BARREIRA PROTETORA - PERK MAIOR</h3>
+            <h3><img src="Habilidades e Perks/Orisa - Barreira Protetora.png" class="icone-habilidade"> BARREIRA PROTETORA - PERK MAIOR</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 600 para 450.</li>
-                <li class="cor-azul">Tempo de recarga reduzido de 8 para 6 segundos.</li>
+                <li>Vida reduzida de 600 para 450.</li>
+                <li>Tempo de recarga reduzido de 8 para 6 segundos.</li>
             </ul>
-            <h3>ROMPANTE TERRANO</h3>
+            <h3><img src="Habilidades e Perks/Orisa - Rompante Terrano.png" class="icone-habilidade"> ROMPANTE TERRANO</h3>
             <ul>
-                <li class="cor-azul">Puxar os inimigos à Orisa agora os atordoa por 0,25s.</li>
+                <li>Puxar os inimigos à Orisa agora os atordoa por 0,25s.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -110,23 +110,23 @@ const bancoDeDados = {
         texto: `
             <h3>OFENSIVA</h3>
             <ul>
-                <li class="cor-verde">Tamanho e hitbox reduzidos em 3%.</li>
-                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li class="cor-laranja">Vida base reduzida de 525 para 300.</li>
-                <li class="cor-verde">Escudos aumentados de 0 para 150. Total: 450.</li>
+                <li>Tamanho e hitbox reduzidos em 3%.</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
+                <li>Vida base reduzida de 525 para 300.</li>
+                <li>Escudos aumentados de 0 para 150. Total: 450.</li>
             </ul>
-            <h3>GRITO DE GUERRA</h3>
+            <h3><img src="Habilidades e Perks/Rainha Junker - Grito de Guerra.png" class="icone-habilidade"> GRITO DE GUERRA</h3>
             <ul>
-                <li class="cor-verde">Tempo de recarga reduzido de 10 para 7,5 segundos (25%).</li>
+                <li>Tempo de recarga reduzido de 10 para 7,5 segundos (25%).</li>
                 <li>Nova mecânica: Agora causa sangramento a todos os inimigos atingidos no raio da habildade (15m).</li>
                 <li>Dano: 15 de dano por segundo.</li>
                 <li>Duração: 4 segundos (60 de dano total).</li>
-                <li class="cor-verde">Nova mecânica: 100% do dano de sangramento causado por esta habilidade é convertido em cura para a Rainha Junker e para os aliados no raio da habildade.</li>
+                <li>Nova mecânica: 100% do dano de sangramento causado por esta habilidade é convertido em cura para a Rainha Junker e para os aliados no raio da habildade.</li>
             </ul>
-            <h3>CARNIFICINA</h3>
+            <h3><img src="Habilidades e Perks/Rainha Junker - Carnificina.png" class="icone-habilidade"> CARNIFICINA</h3>
             <ul>
-                <li class="cor-verde">Nova mecânica: O impacto inicial do machado agora causa dano adicional instantâneo equivalente a 10% da vida máxima do alvo atingido.</li>
-                <li class="cor-laranja">Tempo de recarga aumentado de 9 para 12,15 segundos (40%).</li>
+                <li>Nova mecânica: O impacto inicial do machado agora causa dano adicional instantâneo equivalente a 10% da vida máxima do alvo atingido.</li>
+                <li>Tempo de recarga aumentado de 9 para 12,15 segundos (40%).</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -140,8 +140,8 @@ const bancoDeDados = {
             <h3>OFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox reduzidos em 3%.</li>
-                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li class="cor-verde">Vida base reduzida de 750 para 600.</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
+                <li>Vida base reduzida de 750 para 600.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -155,42 +155,43 @@ const bancoDeDados = {
             <h3>A Symmetra foi adicionada aos tanques ofensivos.</h3>
             <h3>OFENSIVA</h3>
             <ul>
-                <li class="cor-verde">Tamanho e hitbox aumentados em 20%.</li>
-                <li class="cor-verde">Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li class="cor-laranja">Vida base aumentada de 125 para 200.</li>
-                <li class="cor-verde">Escudos aumentados de 150 para 225. Total: 425.</li>
+                <li>Tamanho e hitbox aumentados em 20%.</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
+                <li>Vida base aumentada de 125 para 200.</li>
+                <li>Escudos aumentados de 150 para 225. Total: 425.</li>
+                <li>Symmetra recebe a passiva Especialidade da sub-role dos dps's.</li>
             </ul>
-            <h3>PROJETOR DE FÓTONS</h3>
+            <h3><img src="Habilidades e Perks/Symmetra - Projetor de Fótons.png" class="icone-habilidade"> PROJETOR DE FÓTONS</h3>
             <ul>
-                <li class="cor-azul">Dano do disparo primário reduzido de 60/120/180 para 51/102/153.</li>
-                <li class="cor-azul">Alcance do disparo primário foi aumentado de 12m para 14,4m.</li>
-                <li class="cor-azul">Dano do disparo secundário reduzido de 100 para 85.</li>
-                <li class="cor-azul">Velocidade do projétil aumentada em 75%.</li>
+                <li>Dano do disparo primário reduzido de 60/120/180 para 51/102/153.</li>
+                <li>Alcance do disparo primário foi aumentado de 12m para 14,4m.</li>
+                <li>Dano do disparo secundário reduzido de 100 para 85.</li>
+                <li>Velocidade do projétil aumentada em 75%.</li>
             </ul>
-            <h3>TORRE DE SENTINELA</h3>
+            <h3><img src="Habilidades e Perks/Symmetra - Torre de Sentinela.png" class="icone-habilidade"> TORRE DE SENTINELA</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga aumentado de 10 para 10,3 segundos.</li>
-                <li class="cor-azul">Velocidade do projétil aumentado em 75%.</li>
-                <li class="cor-azul">Dano reduzido de 30 para 25,5.</li>
-                <li class="cor-azul">Vida das sentinelas foi aumentada de 40 para 50.</li>
+                <li>Tempo de recarga aumentado de 10 para 10,3 segundos.</li>
+                <li>Velocidade do projétil aumentado em 75%.</li>
+                <li>Dano reduzido de 30 para 25,5.</li>
+                <li>Vida das sentinelas foi aumentada de 40 para 50.</li>
             </ul>
-            <h3>TELETRANSPORTADOR</h3>
+            <h3><img src="Habilidades e Perks/Symmetra - Teletransportador.png" class="icone-habilidade"> TELETRANSPORTADOR</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga reduzido de 12 para 9 segundos.</li>
-                <li class="cor-azul">Vida base aumentou de 100 para 125.</li>
-                <li class="cor-azul">Escudos aumentados de 200 para 250. Total: 375</li>
+                <li>Tempo de recarga reduzido de 12 para 9 segundos.</li>
+                <li>Vida base aumentou de 100 para 125.</li>
+                <li>Escudos aumentados de 200 para 250. Total: 375</li>
             </ul>
-            <h3>BARREIRA DE FÓTONS</h3>
+            <h3><img src="Habilidades e Perks/Symmetra - Barreira de Fótons.png" class="icone-habilidade"> BARREIRA DE FÓTONS</h3>
             <ul>
-                <li class="cor-azul">Vida aumentada de 4000 para 5000.</li>
+                <li>Vida aumentada de 4000 para 5000.</li>
             </ul>
-            <h3>ALINHAMENTO PERFEITO - PERK MENOR</h3>
+            <h3><img src="Habilidades e Perks/Symmetra - Alinhamento Perfeito.png" class="icone-habilidade"> ALINHAMENTO PERFEITO - PERK MENOR</h3>
             <ul>
-                <li class="cor-azul">O alcance mámixo da perk funciona sobre o buff da distância máxima do feixe do projetor de fótons, indo de 14,4m para 17,28m.</li>
+                <li>O alcance mámixo da perk funciona sobre o buff da distância máxima do feixe do projetor de fótons, indo de 14,4m para 17,28m.</li>
             </ul>
-            <h3>BARREIRA FLUTUANTE - PERK MAIOR</h3>
+            <h3><img src="Habilidades e Perks/Symmetra - Barreira Flutuante.png" class="icone-habilidade"> BARREIRA FLUTUANTE - PERK MAIOR</h3>
             <ul>
-                <li class="cor-azul">Vida da barreira aumentou de 600 para 750.</li>
+                <li>Vida da barreira aumentou de 600 para 750.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -205,13 +206,13 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,325 (15%).</li>
-                <li class="cor-verde">Vida base reduzida de 425 para 275. Total: 475.</li>
-                <li class="cor-azul">Tempo de recarga do Salto a Jato reduzido de 5 para 4,5 segundos (10%).</li>
+                <li>Vida base reduzida de 425 para 275. Total: 475.</li>
+                <li>Tempo de recarga do Salto a Jato reduzido de 5 para 4,5 segundos (10%).</li>
             </ul>
-            <h3>CANHÃO DE TESLA</h3>
+            <h3><img src="Habilidades e Perks/Winston - Canhão de Tesla.png" class="icone-habilidade"> CANHÃO DE TESLA</h3>
             <ul>
-                <li class="cor-azul">Munição reduzida de 120 para 100.</li>
-                <li class="cor-azul">Agora tem um dano adicional de 3% da vida máxima do alvo.</li>
+                <li>Munição reduzida de 120 para 100.</li>
+                <li>Agora tem um dano adicional de 3% da vida máxima do alvo.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -227,9 +228,9 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,325 (15%).</li>
-                <li class="cor-verde">Vida base reduzida de 450 para 300. Total: 575.</li>
-                <li class="cor-azul">Tempo de recarga do Bate-Estaca reduzido de 5 para 6,8 segundos (15%).</li>
-                <li class="cor-azul">Tempo de recarga da Garra reduzido de 5 para 4,25 segundos (15%).</li>
+                <li>Vida base reduzida de 450 para 300. Total: 575.</li>
+                <li>Tempo de recarga do Bate-Estaca reduzido de 5 para 6,8 segundos (15%).</li>
+                <li>Tempo de recarga da Garra reduzido de 5 para 4,25 segundos (15%).</li>
             </ul>
         `
     },
@@ -243,8 +244,8 @@ const bancoDeDados = {
             <h3>DEFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
-                <li class="cor-verde">Vida base reduzida de 425 para 275. Total: 600.</li>
-                <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
+                <li>Vida base reduzida de 425 para 275. Total: 600.</li>
+                <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
             <h3>NOVA PASSIVA</h3>
             <ul>
@@ -258,9 +259,9 @@ const bancoDeDados = {
             <h3>DEFENSIVA E PLANADORA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em +3%.</li>
-                <li class="cor-verde">150 de vida foram convertidos em escudos. Total: 650.</li>
-                <li class="cor-azul">Munição aumentada de 100 para 120.</li>
-                <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
+                <li>150 de vida foram convertidos em escudos. Total: 650.</li>
+                <li>Munição aumentada de 100 para 120.</li>
+                <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
         `
     },
@@ -270,26 +271,26 @@ const bancoDeDados = {
             <h3>DEFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
-                <li class="cor-verde">Vida base reduzida de 575 para 425.</li>
-                <li class="cor-verde">Armadura aumentada de 150 para 250. Total: 675.</li>
-                <li class="cor-azul">Munição aumentada de 300 para 375.</li>
-                <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
+                <li>Vida base reduzida de 575 para 425.</li>
+                <li>Armadura aumentada de 150 para 250. Total: 675.</li>
+                <li>Munição aumentada de 300 para 375.</li>
+                <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
             <h3>NOVA PASSIVA</h3>
             <ul>
-                <li class="cor-azul">Ao ficar com 40% ou menos de vida, os inimigos à 10 metros do Mauga serão incendiados automaticamente, causando 18 de dano por segundo.</li>
+                <li>Ao ficar com 40% ou menos de vida, os inimigos à 10 metros do Mauga serão incendiados automaticamente, causando 18 de dano por segundo.</li>
             </ul>
             <h3>METRALHADORA INCENDIÁRIA - SASHA</h3>
             <ul>
-                <li class="cor-azul">Não incendeia mais os inimigos.</li>
+                <li>Não incendeia mais os inimigos.</li>
             </ul>
-            <h3>SOBRECARGA CARDÍACA</h3>
+            <h3><img src="Habilidades e Perks/Mauga - Sobrecarga Cardíaca.png" class="icone-habilidade"> SOBRECARGA CARDÍACA</h3>
             <ul>
-                <li class="cor-azul">Incendeia os inimigos na área da Sobrecarga, causando 18 de dano por segundo.</li>
+                <li>Incendeia os inimigos na área da Sobrecarga, causando 18 de dano por segundo.</li>
             </ul>
-            <h3>MANO A MANO</h3>
+            <h3><img src="Habilidades e Perks/Mauga - Mano a Mano.png" class="icone-habilidade"> MANO A MANO</h3>
             <ul>
-                <li class="cor-azul">Reseta a Sobrecarga Cardíaca.</li>
+                <li>Reseta a Sobrecarga Cardíaca.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -305,30 +306,30 @@ const bancoDeDados = {
             <h3>DEFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 25%.</li>
-                <li class="cor-verde">Vida base aumentada de 300 para 575.</li>
-                <li class="cor-laranja">Mei recebe a passiva da sub-role original dos dps's</li>
+                <li>Vida base aumentada de 300 para 575.</li>
+                <li>Mei recebe a passiva Especialidade da sub-role dos dps's</li>
             </ul>
-            <h3>ANIQUILADOR ENDOTÉRMICO</h3>
+            <h3><img src="Habilidades e Perks/Mei - Aniquilador Endotérmico.png" class="icone-habilidade"> ANIQUILADOR ENDOTÉRMICO</h3>
             <ul>
-                <li class="cor-azul">Velocidade do projétil reduzida em 30%.</li>
-                <li class="cor-azul">Munição reduzida de 140 para 70.</li>
+                <li>Velocidade do projétil reduzida em 30%.</li>
+                <li>Munição reduzida de 140 para 70.</li>
             </ul>
-            <h3>MURALHA DE GELO</h3>
+            <h3><img src="Habilidades e Perks/Mei - Muralha de Gelo.png" class="icone-habilidade"> MURALHA DE GELO</h3>
             <ul>
-                <li class="cor-azul">Vida de cada pilar aumentou de 250 para 375.</li>
-                <li class="cor-azul">Tamanho aumentado em 25%.</li>
-                <li class="cor-azul">Tempo de recarga aumentado de 12 para 18 segundos.</li>
+                <li>Vida de cada pilar aumentou de 250 para 375.</li>
+                <li>Tamanho aumentado em 25%.</li>
+                <li>Tempo de recarga aumentado de 12 para 18 segundos.</li>
             </ul>
-            <h3>CONGELAMENTO CRIOGÊNICO</h3>
+            <h3><img src="Habilidades e Perks/Mei - Congelamento Criogênico.png" class="icone-habilidade"> CONGELAMENTO CRIOGÊNICO</h3>
             <ul>
-                <li class="cor-azul">Tamanho do gelo aumentadeo em 25%.</li>
-                <li class="cor-azul">Agora tem uma cura inicial e instantânea de 75 que também cura aliados num raio de 10 metros da Mei</li>
-                <li class="cor-azul">Tempo de recarga aumentado de 12s para 15s.</li>
+                <li>Tamanho do gelo aumentadeo em 25%.</li>
+                <li>Agora tem uma cura inicial e instantânea de 75 que também cura aliados num raio de 10 metros da Mei</li>
+                <li>Tempo de recarga aumentado de 12s para 15s.</li>
             </ul>
-            <h3>NEVASCA</h3>
+            <h3><img src="Habilidades e Perks/Mei - Nevasca.png" class="icone-habilidade"> NEVASCA</h3>
             <ul>
-                <li class="cor-azul">Velocidade do projétil reduzida em 30%.</li>
-                <li class="cor-azul">Não recebe a redução na geração da suprema da passiva dos defensivos.</li>
+                <li>Velocidade do projétil reduzida em 30%.</li>
+                <li>Não recebe a redução na geração da suprema da passiva dos defensivos.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -342,15 +343,15 @@ const bancoDeDados = {
             <h3>DEFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox aumentado em 3%.</li>
-                <li class="cor-verde">Vida base reduzida de 425 para 275.</li>
-                <li class="cor-verde">Armadura aumentada de 100 para 225. Total: 500.</li>
-                <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
+                <li>Vida base reduzida de 425 para 275.</li>
+                <li>Armadura aumentada de 100 para 225. Total: 500.</li>
+                <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
-            <h3>ACELERADOR DO VAZIO</h3>
+            <h3><img src="Habilidades e Perks/Ramattra - Acelerador do Vazio.png" class="icone-habilidade"> ACELERADOR DO VAZIO</h3>
             <ul>
-                <li class="cor-azul">Munição aumentada de 100 para 150.</li>
-                <li class="cor-azul">Dano causado reduzido de 5 para 4.</li>
-                <li class="cor-azul">Velocidade do projétil aumentada em 100%.</li>
+                <li>Munição aumentada de 100 para 150.</li>
+                <li>Dano causado reduzido de 5 para 4.</li>
+                <li>Velocidade do projétil aumentada em 100%.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -364,9 +365,9 @@ const bancoDeDados = {
             <h3>DEFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
-                <li class="cor-verde">Vida base reduzida de 400 para 250.</li>
-                <li class="cor-verde">Armadura aumentada de 300 para 425. Total: 675.</li>
-                <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
+                <li>Vida base reduzida de 400 para 250.</li>
+                <li>Armadura aumentada de 300 para 425. Total: 675.</li>
+                <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
         `
     },
@@ -376,14 +377,14 @@ const bancoDeDados = {
             <h3>DEFENSIVO E PLANADOR</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
-                <li class="cor-laranja">Vida base reduzida de 350 para 200.</li>
-                <li class="cor-verde">Escudos aumentados de 250 para 450. Total: 650.</li>
-                <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
+                <li>Vida base reduzida de 350 para 200.</li>
+                <li>Escudos aumentados de 250 para 450. Total: 650.</li>
+                <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
-            <h3>PUNHO CINÉTICO</h3>
+            <h3><img src="Habilidades e Perks/Sigma - Punho Cinético.png" class="icone-habilidade"> PUNHO CINÉTICO</h3>
             <ul>
-                <li class="cor-laranja">Tempo de recarga aumentado de 12 para 15 segundos.</li>
-                <li class="cor-verde"><strong>Novo Efeito Gravitacional:</strong> Agora aplica um efeito de atração contínuo em todos os inimigos localizados dentro de um cone de 90 graus diretamente à frente de Sigma. Ignora efeitos de imparável/irrefreável.</li>
+                <li>Tempo de recarga aumentado de 12 para 15 segundos.</li>
+                <li><strong>Novo Efeito Gravitacional:</strong> Agora aplica um efeito de atração contínuo em todos os inimigos localizados dentro de um cone de 90 graus diretamente à frente de Sigma. Ignora efeitos de imparável/irrefreável.</li>
                 <li>Alcance Máximo: 20 metros.</li>
                 <li><strong>Mecânica de Tração:</strong> O puxão cancela a força de movimento contrária do alvo, exigindo o uso de habilidades de movimentação para escapar do eixo de atração.</li>
                 <li><strong>Escala de Distância:</strong> A velocidade do puxão agora é calculada dinamicamente com base em 4 estágios de proximidade:
@@ -407,15 +408,15 @@ const bancoDeDados = {
             <h3>DEFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
-                <li class="cor-verde">150 de vida foram convertidos em escudos. Total: 550.</li>
-                <li class="cor-laranja">Geração de suprema por combate reduzido em 25%.</li>
+                <li>150 de vida foram convertidos em escudos. Total: 550.</li>
+                <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
-            <h3>CANHÃO DE PARTÍCULAS</h3>
+            <h3><img src="Habilidades e Perks/Zarya - Canhão de partículas.png" class="icone-habilidade"> CANHÃO DE PARTÍCULAS</h3>
             <ul>
-                <li class="cor-azul">Munição aumentada de 100 para 125.</li>
-                <li class="cor-azul">Agora tem um sistema de superaquecimento.</li>
-                <li class="cor-azul">Não possui mais recarga manual e nem automática. Se a Zarya parar de usar sua arma, depois de 0,3 segundo ela recupera 50 de munição por segundo.</li>
-                <li class="cor-azul">Ao superaquecer o Canhão de Partículas, Zarya fica impossibilitada de usar sua arma e a Barreira de Partículas e recebe 50% a menos de cura por 2,5 segundos. Depois disso, ela recupera 100% da sua munição.</li>
+                <li>Munição aumentada de 100 para 125.</li>
+                <li>Agora tem um sistema de superaquecimento.</li>
+                <li>Não possui mais recarga manual e nem automática. Se a Zarya parar de usar sua arma, depois de 0,3 segundo ela recupera 50 de munição por segundo.</li>
+                <li>Ao superaquecer o Canhão de Partículas, Zarya fica impossibilitada de usar sua arma e a Barreira de Partículas e recebe 50% a menos de cura por 2,5 segundos. Depois disso, ela recupera 100% da sua munição.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -433,7 +434,7 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 250 para 200.</li>
+                <li>Vida reduzida de 250 para 200.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -444,21 +445,21 @@ const bancoDeDados = {
     "Ashe": {
         img: "Imagem dos Heróis/Ashe.png",
         texto: `
-        <h3>VIDA</h3>
+            <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">Vida base reduzida de 250 para 225.</li>
+                <li>Vida base reduzida de 250 para 225.</li>
             </ul>
-            <h3>VÍBORA</h3>
+            <h3><img src="Habilidades e Perks/Ashe - Víbora.png" class="icone-habilidade"> VÍBORA</h3>
             <ul>
-                <li class="cor-azul">Acertos críticos devolvem 1 de munição.</li>
-                <li class="cor-azul">Mirar consumirá o dobro de munição.</li>
-                <li class="cor-azul">Dano do Mirar aumentado de 75 para 100.</li>
-                <li class="cor-azul">Multiplicador de dano crítico do Mirar reduzido de 2.0x para 1.5x</li>
+                <li>Acertos críticos devolvem 1 de munição.</li>
+                <li>Mirar consumirá o dobro de munição.</li>
+                <li>Dano do Mirar aumentado de 75 para 100.</li>
+                <li>Multiplicador de dano crítico do Mirar reduzido de 2.0x para 1.5x</li>
             </ul>
-            <h3>B.O.B.</h3>
+            <h3><img src="Habilidades e Perks/Ashe - B.O.B..png" class="icone-habilidade"> B.O.B.</h3>
             <ul>
-                <li class="cor-azul">Vida do B.O.B. reduzida de XXXX para 900.</li>
-                <li class="cor-azul">Duração máxima aumentada de 10 para 12 segundos.</li>
+                <li>Vida do B.O.B. reduzida de 1150 para 900.</li>
+                <li>Duração máxima aumentada de 10 para 12 segundos.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -471,26 +472,26 @@ const bancoDeDados = {
         texto: `
             <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">Vida base aumentada de 250 para 275.</li>
+                <li>Vida base aumentada de 250 para 275.</li>
             </ul>
-            <h3>PACIFICADOR</h3>
+            <h3><img src="Habilidades e Perks/Cassidy - Pacificador.png" class="icone-habilidade"> PACIFICADOR</h3>
             <ul>
-                <li class="cor-azul">Dano reduzido de 70 para 56.</li>
-                <li class="cor-azul">Multiplicador de dano crítico aumentado de 2 para 2.5x (headshot de 140).</li>
-                <li class="cor-azul">Munição aumentada de 6 para 10.</li>
-                <li class="cor-azul">Acertos críticos consomem o dobro de munição.</li>
+                <li>Dano reduzido de 70 para 56.</li>
+                <li>Multiplicador de dano crítico aumentado de 2 para 2.5x (headshot de 140).</li>
+                <li>Munição aumentada de 6 para 10.</li>
+                <li>Acertos críticos consomem o dobro de munição.</li>
             </ul>
             <h3>CLARÃO</h3>
             <ul>
-                <li class="cor-azul">Dano reduzido de 75 para 60.</li>
-                <li class="cor-azul">Tempo de recarga aumentado de 12 para 15 segundos.</li>
-                <li class="cor-azul">Desabilita a HUD dos inimigos por 1,2 segundos. O alvo receberá um efeito de "cegueira" temporária.</li>
-                <li class="cor-azul">Estuna os inimigos por 0,35 segundo.</li>
+                <li>Dano reduzido de 75 para 60.</li>
+                <li>Tempo de recarga aumentado de 12 para 15 segundos.</li>
+                <li>Desabilita a HUD dos inimigos por 1,2 segundos. O alvo receberá um efeito de "cegueira" temporária.</li>
+                <li>Estuna os inimigos por 0,35 segundo.</li>
             </ul>
-            <h3>TIRO CERTEIRO</h3>
+            <h3><img src="Habilidades e Perks/Cassidy - Tiro Certeiro.png" class="icone-habilidade"> TIRO CERTEIRO</h3>
             <ul>
-                <li class="cor-azul">Dano reduzido em 20%.</li>
-                <li class="cor-verde">Cassidy ganha 125 de vida extra que não decai com o tempo.</li>
+                <li>Dano reduzido em 20%.</li>
+                <li>Cassidy ganha 125 de vida extra que não decai com o tempo.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -505,13 +506,13 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA E PLANADORA</h3>
             <ul>
-                <li class="cor-verde">Vida base reduzida de 150 para 100.</li>
-                <li class="cor-verde">Escudos aumentados de 75 para 100. Total: 200.</li>
+                <li>Vida base reduzida de 150 para 100.</li>
+                <li>Escudos aumentados de 75 para 100. Total: 200.</li>
             </ul>
-            <h3>DUPLICAR</h3>
+            <h3><img src="Habilidades e Perks/Echo - Duplicar.png" class="icone-habilidade"> DUPLICAR</h3>
             <ul>
-                <li class="cor-laranja">Por causa de uma regra do workshop, Echo, ao Duplicar, fica com 60% a menos de vida com um adicional de 70 de escudos e 40 de vida.</li>
-                <li class="cor-laranja">Custo da suprema reduzido em 15%.</li>
+                <li>Por causa de uma regra do workshop, Echo, ao Duplicar, fica com 60% a menos de vida com um adicional de 70 de escudos e 40 de vida.</li>
+                <li>Custo da suprema reduzido em 15%.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -524,7 +525,7 @@ const bancoDeDados = {
         texto: `
             <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">Vida aumentada de 250 para 275.</li>
+                <li>Vida aumentada de 250 para 275.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -537,7 +538,7 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 225 para 200.</li>
+                <li>Vida reduzida de 225 para 200.</li>
             </ul>
         `
     },
@@ -546,11 +547,11 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 250 para 225.</li>
+                <li>Vida reduzida de 250 para 225.</li>
             </ul>
-            <h3>DESVIAR</h3>
+            <h3><img src="Habilidades e Perks/Genji - Desviar.png" class="icone-habilidade"> DESVIAR</h3>
             <ul>
-                <li>Tempo de recarga aumentado de XX para XX.</li>
+                <li>Tempo de recarga aumentado de 8 para 10s.</li>
                 <li>Todo dano defletido será aumentado em 50%.</li>
             </ul>
         `
@@ -560,19 +561,19 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 225 para 200.</li>
+                <li>Vida reduzida de 225 para 200.</li>
             </ul>
 
-            <h3>SUSPENSÃO A JATO</h3>
+            <h3><img src="Habilidades e Perks/Pharah - Suspensão a Jato.png" class="icone-habilidade"> SUSPENSÃO A JATO</h3>
             <ul>
-                <li class="cor-azul">Aceleração escalar vertical aumentada em 20%.</li>
-                <li class="cor-azul">Taxa de recarga aumentada em 20%.</li>
-                <li class="cor-azul">Tempo máximo aumentado em 20%.</li>
+                <li>Aceleração escalar vertical aumentada em 20%.</li>
+                <li>Taxa de recarga aumentada em 20%.</li>
+                <li>Tempo máximo aumentado em 20%.</li>
             </ul>
 
-            <h3>SALTO FOGUETE</h3>
+            <h3><img src="Habilidades e Perks/Pharah - Salto Foguete.png" class="icone-habilidade"> SALTO FOGUETE</h3>
             <ul>
-                <li class="cor-azul">Aceleração escalar aumentada em 20%.</li>
+                <li>Aceleração escalar aumentada em 20%.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRISE DO CRIADOR</h4>
@@ -585,7 +586,7 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 275 para 250.</li>
+                <li>Vida reduzida de 275 para 250.</li>
             </ul>
         `
     },
@@ -594,27 +595,27 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 250 para 225.</li>
+                <li>Vida reduzida de 250 para 225.</li>
             </ul>
         `
     },
     "Sojourn": {
         img: "Imagem dos Heróis/Sojourn.png",
         texto: `
-            <h3>CANHÃO ELÉTRICO</h3>
+            <h3><img src="Habilidades e Perks/Sojourn - Canhão Elétrico.png" class="icone-habilidade"> CANHÃO ELÉTRICO</h3>
             <ul>
-                <li class="cor-azul">Munição aumentada de 45 para 60.</li>
-                <li class="cor-azul">Velocidade de projétil aumentada em 50%.</li>
-                <li class="cor-azul">Geração de energia para o Disparo Alternativo reduzido de 5 para 1 no corpo, 10 para 2 na cabeça e 1 para 0,2 em barreiras e implantáveis.</li>
+                <li>Munição aumentada de 45 para 60.</li>
+                <li>Velocidade de projétil aumentada em 50%.</li>
+                <li>Geração de energia para o Tiro Carregado reduzido de 5 para 1 no corpo, 10 para 2 na cabeça e 1 para 0,2 em barreiras e implantáveis.</li>
             </ul>
-            <h3>DISPARO ALTERNATIVO</h3>
+            <h3>TIRO CARREGADO</h3>
             <ul>
-                <li class="cor-azul">Multiplicador de dano crítico aumentado de 1.5 para 2x.</li>
+                <li>Multiplicador de dano crítico aumentado de 1.5 para 2x.</li>
             </ul>
-            <h3>CAMPO DISRUPTOR</h3>
+            <h3><img src="Habilidades e Perks/Sojourn - Disparo Disruptivo.png" class="icone-habilidade"> DISPARO DISRUPTIVO</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga aumentado de 15 para 18 segundos.</li>
-                <li class="cor-azul">Velocidade do projétil aumentado em 50%.</li>
+                <li>Tempo de recarga aumentado de 15 para 18 segundos.</li>
+                <li>Velocidade do projétil aumentado em 50%.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -629,33 +630,33 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 225 para 200.</li>
+                <li>Vida reduzida de 225 para 200.</li>
             </ul>
-            <h3>HACKEAR</h3>
+            <h3><img src="Habilidades e Perks/Sombra - Hackear.png" class="icone-habilidade"> HACKEAR</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga em inimigos aumentado de 6 para 24 segundos.</li>
-                <li class="cor-azul">Golpes finais não reduz o tempo de recarga do Hackear.</li>
-                <li class="cor-azul">Tempo de recarga em implantáveis aumentado de 3 para 12 segundos.</li>
-                <li class="cor-azul">Tempo de recarga de quando a habilidade for interrompida aumentado de 3 para 6 segundos.</li>
-                <li class="cor-azul">Duração do silenciamento aumentado de 1 para 4 segundos.</li>
-                <li class="cor-azul">Inimigos hackeados tem suas munições zeradas (com exceções do Mauga e da Jetpack Cat por bug do jogo).</li>
+                <li>Tempo de recarga em inimigos aumentado de 6 para 24 segundos.</li>
+                <li>Golpes finais não reduz o tempo de recarga do Hackear.</li>
+                <li>Tempo de recarga em implantáveis aumentado de 3 para 12 segundos.</li>
+                <li>Tempo de recarga de quando a habilidade for interrompida aumentado de 3 para 6 segundos.</li>
+                <li>Duração do silenciamento aumentado de 1 para 4 segundos.</li>
+                <li>Inimigos hackeados tem suas munições zeradas (com exceções do Mauga e da Jetpack Cat por bug do jogo).</li>
             </ul>
-            <h3>TRANSLOCADOR</h3>
+            <h3><img src="Habilidades e Perks/Sombra - Translocador.png" class="icone-habilidade"> TRANSLOCADOR</h3>
             <ul>
-                <li class="cor-azul">Agora compartilha o tempo de recarga com o Vírus, usou o Translocador, o Vírus entra em recarga.</li>
-                <li class="cor-verde">Cura a Sombra em 25 de vida se ela tiver 188 de vida ou mais, 50 de vida se ela tiver entre 125 e 187, e 75 de vida se ela tiver menos de 125 de vida.</li>
+                <li>Agora compartilha o tempo de recarga com o Vírus, usou o Translocador, o Vírus entra em recarga.</li>
+                <li>Cura a Sombra em 25 de vida se ela tiver 188 de vida ou mais, 50 de vida se ela tiver entre 125 e 187, e 75 de vida se ela tiver menos de 125 de vida.</li>
             </ul>
-            <h3>VÍRUS</h3>
+            <h3><img src="Habilidades e Perks/Sombra - Vírus.png" class="icone-habilidade"> VÍRUS</h3>
             <ul>
-                <li class="cor-azul">Agora compartilha o tempo de recarga com o Translocador.</li>
-                <li class="cor-azul">Agora o Vírus hackea os inimigos por 0,25 segundo. O silenciamento dura o mesmo tempo.</li>
+                <li>Agora compartilha o tempo de recarga com o Translocador.</li>
+                <li>Agora o Vírus hackea os inimigos por 0,25 segundo. O silenciamento dura o mesmo tempo.</li>
             </ul>
-            <h3>P.E.M.</h3>
+            <h3><img src="Habilidades e Perks/Sombra - PEM.png" class="icone-habilidade"> PEM</h3>
             <ul>
-                <li class="cor-laranja">Não carrega mais por combate, apenas passivamente e ao ser eliminada. Ganha 1% de carga a cada 1,5s (0 a 100 passivamente em 2,5 min). Não carrega morta ou antes do jogo iniciar.</li>
-                <li class="cor-azul">Desabilita a HUD dos inimigos por 6 segundos.</li>
-                <li class="cor-azul">Inimigos hackeados tem suas munições zeradas.</li>
-                <li class="cor-azul">Corta 25% da carga da suprema dos inimigos.</li>
+                <li>Não carrega mais por combate, apenas passivamente e ao ser eliminada. Ganha 1% de carga a cada 1,5s (0 a 100 passivamente em 2,5 min). Não carrega morta ou antes do jogo iniciar.</li>
+                <li>Desabilita a HUD dos inimigos por 6 segundos.</li>
+                <li>Inimigos hackeados tem suas munições zeradas.</li>
+                <li>Corta 25% da carga da suprema dos inimigos.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -681,8 +682,8 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida base reduzida de 200 para 100.</li>
-                <li class="cor-verde">Armadura aumentada de 75 para 125. Total: 225.</li>
+                <li>Vida base reduzida de 200 para 100.</li>
+                <li>Armadura aumentada de 75 para 125. Total: 225.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -695,12 +696,12 @@ const bancoDeDados = {
         texto: `
             <h3>DUELISTA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 250 para 225.</li>
+                <li>Vida reduzida de 250 para 225.</li>
             </ul>
             <h3>EXPLORAÇÃO DETERMINADA (PASSIVA)</h3>
             <ul>
-                <li class="cor-verde">Geração de escudos reduzida em 10%.</li>
-                <li class="cor-verde">Quando tiver mais de 66 de escudos, ganha 1 adicional de 9 de escudos. Escudos totais: 75.</li>
+                <li>Geração de escudos reduzida em 10%.</li>
+                <li>Quando tiver mais de 66 de escudos, ganha 1 adicional de 9 de escudos. Escudos totais: 75.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -711,13 +712,13 @@ const bancoDeDados = {
     "Widowmaker": {
         img: "Imagem dos Heróis/Widowmaker.png",
         texto: `
-            <h3>BEIJO DA VIÚVA</h3>
+            <h3><img src="Habilidades e Perks/Widowmaker - Beijo da Viúva.png" class="icone-habilidade"> BEIJO DA VIÚVA</h3>
             <ul>
-                <li class="cor-azul">Munição aumentada de 35 para 56.</li>
+                <li>Munição aumentada de 35 para 56.</li>
             </ul>
             <h3>MIRAR</h3>
             <ul>
-                <li class="cor-azul">Munição gasta aumentada de 5 para 7.</li>
+                <li>Munição gasta aumentada de 5 para 7.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -735,13 +736,13 @@ const bancoDeDados = {
             <h3>RESTAURAÇÃO (PASSIVA)</h3>
             <ul>
                 <li>Ana recebe a passiva da sub-role Restauração.</li>
-                <li class="cor-verde">Curar aliados com sua arma também cura a Ana com 40% da cura.</li>
+                <li>Curar aliados com sua arma também cura a Ana com 40% da cura.</li>
             </ul>
             <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">75 da vida foram convertidos em escudos.</li>
+                <li>75 da vida foram convertidos em escudos.</li>
             </ul>
-            <h3>RIFLE BIÓTICO</h3>
+            <h3><img src="Habilidades e Perks/Ana - Rifle Biótico.png" class="icone-habilidade"> RIFLE BIÓTICO</h3>
             <ul>
                 <li>Enquanto Ana estiver no modo sem mira, ela ganha 20% de roubo de vida. Não se aplica enquanto estiver mirando!</li>
             </ul>
@@ -757,11 +758,11 @@ const bancoDeDados = {
         texto: `
             <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">Vida aumentada de 250 para 275.</li>
+                <li>Vida aumentada de 250 para 275.</li>
             </ul>
-            <h3>CAMPO DE IMORTALIDADE</h3>
+            <h3><img src="Habilidades e Perks/Baptiste - Campo de Imortalidade.png" class="icone-habilidade"> CAMPO DE IMORTALIDADE</h3>
             <ul>
-                <li class="cor-verde">Vida aumentada de 125 para 137,5.</li>
+                <li>Vida aumentada de 125 para 137,5.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -775,61 +776,61 @@ const bancoDeDados = {
         texto: `
             <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">Armadura aumentada de 50 para 75. Total: 275.</li>
+                <li>Armadura aumentada de 50 para 75. Total: 275.</li>
             </ul>
-            <h3>INSPIRAR (PASSIVA)</h3>
+            <h3><img src="Habilidades e Perks/Brigitte - Inspirar.png" class="icone-habilidade"> INSPIRAR (PASSIVA)</h3>
             <ul>
-                <li class="cor-laranja">Agora tem uma aura visual.</li>
-                <li class="cor-verde">20% do dano causado vira cura na área do Inspirar.</li>
-                <li class="cor-azul">Aliados na área recebem 30% a menos de repulsão.</li>
+                <li>Agora tem uma aura visual.</li>
+                <li>20% do dano causado vira cura na área do Inspirar.</li>
+                <li>Aliados na área recebem 30% a menos de repulsão.</li>
             </ul>
-            <h3>GOLPE DE ESCUDO</h3>
+            <h3><img src="Habilidades e Perks/Brigitte - Golpe de Escudo.png" class="icone-habilidade"> GOLPE DE ESCUDO</h3>
             <ul>
-                <li class="cor-azul">Repulsão causada aumentada em 10%.</li>
-                <li class="cor-azul">Tempo de recarga aumentado de 5 para 6,25 segundos.</li>
-                <li class="cor-azul">Cancela habilidades de movimentação.</li>
+                <li>Repulsão causada aumentada em 10%.</li>
+                <li>Tempo de recarga aumentado de 5 para 6,25 segundos.</li>
+                <li>Cancela habilidades de movimentação.</li>
             </ul>
-            <h3>DISPARO AÇOITADOR</h3>
+            <h3><img src="Habilidades e Perks/Brigitte - Disparo Açoitador.png" class="icone-habilidade"> DISPARO AÇOITADOR</h3>
             <ul>
-                <li class="cor-azul">Repulsão causada aumentada em 10%.</li>
-                <li class="cor-azul">Tempo de recarga aumentado de 4 para 5 segundos.</li>
-                <li class="cor-azul">Cancela habilidades de movimentação.</li>
+                <li>Repulsão causada aumentada em 10%.</li>
+                <li>Tempo de recarga aumentado de 4 para 5 segundos.</li>
+                <li>Cancela habilidades de movimentação.</li>
             </ul>
-            <h3>KIT DE REPAROS</h3>
+            <h3><img src="Habilidades e Perks/Brigitte - Kit de Reparos.png" class="icone-habilidade"> KIT DE REPAROS</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga aumentado de 5 para 10 segundos.</li>
-                <li class="cor-azul">Agora, ao invés de voltar 1 carga de cada vez, todas voltam juntas.</li>
-            <h3>REAGRUPAR</h3>
+                <li>Tempo de recarga aumentado de 5 para 10 segundos.</li>
+                <li>Agora, ao invés de voltar 1 carga de cada vez, todas voltam juntas.</li>
+            <h3><img src="Habilidades e Perks/Brigitte - Reagrupar.png" class="icone-habilidade"> REAGRUPAR</h3>
             <ul>
-                <li class="cor-azul">Aumenta o tamanho da barreira em 50%.</li>
-                <li class="cor-azul">Brigitte não receberá repulsão durante o Reagrupar.</li>
-                <li class="cor-verde">Reagrupar ativa automaticamente o Inspirar, pulsando a cada segundo 30 de cura instantânea.</li>
+                <li>Aumenta o tamanho da barreira em 50%.</li>
+                <li>Brigitte não receberá repulsão durante o Reagrupar.</li>
+                <li>Reagrupar ativa automaticamente o Inspirar, pulsando a cada segundo 30 de cura instantânea.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
                 <p>A Brigitte foi concebida para ser uma personagem anti-dive, papel que desempenhou tão bem que culminou no infame meta GOATS do Overwatch 1. No entanto, após tantos nerfs ao longo dos anos, ela perdeu sua identidade original, tornando-se ineficaz em impedir avanços, função que o Mitzuki agora desempenha melhor. Mesmo com um kit simples, é difícil extrair valor com ela.</p>
                 <p>Para que ela possa atuar na linha de frente sem se tornar excessivamente forte, realizei um rework focado na sua sobrevivência. Aumentei sua armadura e implementei uma nova passiva: o dano que ela causa agora se converte em cura instantânea, facilitando sua sustentação em combate. Para torná-la uma ameaça real aos personagens ágeis, tanto o Disparo Açoitador quanto o Golpe de Escudo agora cancelam habilidades de movimentação.</p>
-                <p>Quanto ao gerenciamento de recursos, alterei o funcionamento do Kit de Reparos: todas as cargas agora retornam simultaneamente, mas com o tempo de recarga dobrado. Além disso, para fortalecer seu papel anti-dive, o "Inspirar" recebeu uma representação visual (uma aura), que reduz a repulsão de aliados que estiverem dentro do seu alcance. Por fim, reconhecendo que sua habilidade suprema é considerada a mais fraca entre os suportes, ela também recebeu alguns aprimoramentos para garantir que seu uso tenha um impacto significativo na partida.</p>
+                <p>Quanto ao gerenciamento de recursos, alterei o funcionamento do Kit de Reparos: todas as cargas agora retornam simultaneamente, mas com o tempo de recarga dobrado. Além disso, para fortalecer seu papel anti-dive, o "Inspirar" recebeu uma representação visual (uma aura), que reduz a repulsão de aliados que estiverem dentro do seu alcance. Por fim, reconhecendo que sua habilidade suprema é considerada a mais fraca entre os suportes, ela também recebeu alguns aprimcriptamentos para garantir que seu uso tenha um impacto significativo na partida.</p>
             </div>
         `
     },
     "Illari": {
         img: "Imagem dos Heróis/Illari.png",
         texto: `
-            <h3>RIFLE SOLAR</h3>
+            <h3><img src="Habilidades e Perks/Illari - Rifle Solar.png" class="icone-habilidade"> RIFLE SOLAR</h3>
             <ul>
-                <li class="cor-azul">Multiplicador de dano crítico aumentado de 1.5 para 1.6x. Headshot mínimo aumentado de 37,5 para 40 e máximo de 112,5 para 120.</li>
-                <li class="cor-azul">Adicionada mecânica de dano em área: Disparos geram explosão de 5m ao colidir com superfícies, barreiras ou inimigos. Causa 10 de dano fixo + 10% do dano original ao atingir inimigos na área. Acertos diretos não recebem dano explosivo.</li>
+                <li>Multiplicador de dano crítico aumentado de 1.5 para 1.6x. Headshot mínimo aumentado de 37,5 para 40 e máximo de 112,5 para 120.</li>
+                <li>Adicionada mecânica de dano em área: Disparos geram explosão de 5m ao colidir com superfícies, barreiras ou inimigos. Causa 10 de dano fixo + 10% do dano original ao atingir inimigos na área. Acertos diretos não recebem dano explosivo.</li>
             </ul>
-            <h3>EXPLOSÃO</h3>
+            <h3><img src="Habilidades e Perks/Illari - Explosão.png" class="icone-habilidade"> EXPLOSÃO</h3>
             <ul>
-                <li class="cor-azul">Cancela habilidades de movimentação dos inimigos.</li>
+                <li>Cancela habilidades de movimentação dos inimigos.</li>
             </ul>
-            <h3>SOL APRISIONADO</h3>
+            <h3><img src="Habilidades e Perks/Illari - Sol Aprisionado.png" class="icone-habilidade"> SOL APRISIONADO</h3>
             <ul>
-                <li class="cor-verde">Cura a Illari em 50 de vida por segundo.</li>
-                <li class="cor-azul">Incendeia inimigos, mas não aplica dano extra.</li>
-                <li class="cor-azul">Todo dano da suprema desabilita a HUD dos inimigos por 0.5 segundo.</li>
+                <li>Cura a Illari em 50 de vida por segundo.</li>
+                <li>Incendeia inimigos, mas não aplica dano extra.</li>
+                <li>Todo dano da suprema desabilita a HUD dos inimigos por 0.5 segundo.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -842,11 +843,11 @@ const bancoDeDados = {
     "Juno": {
         img: "Imagem dos Heróis/Juno.png",
         texto: `
-        <h3>A Juno foi adicionada aos planadores.</h3>    
+        <h3>A Juno foi adicionada aos planadores.</h3>  
         <h3>RESTAURAÇÃO (PASSIVA)</h3>
             <ul>
                 <li>Juno recebe a passiva da sub-role Restauração.</li>
-                <li class="cor-verde">Curar aliados com sua arma também cura a Juno com 40% da cura.</li>
+                <li>Curar aliados com sua arma também cura a Juno com 40% da cura.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -857,7 +858,7 @@ const bancoDeDados = {
     "Kiriko": {
         img: "Imagem dos Heróis/Kiriko.png",
         texto: `
-        <h3>SUZU DE PROTEÇÃO</h3>
+        <h3><img src="Habilidades e Perks/Kiriko - Suzu de Proteção.png" class="icone-habilidade"> SUZU DE PROTEÇÃO</h3>
             <ul>
                 <li>Tempo de recarga aumentado de 14 para 31s.</li>
                 <li>Nova mecânica de redução dinâmica: Ofuda de cura reduz -0,25s por acerto; Kunai no corpo reduz -0,75s; Kunai na cabeça reduz -1,50s.</li>
@@ -873,21 +874,21 @@ const bancoDeDados = {
         texto: `
             <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">Escudos aumentados de 50 para 75. Total: 275.</li>
+                <li>Escudos aumentados de 50 para 75. Total: 275.</li>
             </ul>
-            <h3>DESABROCHAR CURATIVO</h3>
+            <h3><img src="Habilidades e Perks/Lifeweaver - Desabrochar Curativo.png" class="icone-habilidade"> DESABROCHAR CURATIVO</h3>
             <ul>
-                <li class="cor-azul">Velocidade de projétil reduzida em 50%.</li>
-                <li class="cor-verde">Cura aumentada em 50% (mínimo de 10 para 15 e máximo de 90 para 135).</li>
+                <li>Velocidade de projétil reduzida em 50%.</li>
+                <li>Cura aumentada em 50% (mínimo de 10 para 15 e máximo de 90 para 135).</li>
             </ul>
-            <h3>SARAIVADA DE ESPINHOS</h3>
+            <h3><img src="Habilidades e Perks/Lifeweaver - Saraivada de Espinhos.png" class="icone-habilidade"> SARAIVADA DE ESPINHOS</h3>
             <ul>
-                <li class="cor-azul">Velocidade de projétil aumentada em 35%.</li>
+                <li>Velocidade de projétil aumentada em 35%.</li>
             </ul>
-            <h3>PLATAFORMA DE PÉTALAS</h3>
+            <h3><img src="Habilidades e Perks/Lifeweaver - Plataforma de Pétalas.png" class="icone-habilidade"> PLATAFORMA DE PÉTALAS</h3>
             <ul>
-                <li class="cor-azul">Velocidade de projétil reduzida em 50%.</li>
-                <li class="cor-verde">Vida aumentada de 300 para 375.</li>
+                <li>Velocidade de projétil reduzida em 50%.</li>
+                <li>Vida aumentada de 300 para 375.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -899,21 +900,21 @@ const bancoDeDados = {
     "Lúcio": {
         img: "Imagem dos Heróis/Lúcio.png",
         texto: `
-            <h3>ONDA SONORA</h3>
+            <h3><img src="Habilidades e Perks/Lúcio - Onda Sonora.png" class="icone-habilidade"> ONDA SONORA</h3>
             <ul>
-                <li class="cor-verde">Aliados à frente do Lúcio na área da Transição receberão 75 de escudos decrescentes e 25 de cura ao longo de 2.5s.</li>
+                <li>Aliados à frente do Lúcio na área da Transição receberão 75 de escudos decrescentes e 25 de cura ao longo de 2.5s.</li>
             </ul>
-            <h3>TRANSIÇÃO</h3>
+            <h3><img src="Habilidades e Perks/Lúcio - Transição.png" class="icone-habilidade"> TRANSIÇÃO</h3>
             <ul>
-                <li class="cor-verde">Cura para os aliados reduzida de 20 para 16 e para o Lúcio reduzida de 12 para 9,6 por segundo.</li>
+                <li>Cura para os aliados reduzida de 20 para 16 e para o Lúcio reduzida de 12 para 9,6 por segundo.</li>
             </ul>
-            <h3>SOLTA O SOM</h3>
+            <h3><img src="Habilidades e Perks/Lúcio - Solta o Som.png" class="icone-habilidade"> SOLTA O SOM</h3>
             <ul>
-                <li class="cor-verde">Cura reduzida de 56 para 44,8 por segundo.</li>
+                <li>Cura reduzida de 56 para 44,8 por segundo.</li>
             </ul>
-            <h3>BARREIRA DE SOM</h3>
+            <h3><img src="Habilidades e Perks/Lúcio - Barreira de Som.png" class="icone-habilidade"> BARREIRA DE SOM</h3>
             <ul>
-                <li class="cor-verde">Agora recupera 100% da vida de todos os aliados instantaneamente.</li>
+                <li>Agora recupera 100% da vida de todos os aliados instantaneamente.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -928,20 +929,20 @@ const bancoDeDados = {
         texto: `
             <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">100 de vida foram convertidos em escudos.</li>
+                <li>100 de vida foram convertidos em escudos.</li>
             </ul>
-            <h3>RESSURREIÇÃO</h3>
+            <h3><img src="Habilidades e Perks/Mercy - Ressureição.png" class="icone-habilidade"> RESSURREIÇÃO</h3>
             <ul>
-                <li class="cor-verde">Concede 50 de vida extra depois da ressurreição com duração máxima de 10 segundos.</li>
+                <li>Concede 50 de vida extra depois da ressurreição com duração máxima de 10 segundos.</li>
             </ul>
-            <h3>VALQUÍRIA</h3>
+            <h3><img src="Habilidades e Perks/Mercy - Vaquíria.png" class="icone-habilidade"> VALQUÍRIA</h3>
             <ul>
-                <li class="cor-azul">Ao ativar a suprema, corta 50% do tempo de recarga atual da Ressurreição.</li>
-                <li class="cor-azul">Durante a suprema, a Ressurreição tem seu tempo de recarga 100% mais rápido.</li>
+                <li>Ao ativar a suprema, corta 50% do tempo de recarga atual da Ressurreição.</li>
+                <li>Durante a suprema, a Ressurreição tem seu tempo de recarga 100% mais rápido.</li>
             </ul>
-            <h3>RESSURREIÇÃO ANGELICAL (PERK MENOR)</h3>
+            <h3><img src="Habilidades e Perks/Mercy - Ressureição Angeical.png" class="icone-habilidade"> RESSURREIÇÃO ANGELICAL (PERK MENOR)</h3>
             <ul>
-                <li class="cor-verde">Vida extra reduzida de 100 para 50.</li>
+                <li>Vida extra reduzida de 100 para 50.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -956,26 +957,16 @@ const bancoDeDados = {
         texto: `
         <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">Vida reduzida de 250 para 100.</li>
-                <li class="cor-verde">Escudos aumentados de 0 para 125. Total: 225.</li>
-            </ul>    
-        <h3>AURA MEDICINAL</h3>
+                <li>Vida reduzida de 250 para 100.</li>
+                <li>Escudos aumentados de 0 para 125. Total: 225.</li>
+            </ul>   
+        <h3><img src="Habilidades e Perks/Mizuki - Aura Medicinal.png" class="icone-habilidade"> AURA MEDICINAL</h3>
             <ul>
-                <li class="cor-verde">10% do dano causado vira cura na área da Aura Medicinal.</li>
-                <li class="cor-verde">Cura mínima p/ aliados reduzida (5 para 4) e máxima (20 para 16). Para o Mizuki, cura mínima reduzida (3,5 para 2,8) e máxima (14 para 11,2) por segundo.</li>
-            </ul>
-            <h3>KASA MEDICINAL</h3>
-            <ul>
-                <li class="cor-verde">Cura reduzida: 72 (1º ricochete), 56 (2º), 40 (3º) e 32 (em si).</li>
-            </ul>
-            <h3>SANTUÁRIO KEKKAI</h3>
-            <ul>
-                <li class="cor-verde">Cura inicial reduzida de 100 para 80 e cura ao longo do tempo de 40 para 32.</li>
+                <li>10% do dano causado vira cura na área da Aura Medicinal.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>Para alinhar seu desempenho ao formato 6v6, reduzi sua cura máxima de 20 para 16 por segundo.</p>
-                <p>Como essa redução impacta sua saída de cura geral, introduzi uma nova passiva: 10% do dano que ele causa é convertido em cura instantânea. Essa mecânica, somada à conversão de parte da sua vida para escudos, visa melhorar sua sustentabilidade e permitir que ele atue como uma mistura entre Lúcio e Brigitte.</p>
+                <p>...</p>
             </div>
         `
     },
@@ -984,26 +975,26 @@ const bancoDeDados = {
         texto: `
             <h3>ERUPÇÃO BIOTÓXICA (NOVA PASSIVA)</h3>
             <ul>
-                <li class="cor-azul">Golpes finais geram uma explosão de 5m na vítima que causa 25 de dano e estuna os inimigos próximos.</li>
+                <li>Golpes finais geram uma explosão de 5m na vítima que causa 25 de dano e estuna os inimigos próximos.</li>
             </ul>
 
-            <h3>PUNHO BIÓTICO (DISPARO PRIMÁRIO)</h3>
+            <h3><img src="Habilidades e Perks/Moira - Punho Biótico.png" class="icone-habilidade"> PUNHO BIÓTICO</h3>
             <ul>
-                <li class="cor-azul">Agora incendeia os inimigos, causando 80 de dano por segundo.</li>
+                <li>Agora incendeia os inimigos, causando 80 de dano por segundo.</li>
             </ul>
 
-            <h3>PUNHO BIÓTICO (DISPARO SECUNDÁRIO)</h3>
+            <h3>DISPARO SECUNDÁRIO</h3>
             <ul>
-                <li class="cor-azul">Dano reduzido de 65 para 32,5 por segundo.</li>
-                <li class="cor-azul">Acumular 125 de dano no mesmo alvo aplica Congelamento por 0,75s (exige 250 de dano em Armaduras).</li>
-                <li class="cor-azul">Inimigos têm os tempos de recarga das suas habilidades 25% mais lentos.</li>
-                <li class="cor-azul">Causa 100% a mais de dano à armaduras.</li>
+                <li>Dano reduzido de 65 para 32,5 por segundo.</li>
+                <li>Acumular 125 de dano no mesmo alvo aplica Congelamento por 0,75s (exige 250 de dano em Armaduras).</li>
+                <li>Inimigos têm os tempos de recarga das suas habilidades 25% mais lentos.</li>
+                <li>Causa 100% a mais de dano à armaduras.</li>
             </ul>
 
-            <h3>ORBE BIÓTICO</h3>
+            <h3><img src="Habilidades e Perks/Moira - Orbe Biótico.png" class="icone-habilidade"> ORBE BIÓTICO</h3>
             <ul>
-                <li class="cor-verde">Capacidade máxima de cura e dano aumentado em 50%.</li>
-                <li class="cor-azul">Velocidade do projétil reduzido em 50%.</li>
+                <li>Capacidade máxima de cura e dano aumentado em 50%.</li>
+                <li>Velocidade do projétil reduzido em 50%.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -1018,34 +1009,31 @@ const bancoDeDados = {
         img: "Imagem dos Heróis/Torbjörn.png",
         texto: `
         <h3>O Torbjörn foi adicionado aos suportes.</h3>
-        <h3>Torbjörn não recebe a passiva da sub-role original dos dps's</h3>
+        <h3>Torbjörn não recebe a passiva Especialidade da sub-role dos dps's.</h3>
             <h3>RESTAURAÇÃO (PASSIVA)</h3>
             <ul>
                 <li>Torbjörn recebe a passiva da sub-role Restauração.</li>
-                <li class="cor-verde">Curar aliados com sua arma também cura o Torbjörn com 40% da cura.</li>
+                <li>Curar aliados com sua arma também cura o Torbjörn com 40% da cura.</li>
             </ul>
-            <h3>PISTOLA DE REBITE</h3>
+            <h3><img src="Habilidades e Perks/Torbjörn - Pistola de Rebite.png" class="icone-habilidade"> PISTOLA DE REBITE</h3>
             <ul>
-                <li class="cor-azul">Munição reduzida de 18 para 10.</li>
-                <li class="cor-azul">Disparo secundário removido. Agora, ele equipa o martelo de forja.</li>
+                <li>Munição reduzida de 18 para 10.</li>
+                <li>Disparo secundário removido. Agora, ele equipa o martelo de forja.</li>
             </ul>
-            <h3>MARTELO DE FORJA</h3>
+            <h3><img src="Habilidades e Perks/Torbjörn - Martelo de Forja.png" class="icone-habilidade"> MARTELO DE FORJA</h3>
             <ul>
-                <li class="cor-azul">Nova mecânica: O martelo vai criar uma aura visual de 5m (visível apenas para o Torbjörn).</li>
-                <li class="cor-azul">Cada martelada vai curar 70 de vida todos os aliados que estiverem no campo de visão do Torbjörn e dentro da aura.</li>
+                <li>Nova mecânica: O martelo vai criar uma aura visual de 5m (visível apenas para o Torbjörn).</li>
+                <li>Cada martelada vai curar 70 de vida todos os aliados que estiverem no campo de visão do Torbjörn e dentro da aura.</li>
             </ul>
-            <h3>SOBRECARGA</h3>
+            <h3><img src="Habilidades e Perks/Torbjörn - Sobrecarga.png" class="icone-habilidade"> SOBRECARGA</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga reduzido de 10 para 7.5 segundos.</li>
-                <li class="cor-azul">Duração reduzida de 6 para 3 segundos.</li>
+                <li>Tempo de recarga reduzido de 10 para 7.5s.</li>
+                <li>Duração reduzida de 6 para 4,5s.</li>
+                <li>Aliados à 15m do Torbjörn recebem 100 de vida extra, 55 de cura instantânea e 45 de cura passiva ao total de 4,5s.</li>
             </ul>
-            <h3>POSICIONAR TORRE</h3>
+            <h3><img src="Habilidades e Perks/Torbjörn - Núcleo Fundido.png" class="icone-habilidade"> NÚCLEO FUNDIDO</h3>
             <ul>
-                <li class="cor-azul">Tempo de recarga aumentado em 25%**.</li>
-            </ul>
-            <h3>NÚCLEO FUNDIDO</h3>
-            <ul>
-                <li class="cor-azul">50% do dano causado pela ultimate vai virar cura para todos os aliados no mapa inteiro.</li>
+                <li>50% do dano causado pela ultimate vai virar cura para todos os aliados no mapa inteiro.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -1062,13 +1050,13 @@ const bancoDeDados = {
             </ul>
             <h3>VIDA</h3>
             <ul>
-                <li class="cor-verde">Vida base aumentada de 75 para 100. Total: 275.</li>
+                <li>Vida base aumentada de 75 para 100. Total: 275.</li>
             </ul>
             <h3>NOVA PASSIVA</h3>
             <ul>
-                <li class="cor-verde">Ganha uma aura de conversão de dano para cura (15m).</li>
-                <li class="cor-verde">Converte 25% do dano recebido em cura (ignora a passiva de redução de cura global).</li>
-                <li class="cor-laranja">Implantáveis como sentinelas da Symmetra, torreta do Torbjörn e o B.O.B. não ativam a passiva.</li>
+                <li>Ganha uma aura de conversão de dano para cura (15m).</li>
+                <li>Converte 25% do dano recebido em cura (ignora a passiva de redução de cura global).</li>
+                <li>Implantáveis como sentinelas da Symmetra, torreta do Torbjörn e o B.O.B. não ativam a passiva.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
