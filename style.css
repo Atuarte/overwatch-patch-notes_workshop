@@ -364,13 +364,36 @@ a.botao-menu {
     white-space: nowrap; 
 }
 
+/* =========================================
+   TÍTULOS E ÍCONES NA PÁGINA GERAIS
+   ========================================= */
 .bloco-texto h3 {
     color: var(--dourado-noctune);
     font-size: 26px;
     margin-top: 30px;
     margin-bottom: 10px;
     padding-left: 0;
-    border-left: none; /* Removida a linha lateral para ficar mais limpo */
+    border-left: none;
+    
+    /* 🎯 1. Alinha o ícone e o texto lado a lado */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* 🎯 2. Formata qualquer ícone que você colocar dentro dos H3 do Gerais */
+.bloco-texto h3 img,
+.bloco-texto h3 .icone-habilidade {
+    height: 30px; /* Proporcional ao texto maior (26px) */
+    width: auto;
+    object-fit: contain;
+    
+    /* Converte o ícone branco em Dourado */
+    filter: brightness(0) invert(79%) sepia(50%) saturate(614%) hue-rotate(352deg) brightness(101%) contrast(93%);
+    
+    /* 🎯 3. O Pulo do Gato: compensa o respiro inferior da Lakki Reddy */
+    position: relative;
+    top: -5px; 
 }
 
 .destaque-total {

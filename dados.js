@@ -6,11 +6,10 @@ const bancoDeDados = {
     "D.Va": {
         img: "Imagem dos Heróis/D.Va.png",
         texto: `
-            <h3>OFENSIVA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li>Tempo de recarga de propulsores reduzido de 4 para 3 segundos (25%).</li>
             </ul>
             <h3>VIDA</h3>
             <ul>
@@ -21,6 +20,10 @@ const bancoDeDados = {
                 <li>Tempo máximo de matriz aumentado em 30%.</li>
                 <li>Reduz o dano recebido em 30%.</li>
             </ul>
+            <h3><img src="Habilidades e Perks/D.Va - Propulsores.png" class="icone-habilidade"> PROPULSORES</h3>
+            <ul>
+                <li>Tempo de recarga de propulsores reduzido de 4 para 3 segundos (25%).</li>
+            </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
                 <p>A D.Va não pode receber qualquer aumento na vida do Meka, pois isso aumentaria também a vida da Baby D.Va. Para compensar, estou aumentando a duração da Matriz de Defesa; agora, ela também concede redução de dano enquanto a habilidade estiver ativa.</p>
@@ -30,7 +33,7 @@ const bancoDeDados = {
     "Doomfist": {
         img: "Imagem dos Heróis/Doomfist.png",
         texto: `
-            <h3>OFENSIVO</h3>
+            <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
@@ -61,19 +64,22 @@ const bancoDeDados = {
     "Hazard": {
         img: "Imagem dos Heróis/Hazard.png",
         texto: `
-            <h3>OFENSIVO</h3>
+            <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li>Vida base reduzida de 425 para 275. Total: 500.</li>
-                <li>Tempo de recarga do Salto Brutal reduzido de 5,5 para 4,95 segundos (10%).</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/Hazard - Salto Brutal.png" class="icone-habilidade"> SALTO BRUTAL</h3>
+            <ul>
+                <li>Tempo de recarga reduzido de 5,5 para 4,95 segundos (10%).</li>
             </ul>
         `
     },
     "Orisa": {
         img: "Imagem dos Heróis/Orisa.png",
         texto: `
-            <h3>OFENSIVA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Vida base reduzida de 300 para 250.</li>
@@ -108,7 +114,7 @@ const bancoDeDados = {
     "Rainha Junker": {
         img: "Imagem dos Heróis/Rainha Junker.png",
         texto: `
-            <h3>OFENSIVA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox reduzidos em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
@@ -137,7 +143,7 @@ const bancoDeDados = {
     "Roadhog": {
         img: "Imagem dos Heróis/Roadhog.png",
         texto: `
-            <h3>OFENSIVO</h3>
+            <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox reduzidos em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
@@ -153,7 +159,7 @@ const bancoDeDados = {
         img: "Imagem dos Heróis/Symmetra.png",
         texto: `
             <h3>A Symmetra foi adicionada aos tanques ofensivos.</h3>
-            <h3>OFENSIVA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 20%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
@@ -202,17 +208,20 @@ const bancoDeDados = {
     "Winston": {
         img: "Imagem dos Heróis/Winston.png",
         texto: `
-            <h3>OFENSIVO</h3>
+            <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,325 (15%).</li>
                 <li>Vida base reduzida de 425 para 275. Total: 475.</li>
-                <li>Tempo de recarga do Salto a Jato reduzido de 5 para 4,5 segundos (10%).</li>
             </ul>
             <h3><img src="Habilidades e Perks/Winston - Canhão de Tesla.png" class="icone-habilidade"> CANHÃO DE TESLA</h3>
             <ul>
                 <li>Munição reduzida de 120 para 100.</li>
                 <li>Agora tem um dano adicional de 3% da vida máxima do alvo.</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/Winston - Salto a Jato.png" class="icone-habilidade"> SALTO A JATO</h3>
+            <ul>
+                <li>Tempo de recarga reduzido de 5 para 4,5 segundos (10%).</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -224,12 +233,18 @@ const bancoDeDados = {
     "Wrecking Ball": {
         img: "Imagem dos Heróis/Wrecking Ball.png",
         texto: `
-            <h3>OFENSIVO</h3>
+            <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,325 (15%).</li>
                 <li>Vida base reduzida de 450 para 300. Total: 575.</li>
-                <li>Tempo de recarga do Bate-Estaca reduzido de 5 para 6,8 segundos (15%).</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/Wrecking Ball - Bate-Estaca.png" class="icone-habilidade"> BATE-ESTACA</h3>
+            <ul>
+                <li>Tempo de recarga reduzido de 5 para 6,8 segundos (15%).</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/Wrecking Ball - Garra.png" class="icone-habilidade"> GARRA</h3>
+            <ul>
                 <li>Tempo de recarga da Garra reduzido de 5 para 4,25 segundos (15%).</li>
             </ul>
         `
@@ -241,13 +256,13 @@ const bancoDeDados = {
     "D.Mon": {
         img: "Imagem dos Heróis/D.Mon.png",
         texto: `
-            <h3>DEFENSIVA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Vida base reduzida de 425 para 275. Total: 600.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
-            <h3>NOVA PASSIVA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Vampirismo.png" class="icone-habilidade"> NOVA PASSIVA</h3>
             <ul>
                 <li>D.Mon ganha 25% (pensando em aumentar para 50%) de roubo de vida com todas as suas habilidades.</li>
             </ul>
@@ -256,7 +271,7 @@ const bancoDeDados = {
     "Domina": {
         img: "Imagem dos Heróis/Domina.png",
         texto: `
-            <h3>DEFENSIVA E PLANADORA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> <img src="Habilidades e Perks/Ícone Planadores.png" class="icone-habilidade"> DEFENSIVA E PLANADORA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em +3%.</li>
                 <li>150 de vida foram convertidos em escudos. Total: 650.</li>
@@ -268,7 +283,7 @@ const bancoDeDados = {
     "Mauga": {
         img: "Imagem dos Heróis/Mauga.png",
         texto: `
-            <h3>DEFENSIVO</h3>
+            <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Vida base reduzida de 575 para 425.</li>
@@ -303,7 +318,7 @@ const bancoDeDados = {
         img: "Imagem dos Heróis/Mei.png",
         texto: `
             <h3>A Mei foi adicionada aos tanques defensivos.</h3>
-            <h3>DEFENSIVA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 25%.</li>
                 <li>Vida base aumentada de 300 para 575.</li>
@@ -340,7 +355,7 @@ const bancoDeDados = {
     "Ramattra": {
         img: "Imagem dos Heróis/Ramattra.png",
         texto: `
-            <h3>DEFENSIVO</h3>
+            <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox aumentado em 3%.</li>
                 <li>Vida base reduzida de 425 para 275.</li>
@@ -362,7 +377,7 @@ const bancoDeDados = {
     "Reinhardt": {
         img: "Imagem dos Heróis/Reinhardt.png",
         texto: `
-            <h3>DEFENSIVO</h3>
+            <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Vida base reduzida de 400 para 250.</li>
@@ -374,7 +389,7 @@ const bancoDeDados = {
    "Sigma": {
         img: "Imagem dos Heróis/Sigma.png",
         texto: `
-            <h3>DEFENSIVO E PLANADOR</h3>
+            <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> <img src="Habilidades e Perks/Ícone Planadores.png" class="icone-habilidade"> DEFENSIVO E PLANADOR</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Vida base reduzida de 350 para 200.</li>
@@ -405,7 +420,7 @@ const bancoDeDados = {
     "Zarya": {
         img: "Imagem dos Heróis/Zarya.png",
         texto: `
-            <h3>DEFENSIVA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>150 de vida foram convertidos em escudos. Total: 550.</li>
@@ -432,7 +447,7 @@ const bancoDeDados = {
     "Anran": {
         img: "Imagem dos Heróis/Anran.png",
         texto: `
-            <h3>DUELISTA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
             <ul>
                 <li>Vida reduzida de 250 para 200.</li>
             </ul>
@@ -504,7 +519,7 @@ const bancoDeDados = {
     "Echo": {
         img: "Imagem dos Heróis/Echo.png",
         texto: `
-            <h3>DUELISTA E PLANADORA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> <img src="Habilidades e Perks/Ícone Planadores.png" class="icone-habilidade"> DUELISTA E PLANADORA</h3>
             <ul>
                 <li>Vida base reduzida de 150 para 100.</li>
                 <li>Escudos aumentados de 75 para 100. Total: 200.</li>
@@ -536,7 +551,7 @@ const bancoDeDados = {
     "Freja": {
         img: "Imagem dos Heróis/Freja.png",
         texto: `
-            <h3>DUELISTA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
             <ul>
                 <li>Vida reduzida de 225 para 200.</li>
             </ul>
@@ -545,7 +560,7 @@ const bancoDeDados = {
     "Genji": {
         img: "Imagem dos Heróis/Genji.png",
         texto: `
-            <h3>DUELISTA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
             <ul>
                 <li>Vida reduzida de 250 para 225.</li>
             </ul>
@@ -559,7 +574,7 @@ const bancoDeDados = {
     "Pharah": {
         img: "Imagem dos Heróis/Pharah.png",
         texto: `
-            <h3>DUELISTA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
             <ul>
                 <li>Vida reduzida de 225 para 200.</li>
             </ul>
@@ -584,7 +599,7 @@ const bancoDeDados = {
     "Reaper": {
         img: "Imagem dos Heróis/Reaper.png",
         texto: `
-            <h3>DUELISTA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
             <ul>
                 <li>Vida reduzida de 275 para 250.</li>
             </ul>
@@ -593,7 +608,7 @@ const bancoDeDados = {
     "Sierra": {
         img: "Imagem dos Heróis/Sierra.png",
         texto: `
-            <h3>DUELISTA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
             <ul>
                 <li>Vida reduzida de 250 para 225.</li>
             </ul>
@@ -628,7 +643,7 @@ const bancoDeDados = {
     "Sombra": {
         img: "Imagem dos Heróis/Sombra.png",
         texto: `
-            <h3>DUELISTA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
             <ul>
                 <li>Vida reduzida de 225 para 200.</li>
             </ul>
@@ -670,7 +685,10 @@ const bancoDeDados = {
     "Tracer": {
         img: "Imagem dos Heróis/Tracer.png",
         texto: `
-            <h3>A Tracer foi adicionada aos Duelistas.</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTAS</h3>
+            <ul>
+                <li>A Tracer foi adicionada aos Duelistas.</li>
+            </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
                 <p>Mexer nesse boneco é tenso, qualquer coisinha ela fica forte demais. Estou apto para sugestões.</p>
@@ -680,7 +698,7 @@ const bancoDeDados = {
     "Vendetta": {
         img: "Imagem dos Heróis/Vendetta.png",
         texto: `
-            <h3>DUELISTA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
             <ul>
                 <li>Vida base reduzida de 200 para 100.</li>
                 <li>Armadura aumentada de 75 para 125. Total: 225.</li>
@@ -694,7 +712,7 @@ const bancoDeDados = {
     "Venture": {
         img: "Imagem dos Heróis/Venture.png",
         texto: `
-            <h3>DUELISTA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
             <ul>
                 <li>Vida reduzida de 250 para 225.</li>
             </ul>
@@ -843,7 +861,10 @@ const bancoDeDados = {
     "Juno": {
         img: "Imagem dos Heróis/Juno.png",
         texto: `
-        <h3>A Juno foi adicionada aos planadores.</h3>  
+        <h3><img src="Habilidades e Perks/Ícone Planadores.png" class="icone-habilidade"> PLANADORA</h3>
+        <ul>
+            <li>A Juno foi adicionada aos planadores.</li>
+        </ul>
         <h3>RESTAURAÇÃO (PASSIVA)</h3>
             <ul>
                 <li>Juno recebe a passiva da sub-role Restauração.</li>
@@ -955,12 +976,12 @@ const bancoDeDados = {
     "Mizuki": {
         img: "Imagem dos Heróis/Mizuki.png",
         texto: `
-        <h3>VIDA</h3>
+            <h3>VIDA</h3>
             <ul>
                 <li>Vida reduzida de 250 para 100.</li>
                 <li>Escudos aumentados de 0 para 125. Total: 225.</li>
             </ul>   
-        <h3><img src="Habilidades e Perks/Mizuki - Aura Medicinal.png" class="icone-habilidade"> AURA MEDICINAL</h3>
+            <h3><img src="Habilidades e Perks/Mizuki - Aura Medicinal.png" class="icone-habilidade"> AURA MEDICINAL</h3>
             <ul>
                 <li>10% do dano causado vira cura na área da Aura Medicinal.</li>
             </ul>
@@ -1008,8 +1029,8 @@ const bancoDeDados = {
     "Torbjörn": {
         img: "Imagem dos Heróis/Torbjörn.png",
         texto: `
-        <h3>O Torbjörn foi adicionado aos suportes.</h3>
-        <h3>Torbjörn não recebe a passiva Especialidade da sub-role dos dps's.</h3>
+            <h3>O Torbjörn foi adicionado aos suportes.</h3>
+            <h3>Torbjörn não recebe a passiva Especialidade da sub-role dos dps's.</h3>
             <h3>RESTAURAÇÃO (PASSIVA)</h3>
             <ul>
                 <li>Torbjörn recebe a passiva da sub-role Restauração.</li>
@@ -1044,7 +1065,7 @@ const bancoDeDados = {
     "Zenyatta": {
         img: "Imagem dos Heróis/Zenyatta.png",
         texto: `
-            <h3>PLANADOR</h3>
+            <h3><img src="Habilidades e Perks/Ícone Planadores.png" class="icone-habilidade"> PLANADOR</h3>
             <ul>
                 <li>Zenyatta foi adicionado à subclasse de Planadores.</li>
             </ul>
