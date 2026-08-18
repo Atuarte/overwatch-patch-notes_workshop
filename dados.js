@@ -40,7 +40,7 @@ const bancoDeDados = {
                 <li>Vida base reduzida de 525 para 225.</li>
                 <li>Escudos aumentados de 0 para 200. Total: 425.</li>
             </ul>
-            <h3>A MELHOR DEFESA... (PASSIVA)</h3>
+            <h3><img src="Habilidades e Perks/Doomfist - A Melhor Defesa....png" class="icone-habilidade" style="height: 40px;">A MELHOR DEFESA... (PASSIVA)</h3>
             <ul>
                 <li>Vida extra gerada reduzida em 40%.</li>
             </ul>
@@ -171,6 +171,9 @@ const bancoDeDados = {
             <ul>
                 <li>Dano do disparo primário reduzido de 60/120/180 para 51/102/153.</li>
                 <li>Alcance do disparo primário foi aumentado de 12m para 14,4m.</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/Symmetra - Disparo Secundário.png" class="icone-habilidade" style="height: 45px;"> DISPARO SECUNDÁRIO</h3>
+            <ul>
                 <li>Dano do disparo secundário reduzido de 100 para 85.</li>
                 <li>Velocidade do projétil aumentada em 75%.</li>
             </ul>
@@ -262,7 +265,7 @@ const bancoDeDados = {
                 <li>Vida base reduzida de 425 para 275. Total: 600.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
-            <h3><img src="Habilidades e Perks/Ícone Vampirismo.png" class="icone-habilidade"> NOVA PASSIVA</h3>
+            <h3><img src="Habilidades e Perks/Ícone Vampirismo.png" class="icone-habilidade" style="height: 45px;"> NOVA PASSIVA</h3>
             <ul>
                 <li>D.Mon ganha 25% (pensando em aumentar para 50%) de roubo de vida com todas as suas habilidades.</li>
             </ul>
@@ -291,11 +294,11 @@ const bancoDeDados = {
                 <li>Munição aumentada de 300 para 375.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
-            <h3>NOVA PASSIVA</h3>
+            <h3><img src="Habilidades e Perks/Mauga - Passiva.png" class="icone-habilidade" style="height: 40px;">NOVA PASSIVA</h3>
             <ul>
                 <li>Ao ficar com 40% ou menos de vida, os inimigos à 10 metros do Mauga serão incendiados automaticamente, causando 18 de dano por segundo.</li>
             </ul>
-            <h3>METRALHADORA INCENDIÁRIA - SASHA</h3>
+            <h3><img src="Habilidades e Perks/Mauga - Metralhadora Incediária - Sasha.png" class="icone-habilidade" style="height: 75px;">METRALHADORA INCENDIÁRIA - SASHA</h3>
             <ul>
                 <li>Não incendeia mais os inimigos.</li>
             </ul>
@@ -326,8 +329,11 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Aniquilador Endotérmico.png" class="icone-habilidade"> ANIQUILADOR ENDOTÉRMICO</h3>
             <ul>
-                <li>Velocidade do projétil reduzida em 30%.</li>
                 <li>Munição reduzida de 140 para 70.</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/Mei - Pingente de Gelo.png" class="icone-habilidade" style="height: 40px;"> PINGENTE DE GELO</h3>
+            <ul>
+                <li>Velocidade do projétil reduzida em 30%.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Muralha de Gelo.png" class="icone-habilidade"> MURALHA DE GELO</h3>
             <ul>
@@ -467,9 +473,13 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ashe - Víbora.png" class="icone-habilidade"> VÍBORA</h3>
             <ul>
                 <li>Acertos críticos devolvem 1 de munição.</li>
-                <li>Mirar consumirá o dobro de munição.</li>
-                <li>Dano do Mirar aumentado de 75 para 100.</li>
-                <li>Multiplicador de dano crítico do Mirar reduzido de 2.0x para 1.5x</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/Ashe - Mirar.png" class="icone-habilidade" style="height: 40px;"> MIRAR</h3>
+            <ul>
+                <li>Acertos críticos devolvem 1 de munição.</li>
+                <li>Tiros consomem o dobro de munição.</li>
+                <li>Dano aumentado de 75 para 100.</li>
+                <li>Multiplicador de dano crítico reduzido de 2.0x para 1.5x</li>
             </ul>
             <h3><img src="Habilidades e Perks/Ashe - B.O.B..png" class="icone-habilidade"> B.O.B.</h3>
             <ul>
@@ -496,7 +506,7 @@ const bancoDeDados = {
                 <li>Munição aumentada de 6 para 10.</li>
                 <li>Acertos críticos consomem o dobro de munição.</li>
             </ul>
-            <h3>CLARÃO</h3>
+            <h3><img src="Habilidades e Perks/Cassidy - Clarão.png" class="icone-habilidade">CLARÃO</h3>
             <ul>
                 <li>Dano reduzido de 75 para 60.</li>
                 <li>Tempo de recarga aumentado de 12 para 15 segundos.</li>
@@ -623,7 +633,7 @@ const bancoDeDados = {
                 <li>Velocidade de projétil aumentada em 50%.</li>
                 <li>Geração de energia para o Tiro Carregado reduzido de 5 para 1 no corpo, 10 para 2 na cabeça e 1 para 0,2 em barreiras e implantáveis.</li>
             </ul>
-            <h3>TIRO CARREGADO</h3>
+            <h3><img src="Habilidades e Perks/Sojourn - Tiro Carregado.png" class="icone-habilidade" style="height: 40px;">TIRO CARREGADO</h3>
             <ul>
                 <li>Multiplicador de dano crítico aumentado de 1.5 para 2x.</li>
             </ul>
@@ -734,7 +744,7 @@ const bancoDeDados = {
             <ul>
                 <li>Munição aumentada de 35 para 56.</li>
             </ul>
-            <h3>MIRAR</h3>
+            <h3><img src="Habilidades e Perks/Widowmaker - Mirar.png" class="icone-habilidade" style="height: 40px;">MIRAR</h3>
             <ul>
                 <li>Munição gasta aumentada de 5 para 7.</li>
             </ul>
@@ -798,8 +808,8 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Brigitte - Inspirar.png" class="icone-habilidade"> INSPIRAR (PASSIVA)</h3>
             <ul>
-                <li>Agora tem uma aura visual.</li>
-                <li>20% do dano causado vira cura na área do Inspirar.</li>
+                <li>Agora tem uma aura visual para toda a sua equipe.</li>
+                <li>20% do dano causado vira cura extra na área do Inspirar.</li>
                 <li>Aliados na área recebem 30% a menos de repulsão.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Brigitte - Golpe de Escudo.png" class="icone-habilidade"> GOLPE DE ESCUDO</h3>
