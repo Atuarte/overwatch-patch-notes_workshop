@@ -726,7 +726,7 @@ const bancoDeDados = {
             <ul>
                 <li>Vida reduzida de 250 para 225.</li>
             </ul>
-            <h3>EXPLORAÇÃO DETERMINADA (PASSIVA)</h3>
+            <h3><img src="Habilidades e Perks/Venture - Passiva.png" class="icone-habilidade">EXPLORAÇÃO DETERMINADA (PASSIVA)</h3>
             <ul>
                 <li>Geração de escudos reduzida em 10%.</li>
                 <li>Quando tiver mais de 66 de escudos, ganha 1 adicional de 9 de escudos. Escudos totais: 75.</li>
@@ -1004,7 +1004,7 @@ const bancoDeDados = {
     "Moira": {
         img: "Imagem dos Heróis/Moira.png",
         texto: `
-            <h3>ERUPÇÃO BIOTÓXICA (NOVA PASSIVA)</h3>
+            <h3><img src="Habilidades e Perks/Moira - Passiva.png" class="icone-habilidade" style="height: 40px;">ERUPÇÃO BIOTÓXICA (NOVA PASSIVA)</h3>
             <ul>
                 <li>Golpes finais geram uma explosão de 5m na vítima que causa 25 de dano e estuna os inimigos próximos.</li>
             </ul>
@@ -1014,7 +1014,7 @@ const bancoDeDados = {
                 <li>Agora incendeia os inimigos, causando 80 de dano por segundo.</li>
             </ul>
 
-            <h3>DISPARO SECUNDÁRIO</h3>
+            <h3><img src="Habilidades e Perks/Moira - Disparo Secundário.png" class="icone-habilidade" style="height: 40px;">DISPARO SECUNDÁRIO</h3>
             <ul>
                 <li>Dano reduzido de 65 para 32,5 por segundo.</li>
                 <li>Acumular 125 de dano no mesmo alvo aplica Congelamento por 0,75s (exige 250 de dano em Armaduras).</li>
