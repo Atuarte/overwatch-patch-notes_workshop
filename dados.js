@@ -149,65 +149,17 @@ const bancoDeDados = {
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li>Vida base reduzida de 750 para 600.</li>
             </ul>
+            <h3><img src="Habilidades e Perks/Roadhog - Corrente de Gancho.png" class="icone-habilidade"> CORRENTE DE GANCHO</h3>
+            <ul>
+                <li>Novo efeito: A Corrente de Gancho vai aplicar dois status à vítima, imortal (a vida não fica abaixa de 1) e hackeado por 1,5s.</li>
+            </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
                 <p>Precisava de mais tanques nos ofensivos, aí eu escolhi o Roadhog para isso.</p>
             </div>
         `
     },
-    "Symmetra": {
-        img: "Imagem dos Heróis/Symmetra.png",
-        texto: `
-            <h3>A Symmetra foi adicionada aos tanques ofensivos.</h3>
-            <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVA</h3>
-            <ul>
-                <li>Tamanho e hitbox aumentados em 20%.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li>Vida base aumentada de 125 para 200.</li>
-                <li>Escudos aumentados de 150 para 225. Total: 425.</li>
-                <li>Symmetra recebe a passiva Especialidade da sub-role dos dps's.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Symmetra - Projetor de Fótons.png" class="icone-habilidade"> PROJETOR DE FÓTONS</h3>
-            <ul>
-                <li>Dano do disparo primário reduzido de 60/120/180 para 51/102/153.</li>
-                <li>Alcance do disparo primário foi aumentado de 12m para 14,4m.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Symmetra - Disparo Secundário.png" class="icone-habilidade" style="height: 45px;"> DISPARO SECUNDÁRIO</h3>
-            <ul>
-                <li>Dano do disparo secundário reduzido de 100 para 85.</li>
-                <li>Velocidade do projétil aumentada em 75%.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Symmetra - Torre de Sentinela.png" class="icone-habilidade"> TORRE DE SENTINELA</h3>
-            <ul>
-                <li>Tempo de recarga aumentado de 10 para 10,3 segundos.</li>
-                <li>Velocidade do projétil aumentado em 75%.</li>
-                <li>Dano reduzido de 30 para 25,5.</li>
-                <li>Vida das sentinelas foi aumentada de 40 para 50.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Symmetra - Teletransportador.png" class="icone-habilidade"> TELETRANSPORTADOR</h3>
-            <ul>
-                <li>Tempo de recarga reduzido de 12 para 9 segundos.</li>
-                <li>Vida base aumentou de 100 para 125.</li>
-                <li>Escudos aumentados de 200 para 250. Total: 375</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Symmetra - Barreira de Fótons.png" class="icone-habilidade"> BARREIRA DE FÓTONS</h3>
-            <ul>
-                <li>Vida aumentada de 4000 para 5000.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Symmetra - Alinhamento Perfeito.png" class="icone-habilidade"> ALINHAMENTO PERFEITO - PERK MENOR</h3>
-            <ul>
-                <li>O alcance mámixo da perk funciona sobre o buff da distância máxima do feixe do projetor de fótons, indo de 14,4m para 17,28m.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Symmetra - Barreira Flutuante.png" class="icone-habilidade"> BARREIRA FLUTUANTE - PERK MAIOR</h3>
-            <ul>
-                <li>Vida da barreira aumentou de 600 para 750.</li>
-            </ul>
-            <div class="comentarios-atuarte">
-                <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>Symmetra tanque 👍</p>
-            </div>
-        `
-    },
+   
     "Winston": {
         img: "Imagem dos Heróis/Winston.png",
         texto: `
@@ -267,7 +219,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Ícone Vampirismo.png" class="icone-habilidade" style="height: 45px;"> NOVA PASSIVA</h3>
             <ul>
-                <li>D.Mon ganha 25% (pensando em aumentar para 50%) de roubo de vida com todas as suas habilidades.</li>
+                <li>D.Mon ganha 35% de roubo de vida com todas as suas habilidades.</li>
             </ul>
         `
     },
@@ -327,13 +279,10 @@ const bancoDeDados = {
                 <li>Vida base aumentada de 300 para 575.</li>
                 <li>Mei recebe a passiva Especialidade da sub-role dos dps's</li>
             </ul>
-            <h3><img src="Habilidades e Perks/Mei - Aniquilador Endotérmico.png" class="icone-habilidade"> ANIQUILADOR ENDOTÉRMICO</h3>
-            <ul>
-                <li>Munição reduzida de 140 para 70.</li>
-            </ul>
             <h3><img src="Habilidades e Perks/Mei - Pingente de Gelo.png" class="icone-habilidade" style="height: 40px;"> PINGENTE DE GELO</h3>
             <ul>
                 <li>Velocidade do projétil reduzida em 30%.</li>
+                <li>Munição gasta aumentada de 10 para 20.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Muralha de Gelo.png" class="icone-habilidade"> MURALHA DE GELO</h3>
             <ul>
@@ -351,6 +300,7 @@ const bancoDeDados = {
             <ul>
                 <li>Velocidade do projétil reduzida em 30%.</li>
                 <li>Não recebe a redução na geração da suprema da passiva dos defensivos.</li>
+                <li>Gravidade do projétil aumentado em 400%.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -389,6 +339,10 @@ const bancoDeDados = {
                 <li>Vida base reduzida de 400 para 250.</li>
                 <li>Armadura aumentada de 300 para 425. Total: 675.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
+            </ul>
+            <h3>ROBUZTEZ (SUBFUNÇÃO)</h3>
+            <ul>
+                <li>Resistência a repulsão do Reinhardt aumentada de 40% para 75%.</li>
             </ul>
         `
     },
@@ -635,7 +589,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Sojourn - Tiro Carregado.png" class="icone-habilidade" style="height: 40px;">TIRO CARREGADO</h3>
             <ul>
-                <li>Multiplicador de dano crítico aumentado de 1.5 para 2x.</li>
+                <li>Multiplicador de dano crítico aumentado de 1.5x para 2x.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Sojourn - Disparo Disruptivo.png" class="icone-habilidade"> DISPARO DISRUPTIVO</h3>
             <ul>
@@ -650,48 +604,37 @@ const bancoDeDados = {
             </div>
         `
     },
-    "Sombra": {
-        img: "Imagem dos Heróis/Sombra.png",
-        texto: `
-            <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
-            <ul>
-                <li>Vida reduzida de 225 para 200.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Sombra - Hackear.png" class="icone-habilidade"> HACKEAR</h3>
-            <ul>
-                <li>Tempo de recarga em inimigos aumentado de 6 para 24 segundos.</li>
-                <li>Golpes finais não reduz o tempo de recarga do Hackear.</li>
-                <li>Tempo de recarga em implantáveis aumentado de 3 para 12 segundos.</li>
-                <li>Tempo de recarga de quando a habilidade for interrompida aumentado de 3 para 6 segundos.</li>
-                <li>Duração do silenciamento aumentado de 1 para 4 segundos.</li>
-                <li>Inimigos hackeados tem suas munições zeradas (com exceções do Mauga e da Jetpack Cat por bug do jogo).</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Sombra - Translocador.png" class="icone-habilidade"> TRANSLOCADOR</h3>
-            <ul>
-                <li>Agora compartilha o tempo de recarga com o Vírus, usou o Translocador, o Vírus entra em recarga.</li>
-                <li>Cura a Sombra em 25 de vida se ela tiver 188 de vida ou mais, 50 de vida se ela tiver entre 125 e 187, e 75 de vida se ela tiver menos de 125 de vida.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Sombra - Vírus.png" class="icone-habilidade"> VÍRUS</h3>
-            <ul>
-                <li>Agora compartilha o tempo de recarga com o Translocador.</li>
-                <li>Agora o Vírus hackea os inimigos por 0,25 segundo. O silenciamento dura o mesmo tempo.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Sombra - PEM.png" class="icone-habilidade"> PEM</h3>
-            <ul>
-                <li>Não carrega mais por combate, apenas passivamente e ao ser eliminada. Ganha 1% de carga a cada 1,5s (0 a 100 passivamente em 2,5 min). Não carrega morta ou antes do jogo iniciar.</li>
-                <li>Desabilita a HUD dos inimigos por 6 segundos.</li>
-                <li>Inimigos hackeados tem suas munições zeradas.</li>
-                <li>Corta 25% da carga da suprema dos inimigos.</li>
-            </ul>
-            <div class="comentarios-atuarte">
-                <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>Enquanto pensava nas mudanças da Sombra, reconheci o desafio real que é balanceá-la, algo que a própria Blizzard enfrenta. Acredito ter chegado a uma versão mais aceitável, mas a confirmação virá apenas após o teste da comunidade. Ela foi movida para a classe de Duelistas e, como a subfunção reduces a vida base, converti parte de sua vida em escudos para auxiliar na sua jogabilidade, já que parte dela depende de se isolar para recuperar vida. Atualmente, a Sombra está fraca e extremamente situacional, beneficiando-se apenas de personagens isolados sem defesas, embora seja odiada por ser irritante.</p>
-                <p>O Hack da Sombra faz muito mais sentido se estiver vinculado ao Vírus, e foi exatamente o que fiz. Agora, o Vírus hackeará os inimigos atingidos de forma rápida, servindo especificamente para cancelar habilidades. Como este hack tem um propósito imediato, não possui uma duração prolongada. O Hack padrão da Sombra, por outro lado, ainda existe, mas foi completamente modificado: aumentei o tempo de recarga drasticamente, mais do que triplicando de 6 para 24 segundos. Em contrapartida, ele ganhou benefícios significativos: a duração do silenciamento foi aumentada em quatro vezes e agora o hack também zera a munição dos inimigos.</p>
-                <p>Outra forma que encontrei de balanceá-la foi vinculando o tempo de recarga do Translocador e do Vírus. O combo anterior permitia que ela usasse o Vírus, disparasse e fugisse imediatamente com o Translocador, o que a tornava muito opressiva. Agora, você deve escolher entre usar um ou outro. Para compensar essa restrição, ambas as habilidades receberam melhorias. Sobre a habilidade suprema, decidi implementar um sistema de carregamento passivo, que servirá como um teste para avaliar o comportamento dela no jogo.</p>
-            </div>
-        `
-    },
-
+    "Symmetra": {
+            img: "Imagem dos Heróis/Symmetra.png",
+            texto: `
+                <h3>VIDA</h3>
+                <ul>
+                    <li>Vida base aumentada de 125 para 150. Total: 300.</li>
+                    <li>Tamanho e hitbox aumentados em 12,5%.</li>
+                </ul>
+                <h3><img src="Habilidades e Perks/Symmetra - Projetor de Fótons.png" class="icone-habilidade"> PROJETOR DE FÓTONS</h3>
+                <ul>
+                    <li>Alcance do disparo primário foi aumentado de 12m para 13,5m.</li>
+                </ul>
+                <h3><img src="Habilidades e Perks/Symmetra - Disparo Secundário.png" class="icone-habilidade" style="height: 45px;"> DISPARO SECUNDÁRIO</h3>
+                <ul>
+                    <li>Velocidade do projétil aumentada em 60%.</li>
+                </ul>
+                <h3><img src="Habilidades e Perks/Symmetra - Torre de Sentinela.png" class="icone-habilidade"> TORRE DE SENTINELA</h3>
+                <ul>
+                    <li>Tempo de recarga aumentado de 10 para 10,3 segundos.</li>
+                    <li>Velocidade do projétil aumentado em 60%.</li>
+                </ul>
+                <h3><img src="Habilidades e Perks/Symmetra - Alinhamento Perfeito.png" class="icone-habilidade"> ALINHAMENTO PERFEITO - PERK MENOR</h3>
+                <ul>
+                    <li>O alcance mámixo da perk funciona sobre o buff da distância máxima do feixe do projetor de fótons, indo de 13,5m para 16,2m.</li>
+                </ul>
+                <div class="comentarios-atuarte">
+                    <h4>COMENTÁRIOS DO CRIADOR</h4>
+                    <p>...</p>
+                </div>
+            `
+        },
     "Tracer": {
         img: "Imagem dos Heróis/Tracer.png",
         texto: `
@@ -828,11 +771,12 @@ const bancoDeDados = {
             <ul>
                 <li>Tempo de recarga aumentado de 5 para 10 segundos.</li>
                 <li>Agora, ao invés de voltar 1 carga de cada vez, todas voltam juntas.</li>
+            </ul>
             <h3><img src="Habilidades e Perks/Brigitte - Reagrupar.png" class="icone-habilidade"> REAGRUPAR</h3>
             <ul>
-                <li>Aumenta o tamanho da barreira em 50%.</li>
-                <li>Brigitte não receberá repulsão durante o Reagrupar.</li>
-                <li>Reagrupar ativa automaticamente o Inspirar, pulsando a cada segundo 30 de cura instantânea.</li>
+                <li>Aumenta o tamanho da barreira em 75%.</li>
+                <li>Vida da barreira aumentada de 750 para 2400.</li>
+                <li>Reagrupar aumenta a vida base máxima de 200 para 400 e a armadura base de 150 para 325, totalizando 725.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -847,8 +791,7 @@ const bancoDeDados = {
         texto: `
             <h3><img src="Habilidades e Perks/Illari - Rifle Solar.png" class="icone-habilidade"> RIFLE SOLAR</h3>
             <ul>
-                <li>Multiplicador de dano crítico aumentado de 1.5 para 1.6x. Headshot mínimo aumentado de 37,5 para 40 e máximo de 112,5 para 120.</li>
-                <li>Adicionada mecânica de dano em área: Disparos geram explosão de 5m ao colidir com superfícies, barreiras ou inimigos. Causa 10 de dano fixo + 10% do dano original ao atingir inimigos na área. Acertos diretos não recebem dano explosivo.</li>
+                <li>Multiplicador de dano crítico aumentado de 1.5x para 1.6x. Headshot mínimo aumentado de 37,5 para 40 e máximo de 112,5 para 120.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Illari - Explosão.png" class="icone-habilidade"> EXPLOSÃO</h3>
             <ul>
@@ -856,7 +799,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Illari - Sol Aprisionado.png" class="icone-habilidade"> SOL APRISIONADO</h3>
             <ul>
-                <li>Cura a Illari em 50 de vida por segundo.</li>
+                <li>Cura a Illari em 25 de vida por segundo.</li>
                 <li>Incendeia inimigos, mas não aplica dano extra.</li>
                 <li>Todo dano da suprema desabilita a HUD dos inimigos por 0.5 segundo.</li>
             </ul>
@@ -892,7 +835,7 @@ const bancoDeDados = {
         <h3><img src="Habilidades e Perks/Kiriko - Suzu de Proteção.png" class="icone-habilidade"> SUZU DE PROTEÇÃO</h3>
             <ul>
                 <li>Tempo de recarga aumentado de 14 para 31s.</li>
-                <li>Nova mecânica de redução dinâmica: Ofuda de cura reduz -0,25s por acerto; Kunai no corpo reduz -0,75s; Kunai na cabeça reduz -1,50s.</li>
+                <li>Nova mecânica de redução dinâmica: Ofuda de cura reduz -0,25s por acerto; Kunai no corpo reduz -1s; Kunai na cabeça reduz -2s.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -1036,15 +979,77 @@ const bancoDeDados = {
             </div>
         `
     },
+    "Sombra": {
+    img: "Imagem dos Heróis/Sombra.png",
+    texto: `
+        <h3>A Sombra foi adicionada aos suportes.</h3>
+            <h3>Sombra recebe a passiva Reconhecimento da sub-role dos dps's.</h3>
+            <h3>VIDA</h3>
+            <ul>
+                <li>Vida base reduzida de 225 para 125.</li>
+                <li>Escudos aumentados de 0 para 125. Total: 250.</li>
+                <li> Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
+            </ul>
+
+        <h3><img src="Habilidades e Perks/Sombra - Hackear.png" class="icone-habilidade"> HACKEAR</h3>
+        <ul>
+            <li>Tempo de recarga em inimigos aumentado de 6 para 24 segundos.</li>
+            <li>Tempo de recarga em implantáveis aumentado de 3 para 12 segundos.</li>
+            <li>Tempo de recarga quando a habilidade for interrompida aumentado de 3 para 6 segundos.</li>
+            <li>Duração do silenciamento aumentada de 1 para 4 segundos.</li>
+            <li>Inimigos hackeados têm suas munições zeradas (com exceções do Mauga e da Jetpack Cat por limitação do jogo).</li>
+        </ul>
+
+        <h3><img src="Habilidades e Perks/Sombra - Translocador.png" class="icone-habilidade"> NOVA HABILIDADE: M4RC4</h3>
+        <ul>
+            <li>Translocador removido.</li>
+            <li>Conecta a Sombra ao aliado vivo mais próximo da retícula, criando uma aura de 8 metros de raio fixada nele.</li>
+            <li>Tempo de recarga reduzido de 6s para 1,5s.</li>
+            <li>Posicione a M4RC4 de qualquer distância.</li>
+            <li>Não se desfaz ao perder linha de visão ou atrás de paredes. Só é removida na morte do alvo, ao remarcar outro aliado ou na troca de herói.</li>
+            <li>Escudo Bônus por Função:</li>
+                <ul>
+                    <li>Tanques: +100 de escudo.</li>
+                    <li>Suportes: +50 de escudo.</li>
+                    <li>DPS: +25 de escudo.</li>
+                </ul>
+            </li>
+            <li>O portador da M4RC4 recebe 15 de cura ao longo do tempo e aliados dentro dos 8 metros recebem 10 de cura ao longo do tempo.</li>
+            <li>40% de todo o dano causado pela Sombra é convertido em cura em área instantânea para os aliados dentro da M4RC4.</li>
+        </ul>
+
+        <h3><img src="Habilidades e Perks/Sombra - Vírus.png" class="icone-habilidade"> VÍRUS</h3>
+        <ul>
+            <li>O Vírus agora hackeia os inimigos por 0,25s. O silenciamento dura o mesmo tempo.</li>
+        </ul>
+
+        <h3><img src="Habilidades e Perks/Sombra - PEM.png" class="icone-habilidade"> PEM</h3>
+        <ul>
+            <li>Não carrega mais por combate, apenas passivamente e ao ser eliminada. Ganha 1% de carga a cada 1,5s (0 a 100% passivamente em 2,5 min). Não carrega morta ou antes do jogo iniciar.</li>
+            <li>Desabilita a HUD dos inimigos por 6 segundos.</li>
+            <li>Inimigos hackeados têm suas munições zeradas.</li>
+            <li>Drena 25% da carga da suprema dos inimigos atingidos.</li>
+        </ul>
+    `
+    },
     "Torbjörn": {
         img: "Imagem dos Heróis/Torbjörn.png",
         texto: `
             <h3>O Torbjörn foi adicionado aos suportes.</h3>
             <h3>Torbjörn não recebe a passiva Especialidade da sub-role dos dps's.</h3>
+            <h3>VIDA</h3>
+            <ul>
+                <li>Vida base reduzida de 225 para 175.</li>
+                <li>Armadura aumentada de 75 para 100. Total: 275.</li>
+            </ul>
             <h3>RESTAURAÇÃO (PASSIVA)</h3>
             <ul>
                 <li>Torbjörn recebe a passiva da sub-role Restauração.</li>
                 <li>Curar aliados com sua arma também cura o Torbjörn com 40% da cura.</li>
+            </ul>
+            <h3>NOVA PASSIVA</h3>
+            <ul>
+                <li>Toda a vez que Torbjörn e seus aliados nascerem e renascerem, eles ganham 100 de armadura extra não regenerável.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Torbjörn - Pistola de Rebite.png" class="icone-habilidade"> PISTOLA DE REBITE</h3>
             <ul>
@@ -1056,11 +1061,15 @@ const bancoDeDados = {
                 <li>Nova mecânica: O martelo vai criar uma aura visual de 5m (visível apenas para o Torbjörn).</li>
                 <li>Cada martelada vai curar 70 de vida todos os aliados que estiverem no campo de visão do Torbjörn e dentro da aura.</li>
             </ul>
+            <h3><img src="Habilidades e Perks/Torbjörn - Posicionar Torre.png" class="icone-habilidade"> POSICIONAR TORRE</h3>
+            <ul>
+                <li>Vida da torre reduzida de 225 para 175.</li>
+            </ul>
             <h3><img src="Habilidades e Perks/Torbjörn - Sobrecarga.png" class="icone-habilidade"> SOBRECARGA</h3>
             <ul>
                 <li>Tempo de recarga reduzido de 10 para 7.5s.</li>
                 <li>Duração reduzida de 6 para 4,5s.</li>
-                <li>Aliados à 15m do Torbjörn recebem 100 de vida extra, 55 de cura instantânea e 45 de cura passiva ao total de 4,5s.</li>
+                <li>Aliados à 15m do Torbjörn recebem 100 de vida extra, 30 de cura instantânea e 45 de cura passiva ao total de 4,5s.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Torbjörn - Núcleo Fundido.png" class="icone-habilidade"> NÚCLEO FUNDIDO</h3>
             <ul>
