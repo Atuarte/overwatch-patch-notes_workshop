@@ -151,7 +151,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Roadhog - Corrente de Gancho.png" class="icone-habilidade"> CORRENTE DE GANCHO</h3>
             <ul>
-                <li>Novo efeito: A Corrente de Gancho vai aplicar dois status à vítima, imortal (a vida não fica abaixa de 1) e hackeado por 1,5s.</li>
+                <li>Novo efeito: A Corrente de Gancho vai aplicar dois status à vítima, imortal (a vida não fica abaixo de 1) e hackeado por 1,5s.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -430,14 +430,14 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Ashe - Mirar.png" class="icone-habilidade" style="height: 40px;"> MIRAR</h3>
             <ul>
-                <li>Acertos críticos devolvem 1 de munição.</li>
-                <li>Tiros consomem o dobro de munição.</li>
+                <li>Tiros consomem 2 de munição.</li>
+                <li>Acertos críticos consomem 1 de munição.</li>
                 <li>Dano aumentado de 75 para 100.</li>
                 <li>Multiplicador de dano crítico reduzido de 2.0x para 1.5x</li>
             </ul>
             <h3><img src="Habilidades e Perks/Ashe - B.O.B..png" class="icone-habilidade"> B.O.B.</h3>
             <ul>
-                <li>Vida do B.O.B. reduzida de 1150 para 900.</li>
+                <li>Vida do B.O.B. reduzida de 1000 para 900.</li>
                 <li>Duração máxima aumentada de 10 para 12 segundos.</li>
             </ul>
             <div class="comentarios-atuarte">
@@ -456,9 +456,9 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Cassidy - Pacificador.png" class="icone-habilidade"> PACIFICADOR</h3>
             <ul>
                 <li>Dano reduzido de 70 para 56.</li>
-                <li>Multiplicador de dano crítico aumentado de 2 para 2.5x (headshot de 140).</li>
-                <li>Munição aumentada de 6 para 10.</li>
+                <li>Multiplicador de dano crítico aumentado de 2 para 2.5x (headshot de 140).</li>\
                 <li>Acertos críticos consomem o dobro de munição.</li>
+                <li>Munição aumentada de 6 para 10.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Cassidy - Clarão.png" class="icone-habilidade">CLARÃO</h3>
             <ul>
@@ -581,6 +581,10 @@ const bancoDeDados = {
     "Sojourn": {
         img: "Imagem dos Heróis/Sojourn.png",
         texto: `
+            <h3>VIDA</h3>
+            <ul>
+                <li>Vida aumentadada de 225 para 250.</li>
+            </ul>
             <h3><img src="Habilidades e Perks/Sojourn - Canhão Elétrico.png" class="icone-habilidade"> CANHÃO ELÉTRICO</h3>
             <ul>
                 <li>Munição aumentada de 45 para 60.</li>
@@ -607,7 +611,7 @@ const bancoDeDados = {
     "Symmetra": {
             img: "Imagem dos Heróis/Symmetra.png",
             texto: `
-                <h3>VIDA</h3>
+                <h3>VIDA E OUTROS ATRIBUTOS</h3>
                 <ul>
                     <li>Vida base aumentada de 125 para 150. Total: 300.</li>
                     <li>Tamanho e hitbox aumentados em 12,5%.</li>
@@ -988,7 +992,7 @@ const bancoDeDados = {
     texto: `
         <h3>A Sombra foi adicionada aos suportes.</h3>
             <h3>Sombra recebe a passiva Reconhecimento da sub-role dos dps's.</h3>
-            <h3>VIDA</h3>
+            <h3>VIDA E OUTROS ATRIBUTOS</h3>
             <ul>
                 <li>Vida base reduzida de 225 para 125.</li>
                 <li>Escudos aumentados de 0 para 125. Total: 250.</li>
