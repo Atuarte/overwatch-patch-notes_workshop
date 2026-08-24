@@ -425,9 +425,8 @@ a.botao-menu {
 }
 
 .modal-conteudo {
-    background-color: var(--roxo-fundo-escuro); 
-    width: 420px; 
-    max-width: 90%; 
+    background-color: var(--roxo-fundo-escuro);
+    width: 100%; 
     padding: 15px; 
     position: relative;
     box-sizing: border-box;
@@ -705,4 +704,68 @@ a.botao-menu {
     .galeria-herois { grid-template-columns: repeat(2, 1fr); gap: 12px; }
     .nome-heroi { font-size: 14px; padding: 8px 5px 4px 5px; }
     .marca-dagua-fundo { width: 300px; height: 300px; top: 50%; left: 50%; }
+}
+
+/* =========================================
+   BOTÕES DE NAVEGAÇÃO LATERAL DO MODAL (ESTILO LAKKI REDDY)
+   ========================================= */
+   .modal-wrapper {
+    position: relative;
+    width: 420px;
+    max-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.btn-modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+    /* 🎯 Aqui está a mágica: aplica a mesma fonte do X e do site */
+    font-family: 'Lakki Reddy', cursive, sans-serif;
+    font-size: 48px; /* Tamanho encorpado */
+    color: var(--branco); /* Seta branca padrão */
+    line-height: 1;
+    z-index: 1001;
+    user-select: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); /* Sombra para não sumir no fundo */
+}
+
+/* Efeito Hover: O botão fica dourado e cresce suavemente, igual ao X */
+.btn-modal-nav:hover {
+    color: var(--dourado-noctune);
+    transform: translateY(-50%) scale(1.2);
+}
+
+/* Efeito de Clique */
+.btn-modal-nav:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+.btn-anterior {
+    left: -55px;
+}
+
+.btn-proximo {
+    right: -55px;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 600px) {
+    .btn-anterior {
+        left: -25px;
+    }
+    .btn-proximo {
+        right: -25px;
+    }
+    .btn-modal-nav {
+        font-size: 36px;
+    }
 }

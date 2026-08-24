@@ -88,9 +88,22 @@
     </div>
 
     <div id="modal-heroi" class="modal">
-        <div class="modal-conteudo">
-            <span class="fechar-btn" onclick="fecharModal()">&times;</span>
-            <div id="conteudo-modal"></div>
+        <div class="modal-wrapper">
+            <!-- Botão Voltar (Esquerda) -->
+            <button id="btn-modal-ant" class="btn-modal-nav btn-anterior" onclick="navegarHeroi(-1)" title="Herói Anterior">
+                &#10094;
+            </button>
+
+            <!-- Conteúdo do Card -->
+            <div class="modal-conteudo">
+                <span class="fechar-btn" onclick="fecharModal()">&times;</span>
+                <div id="conteudo-modal"></div>
+            </div>
+
+            <!-- Botão Avançar (Direita) -->
+            <button id="btn-modal-prox" class="btn-modal-nav btn-proximo" onclick="navegarHeroi(1)" title="Próximo Herói">
+                &#10095;
+            </button>
         </div>
     </div>
 

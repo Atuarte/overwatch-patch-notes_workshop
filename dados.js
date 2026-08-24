@@ -704,7 +704,7 @@ const bancoDeDados = {
     "Ana": {
         img: "Imagem dos Heróis/Ana.png",
         texto: `
-            <h3>RESTAURAÇÃO (PASSIVA)</h3>
+            <h3>RESTAURAÇÃO (SUB-FUNÇÃO)</h3>
             <ul>
                 <li>Ana recebe a passiva da sub-role Restauração.</li>
                 <li>Curar aliados com sua arma também cura a Ana com 40% da cura.</li>
@@ -793,6 +793,10 @@ const bancoDeDados = {
             <ul>
                 <li>Multiplicador de dano crítico aumentado de 1.5x para 1.6x. Headshot mínimo aumentado de 37,5 para 40 e máximo de 112,5 para 120.</li>
             </ul>
+            <h3><img src="Habilidades e Perks/Illari - Disparo Secundário.png" class="icone-habilidade" style="height: 40px;"> DISPARO SECUNDÁRIO</h3>
+            <ul>
+                <li>Energia solar máxima e recuperação aumentados em 25%.</li>
+            </ul>
             <h3><img src="Habilidades e Perks/Illari - Explosão.png" class="icone-habilidade"> EXPLOSÃO</h3>
             <ul>
                 <li>Cancela habilidades de movimentação dos inimigos.</li>
@@ -818,7 +822,7 @@ const bancoDeDados = {
         <ul>
             <li>A Juno foi adicionada aos planadores.</li>
         </ul>
-        <h3>RESTAURAÇÃO (PASSIVA)</h3>
+        <h3>RESTAURAÇÃO (SUB-FUNÇÃO)</h3>
             <ul>
                 <li>Juno recebe a passiva da sub-role Restauração.</li>
                 <li>Curar aliados com sua arma também cura a Juno com 40% da cura.</li>
@@ -960,9 +964,9 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Moira - Disparo Secundário.png" class="icone-habilidade" style="height: 40px;">DISPARO SECUNDÁRIO</h3>
             <ul>
                 <li>Dano reduzido de 65 para 32,5 por segundo.</li>
-                <li>Acumular 125 de dano no mesmo alvo aplica Congelamento por 0,75s (exige 250 de dano em Armaduras).</li>
-                <li>Inimigos têm os tempos de recarga das suas habilidades 25% mais lentos.</li>
                 <li>Causa 100% a mais de dano à armaduras.</li>
+                <li>Acumular 125 de dano no mesmo alvo aplica Congelamento por 0,75s (exige 250 de dano em Armaduras).</li>
+                <li>Inimigos têm os tempos de recarga das suas habilidades desaceleradas em 25% enquanto mantiver o dano.</li>
             </ul>
 
             <h3><img src="Habilidades e Perks/Moira - Orbe Biótico.png" class="icone-habilidade"> ORBE BIÓTICO</h3>
@@ -1003,18 +1007,18 @@ const bancoDeDados = {
         <h3><img src="Habilidades e Perks/Sombra - Translocador.png" class="icone-habilidade"> NOVA HABILIDADE: M4RC4</h3>
         <ul>
             <li>Translocador removido.</li>
-            <li>Conecta a Sombra ao aliado vivo mais próximo da retícula, criando uma aura de 8 metros de raio fixada nele.</li>
+            <li>Conecta a Sombra ao aliado vivo mais próximo da retícula, criando uma aura de 8 metros de raio fixado nele.</li>
             <li>Tempo de recarga reduzido de 6s para 1,5s.</li>
             <li>Posicione a M4RC4 de qualquer distância.</li>
             <li>Não se desfaz ao perder linha de visão ou atrás de paredes. Só é removida na morte do alvo, ao remarcar outro aliado ou na troca de herói.</li>
-            <li>Escudo Bônus por Função:</li>
+            <li>A M4RC4 aplica escudos com quantidade baseada por função:</li>
                 <ul>
                     <li>Tanques: +100 de escudo.</li>
                     <li>Suportes: +50 de escudo.</li>
                     <li>DPS: +25 de escudo.</li>
                 </ul>
             </li>
-            <li>O portador da M4RC4 recebe 15 de cura ao longo do tempo e aliados dentro dos 8 metros recebem 10 de cura ao longo do tempo.</li>
+            <li>O portador da M4RC4 recebe 15 de cura por segundo e aliados dentro dos 8 metros recebem 10 de cura por segundo.</li>
             <li>40% de todo o dano causado pela Sombra é convertido em cura em área instantânea para os aliados dentro da M4RC4.</li>
         </ul>
 
@@ -1042,7 +1046,7 @@ const bancoDeDados = {
                 <li>Vida base reduzida de 225 para 175.</li>
                 <li>Armadura aumentada de 75 para 100. Total: 275.</li>
             </ul>
-            <h3>RESTAURAÇÃO (PASSIVA)</h3>
+            <h3>RESTAURAÇÃO (SUB-FUNÇÃO)</h3>
             <ul>
                 <li>Torbjörn recebe a passiva da sub-role Restauração.</li>
                 <li>Curar aliados com sua arma também cura o Torbjörn com 40% da cura.</li>
