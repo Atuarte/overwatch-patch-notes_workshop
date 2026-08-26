@@ -196,11 +196,11 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Wrecking Ball - Bate-Estaca.png" class="icone-habilidade"> BATE-ESTACA</h3>
             <ul>
-                <li>Tempo de recarga reduzido de 5 para 6,8 segundos (15%).</li>
+                <li>Tempo de recarga reduzido de 8 para 7,2 segundos (10%).</li>
             </ul>
             <h3><img src="Habilidades e Perks/Wrecking Ball - Garra.png" class="icone-habilidade"> GARRA</h3>
             <ul>
-                <li>Tempo de recarga da Garra reduzido de 5 para 4,25 segundos (15%).</li>
+                <li>Tempo de recarga da Garra reduzido de 5 para 4,5 segundos (10%).</li>
             </ul>
         `
     },
@@ -687,6 +687,10 @@ const bancoDeDados = {
     "Widowmaker": {
         img: "Imagem dos Heróis/Widowmaker.png",
         texto: `
+            <h3><VIDA</h3>
+            <ul>
+                <li>Vida máxima reduzida de 225 para 200.</li>
+            </ul>
             <h3><img src="Habilidades e Perks/Widowmaker - Beijo da Viúva.png" class="icone-habilidade"> BEIJO DA VIÚVA</h3>
             <ul>
                 <li>Munição aumentada de 35 para 56.</li>
@@ -819,6 +823,21 @@ const bancoDeDados = {
             </div>
         `
     },
+    "Jetpack Cat": {
+        img: "Imagem dos Heróis/Jetpack Cat.png",
+        texto: `
+            <h3>VIDA</h3>
+            <ul>
+                <li>Vida reduzida de 225 para 100.</li>
+                <li>Escudos aumentados de 0 para 100. Total: 200.</li>
+            </ul>
+            
+            <div class="comentarios-atuarte">
+                <h4>COMENTÁRIOS DO CRIADOR</h4>
+                <p>...</p>
+            </div>
+        `
+    },
     "Juno": {
         img: "Imagem dos Heróis/Juno.png",
         texto: `
@@ -936,12 +955,7 @@ const bancoDeDados = {
     },
     "Mizuki": {
         img: "Imagem dos Heróis/Mizuki.png",
-        texto: `
-            <h3>VIDA</h3>
-            <ul>
-                <li>Vida reduzida de 250 para 100.</li>
-                <li>Escudos aumentados de 0 para 125. Total: 225.</li>
-            </ul>   
+        texto: `   
             <h3><img src="Habilidades e Perks/Mizuki - Aura Medicinal.png" class="icone-habilidade"> AURA MEDICINAL</h3>
             <ul>
                 <li>10% do dano causado vira cura na área da Aura Medicinal.</li>
