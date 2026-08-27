@@ -22,7 +22,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/D.Va - Propulsores.png" class="icone-habilidade"> PROPULSORES</h3>
             <ul>
-                <li>Tempo de recarga de propulsores reduzido de 4 para 3 segundos (25%).</li>
+                <li>Tempo de recarga de propulsores reduzido de 4 para 3,4 segundos (15%).</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -689,19 +689,18 @@ const bancoDeDados = {
         texto: `
             <h3><VIDA</h3>
             <ul>
-                <li>Vida máxima reduzida de 225 para 200.</li>
+                <li>Vida máxima reduzida de 225 para 100.</li>
+                <li>Escudos aumentados de 0 para 100. Total: 200.</li>
             </ul>
-            <h3><img src="Habilidades e Perks/Widowmaker - Beijo da Viúva.png" class="icone-habilidade"> BEIJO DA VIÚVA</h3>
+            <h3><img src="Habilidades e Perks/Widowmaker - ...png" class="icone-habilidade"> MINA VENENOSA</h3>
             <ul>
-                <li>Munição aumentada de 35 para 56.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Widowmaker - Mirar.png" class="icone-habilidade" style="height: 40px;">MIRAR</h3>
-            <ul>
-                <li>Munição gasta aumentada de 5 para 7.</li>
+                <li>100% do dano causado pela Mina vira cura para a Widowmaker.</li>
+                <li>Velocidade do projétil aumentada em 50%.</li>
+                <li>Gravidade do projétil reduzida em 25%.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>Widow: 76</p>
+                <p>...</p>
             </div>
         `
     },
@@ -782,9 +781,10 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Brigitte - Reagrupar.png" class="icone-habilidade"> REAGRUPAR</h3>
             <ul>
-                <li>Aumenta o tamanho da barreira em 75%.</li>
-                <li>Vida da barreira aumentada de 750 para 2400.</li>
-                <li>Reagrupar aumenta a vida base máxima de 200 para 400 e a armadura base de 150 para 325, totalizando 725.</li>
+                <li>Aumenta o tamanho da barreira em 50%.</li>
+                <li>Vida da barreira aumentada de 750 para 1200.</li>
+                <li>Reagrupar aumenta a vida base máxima de 200 para 275 e a armadura base de 150 para 225, totalizando 500.</li>
+                <li>Brigitte e aliados que estiverem na área do Reagrupar (8m) recebem 25 de cura por segundo.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
@@ -903,7 +903,7 @@ const bancoDeDados = {
         texto: `
             <h3><img src="Habilidades e Perks/Lúcio - Onda Sonora.png" class="icone-habilidade"> ONDA SONORA</h3>
             <ul>
-                <li>Aliados à frente do Lúcio na área da Transição receberão 75 de escudos decrescentes e 25 de cura ao longo de 2.5s.</li>
+                <li>Aliados à frente do Lúcio e dentro da área da Transição receberão 75 de escudos decrescentes e 25 de cura ao longo de 2.5s.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Lúcio - Transição.png" class="icone-habilidade"> TRANSIÇÃO</h3>
             <ul>
@@ -1017,14 +1017,14 @@ const bancoDeDados = {
         <ul>
             <li>Tempo de recarga em inimigos aumentado de 6 para 24 segundos.</li>
             <li>Tempo de recarga em implantáveis aumentado de 3 para 12 segundos.</li>
-            <li>Tempo de recarga quando a habilidade for interrompida aumentado de 3 para 6 segundos.</li>
+            <li>Tempo de recarga quando a habilidade for interrompida por dano aumentado de 3 para 6 segundos.</li>
             <li>Duração do silenciamento aumentada de 1 para 4 segundos.</li>
-            <li>Inimigos hackeados têm suas munições zeradas (com exceções do Mauga e da Jetpack Cat por limitação do jogo).</li>
+            <li>Inimigos hackeados serão forçados a recarregarem suas armas (com exceções do Mauga e da Jetpack Cat por limitação do jogo).</li>
         </ul>
 
         <h3><img src="Habilidades e Perks/Sombra - Translocador.png" class="icone-habilidade"> NOVA HABILIDADE: M4RC4</h3>
         <ul>
-            <li>Translocador removido.</li>
+            <li>O Translocador foi removido.</li>
             <li>Conecta a Sombra ao aliado vivo mais próximo da retícula, criando uma aura de 8 metros de raio fixado nele.</li>
             <li>Tempo de recarga reduzido de 6s para 1,5s.</li>
             <li>Posicione a M4RC4 de qualquer distância.</li>
@@ -1037,7 +1037,7 @@ const bancoDeDados = {
                 </ul>
             </li>
             <li>O portador da M4RC4 recebe 15 de cura por segundo e aliados dentro dos 8 metros recebem 10 de cura por segundo.</li>
-            <li>40% de todo o dano causado pela Sombra é convertido em cura em área instantânea para os aliados dentro da M4RC4.</li>
+            <li>50% de todo o dano causado pela Sombra é convertido em cura em área instantânea para os aliados dentro da M4RC4.</li>
         </ul>
 
         <h3><img src="Habilidades e Perks/Sombra - Vírus.png" class="icone-habilidade"> VÍRUS</h3>
@@ -1047,7 +1047,7 @@ const bancoDeDados = {
 
         <h3><img src="Habilidades e Perks/Sombra - PEM.png" class="icone-habilidade"> PEM</h3>
         <ul>
-            <li>Não carrega mais por combate, apenas passivamente e ao ser eliminada. Ganha 1% de carga a cada 1,5s (0 a 100% passivamente em 2,5 min). Não carrega morta ou antes do jogo iniciar.</li>
+            <li>Não carrega mais por combate, apenas passivamente e ao ser eliminada. Ganha 1% de carga a cada 1,5s (0 a 100% passivamente em 2,5 min). Não carrega enquanto estiver morta ou antes do jogo iniciar.</li>
             <li>Desabilita a HUD dos inimigos por 6 segundos.</li>
             <li>Inimigos hackeados têm suas munições zeradas.</li>
             <li>Drena 25% da carga da suprema dos inimigos atingidos.</li>
