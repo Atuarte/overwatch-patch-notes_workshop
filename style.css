@@ -621,52 +621,6 @@ a.botao-menu {
 }
 
 /* =========================================
-   SEÇÃO: COMENTÁRIOS DO CRIADOR (Visual Lakki Reddy)
-   ========================================= */
-.comentarios-atuarte {
-    margin-top: 35px;
-    position: relative;
-    /* 🎯 CORREÇÃO: Garante que os comentários expandam até o limite */
-    width: 100% !important;
-    max-width: 100% !important;
-}
-
-/* Mantive a linha sólida centralizada que deixa o acabamento limpo */
-.comentarios-atuarte::before {
-    content: "";
-    display: block;
-    width: 100%;                         
-    height: 3px;                        
-    background-color: var(--dourado-noctune); 
-    opacity: 0.3;                       
-    margin: 0 auto 20px auto;           
-    border-radius: 10px;                
-}
-
-/* O Título firme e forte na Lakki Reddy */
-.comentarios-atuarte h4 {
-    font-family: 'Lakki Reddy', cursive;
-    color: var(--dourado-noctune);
-    font-weight: normal; 
-    font-size: 26px; /* Aumentado de leve para dar hierarquia */
-    margin-bottom: 16px;
-    letter-spacing: 1px;
-}
-
-/* 🎯 VOLTOU PARA O CLÁSSICO: Fonte Lakki Reddy, Dourada e Não-Negrito */
-.comentarios-atuarte p {
-    font-family: 'Lakki Reddy', cursive; /* Ativa a fonte estilizada */
-    color: var(--dourado-noctune);      /* Texto dourado igual ao título */
-    font-weight: normal;                /* Força a não ficar em negrito */
-    font-size: 17px;                    /* Tamanho ajustado para essa fonte preencher bem o bloco */
-    line-height: 1.6;
-    text-align: justify; 
-    /* 🎯 CORREÇÃO: Tira as restrições invisíveis do parágrafo */
-    width: 100%;
-    max-width: 100%;
-}
-
-/* =========================================
    7. RESPONSIVIDADE REAL DO MODO OVERWATCH
    ========================================= */
 @media (max-width: 1024px) {
