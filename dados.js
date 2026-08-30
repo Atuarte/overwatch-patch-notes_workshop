@@ -10,9 +10,6 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-            </ul>
-            <h3>VIDA</h3>
-            <ul>
                 <li>Vida base reduzida de 325 para 150.</li>
                 <li>Armadura reduzida de 325 para 250. Total: 400.</li>
                 <li>Vida da Baby D.Va reduzida de 175 para 150.</li>
