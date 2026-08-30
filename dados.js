@@ -13,12 +13,9 @@ const bancoDeDados = {
             </ul>
             <h3>VIDA</h3>
             <ul>
-                <li>Vida base reduzida de 325 para 225. Total: 500.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/D.Va - Matriz de Defesa.png" class="icone-habilidade"> MATRIZ DE DEFESA</h3>
-            <ul>
-                <li>Tempo máximo de matriz aumentado em 30%.</li>
-                <li>Reduz o dano recebido em 30%.</li>
+                <li>Vida base reduzida de 325 para 150.</li>
+                <li>Armadura reduzida de 325 para 250. Total: 400.</li>
+                <li>Vida da Baby D.Va reduzida de 175 para 150.</li>
             </ul>
             <h3><img src="Habilidades e Perks/D.Va - Propulsores.png" class="icone-habilidade"> PROPULSORES</h3>
             <ul>
@@ -26,7 +23,7 @@ const bancoDeDados = {
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>A D.Va não pode receber qualquer aumento na vida do Meka, pois isso aumentaria também a vida da Baby D.Va. Para compensar, estou aumentando a duração da Matriz de Defesa; agora, ela também concede redução de dano enquanto a habilidade estiver ativa.</p>
+                <p>...</p>
             </div>
         `
     },
@@ -35,10 +32,10 @@ const bancoDeDados = {
         texto: `
             <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVO</h3>
             <ul>
-                <li>Tamanho e hitbox reduzido em 3%.</li>
+                <li>Doomfist não recebe a redução de tamanho e na hitbox.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li>Vida base reduzida de 525 para 225.</li>
-                <li>Escudos aumentados de 0 para 200. Total: 425.</li>
+                <li>Escudos aumentados de 0 para 150. Total: 375.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Doomfist - A Melhor Defesa....png" class="icone-habilidade" style="height: 40px;">A MELHOR DEFESA... (PASSIVA)</h3>
             <ul>
@@ -68,7 +65,8 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li>Vida base reduzida de 425 para 275. Total: 500.</li>
+                <li>Vida base reduzida de 425 para 200.</li>
+                <li>Armadura reduzida de 225 para 175. Total: 375.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Hazard - Salto Brutal.png" class="icone-habilidade"> SALTO BRUTAL</h3>
             <ul>
@@ -82,8 +80,8 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
-                <li>Vida base reduzida de 300 para 250.</li>
-                <li>Armadura reduzida de 300 para 225. Total: 475.</li>
+                <li>Vida base reduzida de 300 para 175.</li>
+                <li>Armadura reduzida de 300 para 225. Total: 400.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
             </ul>
             <h3><img src="Habilidades e Perks/Orisa - Fortificar.png" class="icone-habilidade"> FORTIFICAR</h3>
@@ -118,8 +116,7 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzidos em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li>Vida base reduzida de 525 para 300.</li>
-                <li>Escudos aumentados de 0 para 150. Total: 450.</li>
+                <li>Vida base reduzida de 525 para 375.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Rainha Junker - Grito de Guerra.png" class="icone-habilidade"> GRITO DE GUERRA</h3>
             <ul>
@@ -147,7 +144,8 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzidos em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li>Vida base reduzida de 750 para 600.</li>
+                <li>Vida base reduzida de 750 para 300.</li>
+                <li>Escudos aumentados de 0 para 200. Total: 500.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Roadhog - Corrente de Gancho.png" class="icone-habilidade"> CORRENTE DE GANCHO</h3>
             <ul>
@@ -167,7 +165,8 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,325 (15%).</li>
-                <li>Vida base reduzida de 425 para 275. Total: 475.</li>
+                <li>Vida base reduzida de 425 para 225.</li>
+                <li>Armadura reduzida de 225 para 150. Total: 375.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Winston - Canhão de Tesla.png" class="icone-habilidade"> CANHÃO DE TESLA</h3>
             <ul>
@@ -176,13 +175,16 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Winston - Salto a Jato.png" class="icone-habilidade"> SALTO A JATO</h3>
             <ul>
-                <li>Tempo de recarga reduzido de 5 para 4,5 segundos (10%).</li>
+                <li>Tempo de recarga reduzido de 5s para 4,5s (10%).</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/Winston - Projetor de Barreira.png" class="icone-habilidade"> PROJETOR DE BARRERA</h3>
+            <ul>
+                <li>Tempo de recarga reduzido de 12s para 7,2s (40%).</li>
+                <li>Vida reduzida de 650 para 325.</li>
             </ul>
             <div class="comentarios-atuarte">
                 <h4>COMENTÁRIOS DO CRIADOR</h4>
-                <p>Sendo bem sincero, eu não achava que o Winston estava forte nem fraco; na minha visão, ele estava bem equilibrado. No entanto, devido aos feedbacks da comunidade no último teste realizado em live, apontaram que ele estava com o dano um pouco abaixo do esperado.</p>
-                <p>Dado esse feedback, adicionei uma mecânica em que ele causa o seu dano normal somado a um adicional baseado na vida máxima do inimigo. Para não torná-lo forte demais, já que ele passou a causar dano baseado na vida do alvo, reduzi um pouco a sua munição, evitando que ele se torne um DPS com muita vida.</p>
-            </div>
+                <p>...</p>
         `
     },
     "Wrecking Ball": {
@@ -192,7 +194,9 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,325 (15%).</li>
-                <li>Vida base reduzida de 450 para 300. Total: 575.</li>
+                <li>Vida base reduzida de 450 para 150.</li>
+                <li>Armadura reduzida de 125 para 100.</li>
+                <li>Escudos aumentados de 150 para 175. Total: 425.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Wrecking Ball - Bate-Estaca.png" class="icone-habilidade"> BATE-ESTACA</h3>
             <ul>
@@ -201,6 +205,10 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Wrecking Ball - Garra.png" class="icone-habilidade"> GARRA</h3>
             <ul>
                 <li>Tempo de recarga da Garra reduzido de 5 para 4,5 segundos (10%).</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/Wrecking Ball - Escudos Adaptativos.png" class="icone-habilidade"> ESCUDOS ADAPTATIVOS</h3>
+            <ul>
+                <li>Vida extra gerada por cada inimigo reduzida de 100para 50.</li>
             </ul>
         `
     },
@@ -217,10 +225,6 @@ const bancoDeDados = {
                 <li>Vida base reduzida de 425 para 275. Total: 600.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
-            <h3><img src="Habilidades e Perks/Ícone Vampirismo.png" class="icone-habilidade" style="height: 45px;"> NOVA PASSIVA</h3>
-            <ul>
-                <li>D.Mon ganha 35% de roubo de vida com todas as suas habilidades.</li>
-            </ul>
         `
     },
     "Domina": {
@@ -229,7 +233,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> <img src="Habilidades e Perks/Ícone Planadores.png" class="icone-habilidade"> DEFENSIVA E PLANADORA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em +3%.</li>
-                <li>150 de vida foram convertidos em escudos. Total: 650.</li>
+                <li>Vida base reduzida de 250 para 100. Total: 500.</li>
                 <li>Munição aumentada de 100 para 120.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
@@ -241,8 +245,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
-                <li>Vida base reduzida de 575 para 425.</li>
-                <li>Armadura aumentada de 150 para 250. Total: 675.</li>
+                <li>Vida base reduzida de 575 para 425. Total: 575.</li>
                 <li>Munição aumentada de 300 para 375.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
@@ -276,7 +279,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 25%.</li>
-                <li>Vida base aumentada de 300 para 575.</li>
+                <li>Vida base aumentada de 300 para 525.</li>
                 <li>Mei recebe a passiva Especialidade da sub-role dos dps's</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Pingente de Gelo.png" class="icone-habilidade" style="height: 40px;"> PINGENTE DE GELO</h3>
@@ -293,7 +296,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Mei - Congelamento Criogênico.png" class="icone-habilidade"> CONGELAMENTO CRIOGÊNICO</h3>
             <ul>
                 <li>Tamanho do gelo aumentadeo em 25%.</li>
-                <li>Agora tem uma cura inicial e instantânea de 75 que também cura aliados num raio de 10 metros da Mei</li>
+                <li>Agora tem uma cura inicial e instantânea de 100 que também cura aliados num raio de 10 metros da Mei</li>
                 <li>Tempo de recarga aumentado de 12s para 15s.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Nevasca.png" class="icone-habilidade"> NEVASCA</h3>
@@ -314,8 +317,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox aumentado em 3%.</li>
-                <li>Vida base reduzida de 425 para 275.</li>
-                <li>Armadura aumentada de 100 para 225. Total: 500.</li>
+                <li>Vida base reduzida de 425 para 275. Total: 375.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Ramattra - Acelerador do Vazio.png" class="icone-habilidade"> ACELERADOR DO VAZIO</h3>
@@ -336,8 +338,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
-                <li>Vida base reduzida de 400 para 250.</li>
-                <li>Armadura aumentada de 300 para 425. Total: 675.</li>
+                <li>Vida base reduzida de 400 para 250. Total: 550.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
             <h3>ROBUZTEZ (SUBFUNÇÃO)</h3>
@@ -353,7 +354,7 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Vida base reduzida de 350 para 200.</li>
-                <li>Escudos aumentados de 250 para 450. Total: 650.</li>
+                <li>Escudos aumentados de 250 para 275. Total: 475.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Sigma - Punho Cinético.png" class="icone-habilidade"> PUNHO CINÉTICO</h3>
@@ -383,7 +384,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
-                <li>150 de vida foram convertidos em escudos. Total: 550.</li>
+                <li>Vida base reduzida de 325 para 175. Total: 400.</li>
                 <li>Geração de suprema por combate reduzido em 25%.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Zarya - Canhão de partículas.png" class="icone-habilidade"> CANHÃO DE PARTÍCULAS</h3>
@@ -692,7 +693,7 @@ const bancoDeDados = {
                 <li>Vida máxima reduzida de 225 para 100.</li>
                 <li>Escudos aumentados de 0 para 100. Total: 200.</li>
             </ul>
-            <h3><img src="Habilidades e Perks/Widowmaker - ...png" class="icone-habilidade"> MINA VENENOSA</h3>
+            <h3><img src="Habilidades e Perks/Widowmaker - Mina Venenosa.png" class="icone-habilidade"> MINA VENENOSA</h3>
             <ul>
                 <li>100% do dano causado pela Mina vira cura para a Widowmaker.</li>
                 <li>Velocidade do projétil aumentada em 50%.</li>
