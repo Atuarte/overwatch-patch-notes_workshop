@@ -137,13 +137,12 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 (15%).</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li>Vida base reduzida de 425 para 225.</li>
                 <li>Armadura reduzida de 225 para 150. Total: 375.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Winston - Canhão de Tesla.png" class="icone-habilidade"> CANHÃO DE TESLA</h3>
             <ul>
-                <li>Munição reduzida de 120 para 100.</li>
                 <li>Agora tem um dano adicional de 3% da vida máxima do alvo.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Winston - Salto a Jato.png" class="icone-habilidade"> SALTO A JATO</h3>
@@ -163,7 +162,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Ofensivos.png" class="icone-habilidade"> OFENSIVO</h3>
             <ul>
                 <li>Tamanho e hitbox reduzido em 3%.</li>
-                <li>Velocidade de movimento aumentada de 5,5 para 6,325 (15%).</li>
+                <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li>Vida base reduzida de 450 para 150.</li>
                 <li>Armadura reduzida de 125 para 100.</li>
                 <li>Escudos aumentados de 150 para 175. Total: 425.</li>
@@ -193,7 +192,7 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Vida base reduzida de 425 para 275. Total: 600.</li>
-                <li>Geração de suprema por combate reduzido em 25%.</li>
+                <li>Geração de suprema por combate reduzido em 15%.</li>
             </ul>
         `
     },
@@ -205,7 +204,7 @@ const bancoDeDados = {
                 <li>Tamanho e hitbox aumentados em +3%.</li>
                 <li>Vida base reduzida de 250 para 100. Total: 500.</li>
                 <li>Munição aumentada de 100 para 120.</li>
-                <li>Geração de suprema por combate reduzido em 25%.</li>
+                <li>Geração de suprema por combate reduzido em 15%.</li>
             </ul>
         `
     },
@@ -217,7 +216,7 @@ const bancoDeDados = {
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Vida base reduzida de 575 para 425. Total: 575.</li>
                 <li>Munição aumentada de 300 para 375.</li>
-                <li>Geração de suprema por combate reduzido em 25%.</li>
+                <li>Geração de suprema por combate reduzido em 15%.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mauga - Passiva.png" class="icone-habilidade" style="height: 40px;">NOVA PASSIVA</h3>
             <ul>
@@ -279,7 +278,7 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox aumentado em 3%.</li>
                 <li>Vida base reduzida de 425 para 275. Total: 375.</li>
-                <li>Geração de suprema por combate reduzido em 25%.</li>
+                <li>Geração de suprema por combate reduzido em 15%.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Ramattra - Acelerador do Vazio.png" class="icone-habilidade"> ACELERADOR DO VAZIO</h3>
             <ul>
@@ -296,7 +295,7 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Vida base reduzida de 400 para 250. Total: 550.</li>
-                <li>Geração de suprema por combate reduzido em 25%.</li>
+                <li>Geração de suprema por combate reduzido em 15%.</li>
             </ul>
             <h3>ROBUZTEZ (SUBFUNÇÃO)</h3>
             <ul>
@@ -312,7 +311,7 @@ const bancoDeDados = {
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Vida base reduzida de 350 para 200.</li>
                 <li>Escudos aumentados de 250 para 275. Total: 475.</li>
-                <li>Geração de suprema por combate reduzido em 25%.</li>
+                <li>Geração de suprema por combate reduzido em 15%.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Sigma - Punho Cinético.png" class="icone-habilidade"> PUNHO CINÉTICO</h3>
             <ul>
@@ -338,7 +337,7 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Vida base reduzida de 325 para 175. Total: 400.</li>
-                <li>Geração de suprema por combate reduzido em 25%.</li>
+                <li>Geração de suprema por combate reduzido em 15%.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Zarya - Canhão de partículas.png" class="icone-habilidade"> CANHÃO DE PARTÍCULAS</h3>
             <ul>
@@ -741,7 +740,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Lifeweaver - Desabrochar Curativo.png" class="icone-habilidade"> DESABROCHAR CURATIVO</h3>
             <ul>
-                <li>Velocidade de projétil reduzida em 50%.</li>
+                <li>Velocidade de projétil reduzida em 60%.</li>
                 <li>Cura aumentada em 50% (mínimo de 10 para 15 e máximo de 90 para 135).</li>
             </ul>
             <h3><img src="Habilidades e Perks/Lifeweaver - Saraivada de Espinhos.png" class="icone-habilidade"> SARAIVADA DE ESPINHOS</h3>
@@ -844,7 +843,7 @@ const bancoDeDados = {
             <ul>
                 <li>Vida base reduzida de 225 para 125.</li>
                 <li>Escudos aumentados de 0 para 125. Total: 250.</li>
-                <li> Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
+                <li> Velocidade de movimento aumentada de 5,5 para 6,6 (20%).</li>
             </ul>
 
         <h3><img src="Habilidades e Perks/Sombra - Hackear.png" class="icone-habilidade"> HACKEAR</h3>
@@ -866,8 +865,8 @@ const bancoDeDados = {
             <li>A M4RC4 aplica escudos com quantidade baseada por função:</li>
                 <ul>
                     <li>Tanques: +100 de escudo.</li>
-                    <li>Suportes: +50 de escudo.</li>
-                    <li>DPS: +25 de escudo.</li>
+                    <li>Suportes: +75 de escudo.</li>
+                    <li>DPS: +50 de escudo.</li>
                 </ul>
             </li>
             <li>O portador da M4RC4 recebe 15 de cura por segundo e aliados dentro dos 8 metros recebem 10 de cura por segundo.</li>
@@ -903,7 +902,7 @@ const bancoDeDados = {
                 <li>Torbjörn recebe a passiva da sub-role Restauração.</li>
                 <li>Curar aliados com sua arma também cura o Torbjörn com 40% da cura.</li>
             </ul>
-            <h3>NOVA PASSIVA</h3>
+            <h3><img src="Habilidades e Perks/Torbjörn - Passiva.png" class="icone-habilidade" style="height: 40px;">NOVA PASSIVA</h3>
             <ul>
                 <li>Toda a vez que Torbjörn e seus aliados nascerem e renascerem, eles ganham 100 de armadura extra não regenerável.</li>
             </ul>
@@ -914,7 +913,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Torbjörn - Martelo de Forja.png" class="icone-habilidade"> MARTELO DE FORJA</h3>
             <ul>
-                <li>Nova mecânica: O martelo vai criar uma aura visual de 5m (visível apenas para o Torbjörn).</li>
+                <li>Nova mecânica: O martelo vai criar uma aura visual de 3.75m (visível apenas para o Torbjörn).</li>
                 <li>Cada martelada vai curar 70 de vida todos os aliados que estiverem no campo de visão do Torbjörn e dentro da aura.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Torbjörn - Posicionar Torre.png" class="icone-habilidade"> POSICIONAR TORRE</h3>
