@@ -267,7 +267,7 @@ const bancoDeDados = {
             <ul>
                 <li>Velocidade do projétil reduzida em 30%.</li>
                 <li>Não recebe a redução na geração da suprema da passiva dos defensivos.</li>
-                <li>Gravidade do projétil aumentado em 400%.</li>
+                <li>Gravidade do projétil reduzida em 30%.</li>
             </ul>
         `
     },
@@ -576,11 +576,6 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
             <ul>
                 <li>Vida reduzida de 250 para 225.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Venture - Passiva.png" class="icone-habilidade">EXPLORAÇÃO DETERMINADA (PASSIVA)</h3>
-            <ul>
-                <li>Geração de escudos reduzida em 10%.</li>
-                <li>Quando tiver mais de 66 de escudos, ganha 1 adicional de 9 de escudos. Escudos totais: 75.</li>
             </ul>
         `
     },
