@@ -864,7 +864,7 @@ const bancoDeDados = {
                     <li>DPS: +50 de escudo.</li>
                 </ul>
             </li>
-            <li>O portador da M4RC4 recebe 15 de cura por segundo e aliados dentro dos 8 metros recebem 10 de cura por segundo.</li>
+            <li>O portador da M4RC4 recebe 20 de cura por segundo e aliados dentro dos 8 metros recebem 10 de cura por segundo.</li>
             <li>50% de todo o dano causado pela Sombra é convertido em cura em área instantânea para os aliados dentro da M4RC4.</li>
         </ul>
 
