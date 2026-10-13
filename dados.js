@@ -81,7 +81,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Orisa - Fortificar.png" class="icone-habilidade"> FORTIFICAR</h3>
             <ul>
-                <li>Orisa ganha vida extra baseada na que perdeu. Não afeta o Rompante Terrano. A vida extra ...</li>
+                <li>Orisa agora acumula o dano recebido durante o fortificar, liberando 50% do dano acumulado como cura e dano instantâneos num raio de 8m.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Orisa - Giro do Dardo.png" class="icone-habilidade"> GIRO DO DARDO</h3>
             <ul>
@@ -131,10 +131,6 @@ const bancoDeDados = {
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
                 <li>Vida base reduzida de 750 para 300.</li>
                 <li>Escudos aumentados de 0 para 200. Total: 500.</li>
-            </ul>
-            <h3><img src="Habilidades e Perks/Roadhog - Corrente de Gancho.png" class="icone-habilidade"> CORRENTE DE GANCHO</h3>
-            <ul>
-                <li>Novo efeito: A Corrente de Gancho vai aplicar dois status à vítima, imortal (a vida não fica abaixo de 1) e hackeado por 1,5s.</li>
             </ul>
         `
     },
@@ -254,8 +250,12 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 25%.</li>
-                <li>Vida base aumentada de 300 para 525.</li>
+                <li>Escudos aumentados de 0 para 175. Total: 475</li>
                 <li>Mei recebe a passiva Especialidade da sub-role dos dps's</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/Mei - Aniquilador Endotérmico.png" class="icone-habilidade" style="height: 40px;"> ANIQUILADOR ENDOTÉRMICO</h3>
+            <ul>
+                <li>Mei ganha 25% de roubo de vida.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Pingente de Gelo.png" class="icone-habilidade" style="height: 40px;"> PINGENTE DE GELO</h3>
             <ul>
@@ -264,15 +264,11 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Muralha de Gelo.png" class="icone-habilidade"> MURALHA DE GELO</h3>
             <ul>
-                <li>Vida de cada pilar aumentou de 250 para 375.</li>
                 <li>Tamanho aumentado em 25%.</li>
-                <li>Tempo de recarga aumentado de 12 para 18 segundos.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Congelamento Criogênico.png" class="icone-habilidade"> CONGELAMENTO CRIOGÊNICO</h3>
             <ul>
                 <li>Tamanho do gelo aumentadeo em 25%.</li>
-                <li>Agora tem uma cura inicial e instantânea de 100 que também cura aliados num raio de 10 metros da Mei</li>
-                <li>Tempo de recarga aumentado de 12s para 15s.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Nevasca.png" class="icone-habilidade"> NEVASCA</h3>
             <ul>
@@ -413,15 +409,15 @@ const bancoDeDados = {
             <ul>
                 <li>Dano reduzido de 70 para 56.</li>
                 <li>Multiplicador de dano crítico aumentado de 2 para 2.5x (headshot de 140).</li>\
-                <li>Acertos críticos consomem o dobro de munição.</li>
                 <li>Munição aumentada de 6 para 10.</li>
+                <li>Acertos críticos consomem o dobro de munição.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Cassidy - Clarão.png" class="icone-habilidade">CLARÃO</h3>
             <ul>
                 <li>Dano reduzido de 75 para 60.</li>
                 <li>Tempo de recarga aumentado de 12 para 15 segundos.</li>
                 <li>Desabilita a HUD dos inimigos por 1,2 segundos. O alvo receberá um efeito de "cegueira" temporária.</li>
-                <li>Cassidy aplica um micro-stun de 0,016s (1 frame do jogo).</li>
+                <li>Cassidy aplica um micro-stun de 0,016s (1 frame do jogo) cancelando algumas habilidades.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Cassidy - Tiro Certeiro.png" class="icone-habilidade"> TIRO CERTEIRO</h3>
             <ul>
@@ -540,45 +536,9 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Sojourn - Disparo Disruptivo.png" class="icone-habilidade"> DISPARO DISRUPTIVO</h3>
             <ul>
-                <li>Tempo de recarga aumentado de 15 para 18 segundos.</li>
-                <li>Velocidade do projétil aumentado em 50%.</li>
+                <li>Velocidade do projétil aumentado em 30%.</li>
             </ul>
         `
-    },
-    "Sombra": {
-    img: "Imagem dos Heróis/Sombra.png",
-    texto: `
-        <h3><img src="Habilidades e Perks/Ícone Duelistas.png" class="icone-habilidade"> DUELISTA</h3>
-        <ul>
-            <li>Vida reduzida de 225 para 200.</li>
-        </ul>
-        <h3><img src="Habilidades e Perks/Sombra - Hackear.png" class="icone-habilidade"> HACKEAR</h3>
-        <ul>
-            <li>Tempo de recarga em inimigos aumentado de 6 para 24 segundos.</li>
-            <li>Tempo de recarga em implantáveis aumentado de 3 para 12 segundos.</li>
-            <li>Tempo de recarga quando a habilidade for interrompida por dano aumentado de 3 para 6 segundos.</li>
-            <li>Duração do silenciamento aumentada de 1 para 4 segundos.</li>
-            <li>Inimigos hackeados serão forçados a recarregarem suas armas (com exceções do Mauga e da Jetpack Cat por limitação do jogo).</li>
-        </ul>
-
-        <h3><img src="Habilidades e Perks/Sombra - Translocador.png" class="icone-habilidade"> TRANSLOCADOR</h3>
-        <ul>
-            <li>Tempo de recarga aumentado de 6s para 7,5s.</li>
-        </ul>
-
-        <h3><img src="Habilidades e Perks/Sombra - Vírus.png" class="icone-habilidade"> VÍRUS</h3>
-        <ul>
-            <li>O Vírus agora hackeia os inimigos por 0,25s. O silenciamento dura o mesmo tempo.</li>
-        </ul>
-
-        <h3><img src="Habilidades e Perks/Sombra - PEM.png" class="icone-habilidade"> PEM</h3>
-        <ul>
-            <li>Não carrega mais por combate, apenas passivamente e ao ser eliminada. Ganha 1% de carga a cada 1,5s (0 a 100% passivamente em 2,5 min). Não carrega enquanto estiver morta ou antes do jogo iniciar.</li>
-            <li>Desabilita a HUD dos inimigos por 6 segundos.</li>
-            <li>Inimigos hackeados têm suas munições zeradas.</li>
-            <li>Drena 25% da carga da suprema dos inimigos atingidos.</li>
-        </ul>
-    `
     },
     "Symmetra": {
             img: "Imagem dos Heróis/Symmetra.png",
@@ -592,14 +552,13 @@ const bancoDeDados = {
                 <ul>
                     <li>Alcance do disparo primário foi aumentado de 12m para 13,5m.</li>
                     <li>Dano reduzido de 60/120/180 para 45/90/135.</li>
-                    <li>Nova mecânica: O feixe do projetor de fótons agora tem um dano adicional de 12,5% da vida máxima do alvo.</li>
+                    <li>Nova mecânica: O feixe do projetor de fótons agora tem um dano adicional de 10% da vida máxima do alvo.</li>
                 </ul>
                 <h3><img src="Habilidades e Perks/Symmetra - Disparo Secundário.png" class="icone-habilidade" style="height: 45px;"> DISPARO SECUNDÁRIO</h3>
                 <ul>
                     <li>Dano de impacto reduzido de 50 para 37,5.</li>
                     <li>Dano de explosão aumentado de 50 para 62,5. Totalizando 100 de dano.</li>
                     <li>Velocidade do projétil aumentada em 60%.</li>
-                    <li>Agora o projétil empurra os inimigos.</li>
                 </ul>
                 <h3><img src="Habilidades e Perks/Symmetra - Torre de Sentinela.png" class="icone-habilidade"> TORRE DE SENTINELA</h3>
                 <ul>
@@ -727,7 +686,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Brigitte - Inspirar.png" class="icone-habilidade"> INSPIRAR (PASSIVA)</h3>
             <ul>
-                <li>Agora tem uma aura visual para toda a sua equipe.</li>
+                <li>A área do Inspirar agora fica visível para toda a sua equipe.</li>
                 <li>20% do dano causado vira cura extra na área do Inspirar.</li>
                 <li>Aliados na área recebem 30% a menos de repulsão.</li>
             </ul>
@@ -762,7 +721,7 @@ const bancoDeDados = {
         texto: `
             <h3><img src="Habilidades e Perks/Illari - Rifle Solar.png" class="icone-habilidade"> RIFLE SOLAR</h3>
             <ul>
-                <li>Dano mínimo aumentado de 25 para 27 e dano máximo de 75 para 80.</li>
+                <li>Multiplicador de dano critico aumentado de 1.5x para 2x (headshot mínimo de 50 e máximo de 150).</li>
             </ul>
             <h3><img src="Habilidades e Perks/Illari - Disparo Secundário.png" class="icone-habilidade" style="height: 40px;"> DISPARO SECUNDÁRIO</h3>
             <ul>
@@ -855,10 +814,6 @@ const bancoDeDados = {
     "Lúcio": {
         img: "Imagem dos Heróis/Lúcio.png",
         texto: `
-            <h3><img src="Habilidades e Perks/Lúcio - Onda Sonora.png" class="icone-habilidade"> ONDA SONORA</h3>
-            <ul>
-                <li>Aliados à frente do Lúcio e dentro da área da Transição receberão 75 de escudos decrescentes e 25 de cura ao longo de 2.5s.</li>
-            </ul>
             <h3><img src="Habilidades e Perks/Lúcio - Transição.png" class="icone-habilidade"> TRANSIÇÃO</h3>
             <ul>
                 <li>Cura para os aliados reduzida de 20 para 16 e para o Lúcio reduzida de 12 para 9,6 por segundo.</li>
@@ -866,6 +821,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Lúcio - Solta o Som.png" class="icone-habilidade"> SOLTA O SOM</h3>
             <ul>
                 <li>Cura reduzida de 56 para 44,8 por segundo.</li>
+                <li>Aliados dentro da área da Transição receberão 100 de escudos decrescentes ao longo de 5s.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Lúcio - Barreira de Som.png" class="icone-habilidade"> BARREIRA DE SOM</h3>
             <ul>
@@ -920,7 +876,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Moira - Disparo Secundário.png" class="icone-habilidade" style="height: 40px;">DISPARO SECUNDÁRIO</h3>
             <ul>
                 <li>Dano reduzido de 65 para 32,5 por segundo.</li>
-                <li>Enquanto o alvo estiver com armadura na vida atual, ele receberá 100% a mais de dano.</li>
+                <li>Enquanto a armadura do alvo for maior que 0, ele receberá 100% a mais de dano.</li>
                 <li>Acumular 125 de dano no mesmo alvo atordoará ele por 0,75s (exige 250 de dano em alvos com Armaduras).</li>
                 <li>Inimigos têm os tempos de recarga das suas habilidades desaceleradas em 25% enquanto mantiver o dano.</li>
                 <li>O disparo secundário agora puxa os inimigos à Moira.</li>
@@ -932,6 +888,17 @@ const bancoDeDados = {
                 <li>Velocidade do projétil reduzido em 50%.</li>
             </ul>
         `
+    },
+    "Sombra": {
+    img: "Imagem dos Heróis/Sombra.png",
+    texto: `
+        <h3><img src="Habilidades e Perks/Sombra - PEM.png" class="icone-habilidade"> PEM</h3>
+        <ul>
+            <li>Desabilita a HUD dos inimigos por 6 segundos.</li>
+            <li>Inimigos hackeados têm suas munições zeradas.</li>
+            <li>Drena 25% da carga da suprema dos inimigos atingidos.</li>
+        </ul>
+    `
     },
         "Wuyang": {
         img: "Imagem dos Heróis/Wuyang.png",
