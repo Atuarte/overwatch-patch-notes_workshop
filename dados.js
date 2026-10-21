@@ -10,7 +10,8 @@ const bancoDeDados = {
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
                 <li>Velocidade de movimento aumentada de 5,5 para 6,05 (10%).</li>
-                <li>Vida base reduzida de 350 para 200.</li>
+                <li>Vida base reduzida de 350 para 200. Total: 525.</li>
+                <li>Geração de suprema passivamente aumenta em 50%.</li>
             </ul>
             <h3><img src="Habilidades e Perks/D.Va - Matriz de Defesa.png" class="icone-habilidade"> MATRIZ DE DEFESA</h3>
             <ul>
@@ -154,7 +155,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Winston - Projetor de Barreira.png" class="icone-habilidade"> PROJETOR DE BARRERA</h3>
             <ul>
-                <li>Tempo de recarga reduzido de 12s para 7,2s (40%).</li>
+                <li>Tempo de recarga reduzido de 10s para 8,5s (15%).</li>
                 <li>Vida reduzida de 650 para 450.</li>
             </ul>
         `
@@ -193,8 +194,13 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Ícone Defensivos.png" class="icone-habilidade"> DEFENSIVA</h3>
             <ul>
                 <li>Tamanho e hitbox aumentados em 3%.</li>
-                <li>Vida base reduzida de 425 para 275. Total: 600.</li>
+                <li>Vida base reduzida de 425 para 275. Total: 525.</li>
                 <li>Geração de suprema por combate reduzido em 15%.</li>
+                <li>Geração de suprema passivamente aumenta em 50%.</li>
+            </ul>
+            <h3><img src="Habilidades e Perks/D.Mon - Chamar Mecha.png" class="icone-habilidade"> CHAMAR MECHA</h3>
+            <ul>
+                <li>D.Mon agora sempre nascerá e renascerá sem seu Mecha.</li>
             </ul>
         `
     },
@@ -209,7 +215,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Domina - Magnum de Fótons.png" class="icone-habilidade"> MAGNUM DE FÓTONS</h3>
             <ul>
-                <li>Multiplicador de dano crítico aumentado de 1,5x para 2,0x.</li>
+                <li>Acertos críticos ganham 100% de roubo de vida e restaura 10 de munição.</li>
                 <li>Munição aumentada de 100 para 120.</li>
 
             </ul>
@@ -275,7 +281,6 @@ const bancoDeDados = {
                 <li>Velocidade do projétil reduzida em 30%.</li>
                 <li>Não recebe a redução na geração da suprema da passiva dos defensivos.</li>
                 <li>Gravidade do projétil reduzida em 30%.</li>
-                <li>Agora causa 6% da vida máxima do alvo por segundo.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Tempestade Criogênica.png" class="icone-habilidade"> TEMPESTADE CRIOGÊNICA - PERK MAIOR</h3>
             <ul>
@@ -296,7 +301,7 @@ const bancoDeDados = {
             <ul>
                 <li>Munição aumentada de 100 para 150.</li>
                 <li>Dano causado reduzido de 5 para 4.</li>
-                <li>Velocidade do projétil aumentada em 100%.</li>
+                <li>Velocidade do projétil aumentada de 80m/s para 160m/s (100%).</li>
             </ul>
         `
     },
@@ -376,10 +381,6 @@ const bancoDeDados = {
     "Ashe": {
         img: "Imagem dos Heróis/Ashe.png",
         texto: `
-            <h3>VIDA</h3>
-            <ul>
-                <li>Vida base reduzida de 250 para 225.</li>
-            </ul>
             <h3><img src="Habilidades e Perks/Ashe - Víbora.png" class="icone-habilidade"> VÍBORA</h3>
             <ul>
                 <li>Acertos críticos devolvem 1 de munição.</li>
@@ -527,7 +528,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Sojourn - Canhão Elétrico.png" class="icone-habilidade"> CANHÃO ELÉTRICO</h3>
             <ul>
                 <li>Munição aumentada de 45 para 60.</li>
-                <li>Velocidade de projétil aumentada em 30%.</li>
+                <li>Velocidade de projétil aumentada de 150m/s para 195m/s (30%).</li>
                 <li>Geração de energia para o Tiro Carregado reduzido de 5 para 2 no corpo, 10 para 4 na cabeça e 1 para 0,4 em barreiras e implantáveis.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Sojourn - Tiro Carregado.png" class="icone-habilidade" style="height: 40px;">TIRO CARREGADO</h3>
@@ -536,7 +537,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Sojourn - Disparo Disruptivo.png" class="icone-habilidade"> DISPARO DISRUPTIVO</h3>
             <ul>
-                <li>Velocidade do projétil aumentado em 30%.</li>
+                <li>Velocidade do projétil aumentado de 20m/s para 26m/s (30%).</li>
             </ul>
         `
     },
@@ -558,7 +559,7 @@ const bancoDeDados = {
                 <ul>
                     <li>Dano de impacto reduzido de 50 para 37,5.</li>
                     <li>Dano de explosão aumentado de 50 para 62,5. Totalizando 100 de dano.</li>
-                    <li>Velocidade do projétil aumentada em 60%.</li>
+                    <li>Velocidade do projétil aumentada de 50m/s para 80m/s (60%).</li>
                 </ul>
                 <h3><img src="Habilidades e Perks/Symmetra - Torre de Sentinela.png" class="icone-habilidade"> TORRE DE SENTINELA</h3>
                 <ul>
@@ -766,14 +767,19 @@ const bancoDeDados = {
     "Kiriko": {
         img: "Imagem dos Heróis/Kiriko.png",
         texto: `
+        <h3>VIDA</h3>
+            <ul>
+                <li>Vida base reduzida de 250 para 125.</li>
+                <li>Escudos aumentados de 0 para 100. Total: 225.</li>
+            </ul>
         <h3><img src="Habilidades e Perks/Kiriko - Ofuda de Cura.png" class="icone-habilidade"> OFUDA DE CURA</h3>
             <ul>
-                <li>Velocidade do projétil aumentada em 25%.</li>
+                <li>Velocidade do projétil aumentada de 18m/s para 22,5m/s (25%).</li>
             </ul>
 
         <h3><img src="Habilidades e Perks/Kiriko - Kunai.png" class="icone-habilidade"> KUNAI</h3>
             <ul>
-                <li>Velocidade do projétil aumentada em 25%.</li>
+                <li>Velocidade do projétil aumentada de 90m/s para 112,5m/s (25%).</li>
             </ul>
 
         <h3><img src="Habilidades e Perks/Kiriko - Passo Rápido.png" class="icone-habilidade"> PASSO RÁPIDO</h3>
@@ -785,6 +791,7 @@ const bancoDeDados = {
             <ul>
                 <li>Tempo de recarga aumentado de 14 para 28s.</li>
                 <li>Nova mecânica de redução dinâmica: Ofuda de cura reduz -0,25s por acerto; Kunai no corpo reduz -1,25s; Kunai na cabeça reduz -2,5s.</li>
+                <li>Velocidade do projétil aumentada de 37m/s para 46,25m/s (25%).</li>
             </ul>
         `
     },
@@ -797,16 +804,16 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Lifeweaver - Desabrochar Curativo.png" class="icone-habilidade"> DESABROCHAR CURATIVO</h3>
             <ul>
-                <li>Velocidade de projétil reduzida em 50%.</li>
+                <li>Velocidade de projétil mínima reduzida de 30m/s para 15m/s e máxima reduzida de 60m/s para 30m/s (50%).</li>
                 <li>Cura mínima aumentada de 10 para 15 e cura máxima aumentada de 90 para 135 (não é mostrado o novo valor na interface).</li>
             </ul>
             <h3><img src="Habilidades e Perks/Lifeweaver - Saraivada de Espinhos.png" class="icone-habilidade"> SARAIVADA DE ESPINHOS</h3>
             <ul>
-                <li>Velocidade de projétil aumentada em 35%.</li>
+                <li>Velocidade de projétil aumentada de 100m/s para 135m/s (35%).</li>
             </ul>
             <h3><img src="Habilidades e Perks/Lifeweaver - Plataforma de Pétalas.png" class="icone-habilidade"> PLATAFORMA DE PÉTALAS</h3>
             <ul>
-                <li>Velocidade de projétil reduzida em 50%.</li>
+                <li>Velocidade de projétil reduzida de 50m/s para 25m/s (50%).</li>
                 <li>Vida aumentada de 300 para 375.</li>
             </ul>
         `
@@ -879,13 +886,12 @@ const bancoDeDados = {
                 <li>Enquanto a armadura do alvo for maior que 0, ele receberá 100% a mais de dano.</li>
                 <li>Acumular 125 de dano no mesmo alvo atordoará ele por 0,75s (exige 250 de dano em alvos com Armaduras).</li>
                 <li>Inimigos têm os tempos de recarga das suas habilidades desaceleradas em 25% enquanto mantiver o dano.</li>
-                <li>O disparo secundário agora puxa os inimigos à Moira.</li>
             </ul>
 
             <h3><img src="Habilidades e Perks/Moira - Orbe Biótico.png" class="icone-habilidade"> ORBE BIÓTICO</h3>
             <ul>
                 <li>Capacidade máxima de cura e dano aumentado em 50%.</li>
-                <li>Velocidade do projétil reduzido em 50%.</li>
+                <li>Velocidade do projétil reduzido de 20m/s para 10m/s e enquanto ele causa dano foi reduzido de 5.5m/s para 2.75m/s (50%).</li>
             </ul>
         `
     },
