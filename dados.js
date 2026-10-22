@@ -82,7 +82,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Orisa - Fortificar.png" class="icone-habilidade"> FORTIFICAR</h3>
             <ul>
-                <li>Orisa agora acumula o dano recebido durante o fortificar, liberando 50% do dano acumulado como cura e dano instantâneos num raio de 8m.</li>
+                <li>Orisa agora acumula o dano recebido durante o fortificar, liberando 100% do dano acumulado como cura instantânea num raio de 8m.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Orisa - Giro do Dardo.png" class="icone-habilidade"> GIRO DO DARDO</h3>
             <ul>
@@ -182,6 +182,10 @@ const bancoDeDados = {
             <ul>
                 <li>Vida extra gerada por cada inimigo reduzida de 100para 50.</li>
             </ul>
+            <h3><img src="Habilidades e Perks/Wrecking Ball - Passiva.png" class="icone-habilidade"> PASSIVA NOVA</h3>
+            <ul>
+                <li>Quando Wrecking Ball chegar à 1 ou menos de vida, ao invés de morrer, ele fica derrubado por 2,5s, cura 100 de vida instantaneamente, cura 20% da vida máxima a cada 1s com duração máxima de 2,5s e reseta o tempo de recarga dos Escudos Adaptativos, mas, depois disso, ele poderá morrer normalmente. Reseta toda a vez que ele renascer.</li>
+            </ul>
         `
     },
 
@@ -265,7 +269,7 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Pingente de Gelo.png" class="icone-habilidade" style="height: 40px;"> PINGENTE DE GELO</h3>
             <ul>
-                <li>Velocidade do projétil reduzida em 30%.</li>
+                <li>Velocidade do projétil reduzida de 115m/s para 80.5m/s (30%).</li>
                 <li>Munição gasta aumentada de 10 para 20.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Muralha de Gelo.png" class="icone-habilidade"> MURALHA DE GELO</h3>
@@ -274,11 +278,11 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Congelamento Criogênico.png" class="icone-habilidade"> CONGELAMENTO CRIOGÊNICO</h3>
             <ul>
-                <li>Tamanho do gelo aumentadeo em 25%.</li>
+                <li>Tamanho do gelo aumentado em 25%.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Mei - Nevasca.png" class="icone-habilidade"> NEVASCA</h3>
             <ul>
-                <li>Velocidade do projétil reduzida em 30%.</li>
+                <li>Velocidade do projétil reduzida de 20m/s para 14m/s (30%).</li>
                 <li>Não recebe a redução na geração da suprema da passiva dos defensivos.</li>
                 <li>Gravidade do projétil reduzida em 30%.</li>
             </ul>
@@ -394,7 +398,6 @@ const bancoDeDados = {
             </ul>
             <h3><img src="Habilidades e Perks/Ashe - B.O.B..png" class="icone-habilidade"> B.O.B.</h3>
             <ul>
-                <li>Vida do B.O.B. reduzida de 1000 para 900.</li>
                 <li>Duração máxima aumentada de 10 para 12 segundos.</li>
             </ul>
         `
@@ -438,7 +441,7 @@ const bancoDeDados = {
             <h3><img src="Habilidades e Perks/Echo - Duplicar.png" class="icone-habilidade"> DUPLICAR</h3>
             <ul>
                 <li>Por causa de uma regra do workshop, Echo, ao Duplicar, fica com 60% a menos de vida com um adicional de 70 de escudos e 40 de vida.</li>
-                <li>Custo da suprema reduzido em 15%.</li>
+                <li>Geração de ultimate passiva reduzida em 35%.</li>
             </ul>
         `
     },
@@ -578,7 +581,7 @@ const bancoDeDados = {
         texto: `
             <h3><img src="Habilidades e Perks/Torbjörn - Passiva.png" class="icone-habilidade" style="height: 40px;">NOVA PASSIVA</h3>
             <ul>
-                <li>Toda a vez que Torbjörn e seus aliados nascerem e renascerem, eles ganham 100 de armadura extra não regenerável.</li>
+                <li>Toda a vez que Torbjörn e seus aliados nascerem e renascerem, eles ganham 100 de armadura extra não regenerável. O ressucitar da Mercy não afeta essa mecânica.</li>
             </ul>
             <h3><img src="Habilidades e Perks/Torbjörn - Sobrecarga.png" class="icone-habilidade"> SOBRECARGA</h3>
             <ul>
@@ -774,12 +777,15 @@ const bancoDeDados = {
             </ul>
         <h3><img src="Habilidades e Perks/Kiriko - Ofuda de Cura.png" class="icone-habilidade"> OFUDA DE CURA</h3>
             <ul>
-                <li>Velocidade do projétil aumentada de 18m/s para 22,5m/s (25%).</li>
+                <li>Velocidade do projétil aumentada de 18m/s para 27m/s (50%).</li>
+                <li>Cada papel de ofuda reduz em 0,25s o tempo de recarga do Suzu de Proteção.</li>
             </ul>
 
         <h3><img src="Habilidades e Perks/Kiriko - Kunai.png" class="icone-habilidade"> KUNAI</h3>
             <ul>
-                <li>Velocidade do projétil aumentada de 90m/s para 112,5m/s (25%).</li>
+                <li>Velocidade do projétil aumentada de 90m/s para 135m/s (50%).</li>
+                <li>Cada kunai acertada no corpo reduz em 1s o tempo de recarga do Suzu de Proteção. Na cabeça, reduz em 2s.</li>
+
             </ul>
 
         <h3><img src="Habilidades e Perks/Kiriko - Passo Rápido.png" class="icone-habilidade"> PASSO RÁPIDO</h3>
@@ -790,8 +796,7 @@ const bancoDeDados = {
         <h3><img src="Habilidades e Perks/Kiriko - Suzu de Proteção.png" class="icone-habilidade"> SUZU DE PROTEÇÃO</h3>
             <ul>
                 <li>Tempo de recarga aumentado de 14 para 28s.</li>
-                <li>Nova mecânica de redução dinâmica: Ofuda de cura reduz -0,25s por acerto; Kunai no corpo reduz -1,25s; Kunai na cabeça reduz -2,5s.</li>
-                <li>Velocidade do projétil aumentada de 37m/s para 46,25m/s (25%).</li>
+                <li>Velocidade do projétil aumentada de 37m/s para 55,5m/s (50%).</li>
             </ul>
         `
     },
@@ -821,6 +826,10 @@ const bancoDeDados = {
     "Lúcio": {
         img: "Imagem dos Heróis/Lúcio.png",
         texto: `
+            <h3>VIDA</h3>
+            <ul>
+                <li>50 de vida foram convertidos em escudos.</li>
+            </ul>
             <h3><img src="Habilidades e Perks/Lúcio - Transição.png" class="icone-habilidade"> TRANSIÇÃO</h3>
             <ul>
                 <li>Cura para os aliados reduzida de 20 para 16 e para o Lúcio reduzida de 12 para 9,6 por segundo.</li>
@@ -927,7 +936,21 @@ const bancoDeDados = {
             <ul>
                 <li>Vida base aumentada de 75 para 100. Total: 275.</li>
             </ul>
-            <h3>NOVA PASSIVA</h3>
+            <h3><img src="Habilidades e Perks/Zenyatta - Orbe da Destruição.png" class="icone-habilidade"> ORBE DA DESTRUIÇÃO</h3>
+            <ul>
+                <li>Munição reduzida de 25 para 6.</li>
+                <li>Velocidade do projétil reduzida de 90m/s para 54m/s (40%).</li>
+                <li>Dano do orbe aumentado de 50 para 75.</li>
+                <li>Nova Mecânica: O orbe agora não pode mais ser recarregado manualmente e nem automaticamente. Agora, ele regenera a sua munição:</li>
+                <ul>
+                    <li>Depois de 0,75s, ele começa a regenerar 1 de munição a cada 0,2s (equivalente a 5 orbes por segundo).</li>
+                </ul>
+            </ul>
+            <h3><img src="Habilidades e Perks/Zenyatta - Chute Rápido.png" class="icone-habilidade"> CHUTE RÁPIDO</h3>
+            <ul>
+                <li>Dano aumentado de 60 para 90.</li>  
+            </ul>
+            <h3><img src="Habilidades e Perks/Zenyatta - Passiva.png" class="icone-habilidade" style="height: 50px;"> NOVA PASSIVA</h3>
             <ul>
                 <li>Ganha uma aura de conversão de dano para cura (15m).</li>
                 <li>Converte 25% do dano recebido em cura (ignora a passiva de redução de cura global).</li>
